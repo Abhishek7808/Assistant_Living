@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<SeleniumObjectsRO>
+<SelenuumObject ParentName="Page_Liberty" Value="" Type="Page">
+   <Object Name="edtbox_Username" Value="LoginId" BYClass="Id" Index = "0" >  </Object>  
+   <Object Name="edtbox_Password" Value="Password" BYClass="Id" Index = "0" >  </Object>  
+   <Object Name="btn_Login" Value="btnLogin" BYClass="Id" Index = "0" >  </Object>  
+   <Object Name="btn_LogOut" Value="btnlogout" BYClass="ID" Index = "0" >  </Object>
+   <Object Name="btnsaveuser" Value="btnsaveuser" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="btncancel" Value="btncancel" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Label_Count" Value="//span[@class='divtotaltrcount']" BYClass="xpath" Index = "0"> </Object>
+   <Object Name="Label_username" Value="spnusername" BYClass="id" Index = "0"> </Object>
+   <Object Name="Label_Projectname" Value="spnprojectname" BYClass="id" Index = "0"> </Object>    
+   <Object Name="Calender_PublishDate" Value="inputpublishDate" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Calender_ActivationMonth" Value="activationMonth" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Tab_Inprogress" Value="tabinprogress" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Tab_Hold" Value="tabhold" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Tab_Complete" Value="tabcompleted" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Tab_TaskSummary" Value="tabtasksummary" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Grid_ProjectSelect" Value="MasterList" BYClass="ID" Index = "0"> </Object>    
+ </SelenuumObject>
+ 
+ 
+</SeleniumObjectsRO>

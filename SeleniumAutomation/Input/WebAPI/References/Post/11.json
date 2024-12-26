@@ -1,0 +1,101 @@
+[
+  {
+    "ComponentAmount": 0,
+    "Priority": 1,
+    "DemandType": 2,
+    "TransactionNo": 0,
+    "ComponentId": 36,
+    "ComponentName": "Application fee",
+    "ComponentCode": "AF",
+    "ComponentDescription": "Application Fee",
+    "IsDeleted": 0
+  },
+  {
+    "ComponentAmount": 0,
+    "Priority": 2,
+    "DemandType": 2,
+    "TransactionNo": 0,
+    "ComponentId": 37,
+    "ComponentName": "Stamp duty",
+    "ComponentCode": "SD",
+    "ComponentDescription": "Stamp Duty",
+    "IsDeleted": 0
+  },
+  {
+    "ComponentAmount": 0,
+    "Priority": 3,
+    "DemandType": 2,
+    "TransactionNo": 0,
+    "ComponentId": 38,
+    "ComponentName": "Security amount",
+    "ComponentCode": "SAM",
+    "ComponentDescription": "Security Amount",
+    "IsDeleted": 0
+  },
+  {
+    "ComponentAmount": 0,
+    "Priority": 4,
+    "DemandType": 2,
+    "TransactionNo": 0,
+    "ComponentId": 40,
+    "ComponentName": "Meter security",
+    "ComponentCode": "MSU",
+    "ComponentDescription": "Meter Security",
+    "IsDeleted": 0
+  },
+  {
+    "ComponentAmount": 0,
+    "Priority": 5,
+    "DemandType": 2,
+    "TransactionNo": 0,
+    "ComponentId": 39,
+    "ComponentName": "Meter box cost",
+    "ComponentCode": "MBC",
+    "ComponentDescription": "Meter Box Cost",
+    "IsDeleted": 0
+  },
+  {
+    "ComponentAmount": 0,
+    "Priority": 6,
+    "DemandType": 2,
+    "TransactionNo": 0,
+    "ComponentId": 41,
+    "ComponentName": "Advance amount",
+    "ComponentCode": "ADA",
+    "ComponentDescription": "Advance Amount",
+    "IsDeleted": 0
+  },
+  {
+    "ComponentAmount": 0,
+    "Priority": 7,
+    "DemandType": 2,
+    "TransactionNo": 0,
+    "ComponentId": 43,
+    "ComponentName": "SLD charges",
+    "ComponentCode": "SLD",
+    "ComponentDescription": "SLD Charges",
+    "IsDeleted": 0
+  },
+  {
+    "ComponentAmount": 0,
+    "Priority": 8,
+    "DemandType": 2,
+    "TransactionNo": 0,
+    "ComponentId": 42,
+    "ComponentName": "Miscellaneous charges",
+    "ComponentCode": "MIC",
+    "ComponentDescription": "Miscellaneous Charges",
+    "IsDeleted": 0
+  },
+  {
+    "ComponentAmount": 0,
+    "Priority": 9,
+    "DemandType": 2,
+    "TransactionNo": 0,
+    "ComponentId": 33,
+    "ComponentName": "Total amount",
+    "ComponentCode": "TTL",
+    "ComponentDescription": "Total amount",
+    "IsDeleted": 0
+  }
+]

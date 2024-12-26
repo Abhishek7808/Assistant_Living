@@ -1,0 +1,1 @@
+pytest -v -s --alluredir="D:\Python_New_Framework_Git\V_3_0_0_1\target\allure-results" test_SecureSeleniumRunner.py

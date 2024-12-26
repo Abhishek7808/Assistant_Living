@@ -1,0 +1,22 @@
+[
+  {
+    "CTPTTypeId": 1,
+    "CTPTTypeValue": "LT CT",
+    "Description": "LT CT"
+  },
+  {
+    "CTPTTypeId": 2,
+    "CTPTTypeValue": "11 kV CT-PT set",
+    "Description": "11 kV CT-PT set"
+  },
+  {
+    "CTPTTypeId": 3,
+    "CTPTTypeValue": "33 kV CT-PT set",
+    "Description": "33 kV CT-PT set"
+  },
+  {
+    "CTPTTypeId": 4,
+    "CTPTTypeValue": "EHT CT-PT set",
+    "Description": "EHT CT-PT set"
+  }
+]

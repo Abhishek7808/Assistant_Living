@@ -1,0 +1,814 @@
+<?xml version="1.0"?>
+<SeleniumObjectsRO>
+<SelenuumObject ParentName="Appium_Page" Value="" Type="Page">
+
+   <Object Name="Btn_SignIn" Value="secure.com.app.aasaan:id/btnSignIn" BYClass="ID" Index = "0" >  </Object>
+   <Object Name="Btn_ShowPassword" Value="secure.com.app.aasaan:id/tvShowPassword" BYClass="ID" Index = "0" >  </Object>
+   <Object Name="edtbox_Username" Value="secure.com.app.aasaan:id/userName" BYClass="ID" Index = "0"> </Object>
+   <Object Name="edtbox_Password" Value="secure.com.app.aasaan:id/password" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Text_Version" Value="secure.com.app.aasaan:id/version" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Text_Username" Value="secure.com.app.aasaan:id/tv_userName" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Text_FTPStatus_DMD" Value="android:id/text1" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Text_FTPStatus_Image" Value="android:id/text1" BYClass="Id" Index = "1"> </Object>
+   <Object Name="Btn_FTP_Cancel" Value="android:id/button2" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_Camara" Value="secure.com.app.aasaan:id/et_meter_picture" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="Btn_Logout" Value="secure.com.app.aasaan:id/title" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Btn_FTP status" Value="secure.com.app.aasaan:id/title" BYClass="ID" Index = "2"> </Object> 
+   <Object Name="Wait_Hour" Value="secure.com.app.aasaan:id/pb" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="Btn_Moreoption" Value="//android.support.v7.widget.ActionMenuPresenter[@content-desc='More options']" BYClass="Xpath" Index = "0"> </Object> 
+   <Object Name="btn_ConsumerDetails" Value="secure.com.app.aasaan:id/btnConsumerDetails" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="layout_consumer_details" Value="secure.com.app.aasaan:id/layout_consumer_details" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="btn_MeteringDetails" Value="secure.com.app.aasaan:id/btnMeteringDetails" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="Layout_SystemMeter" Value="secure.com.app.aasaan:id/expandableLayoutSystemMeter" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="button_capture" Value="com.asus.camera:id/button_capture" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="Btn_used_Right" Value="com.asus.camera:id/button_used" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="Btn_Save" Value="secure.com.app.aasaan:id/save" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="TV_TaskList" Value="secure.com.app.aasaan:id/lv_task_list" BYClass="ID" Index = "0"> </Object>
+   <Object Name="TV_Steppage" Value="secure.com.app.aasaan:id/viewPager" BYClass="ID" Index = "0"> </Object>
+   <Object Name="ListMenuItems" Value="secure.com.app.aasaan:id/item_name" BYClass="ID" Index = "0"> </Object>
+   <Object Name="ListView" Value="android.widget.ListView" BYClass="ClassName" Index = "0"> </Object>
+   <Object Name="Btn_LocationButtonYes" Value="android:id/button1" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="Btn_Startreading" Value="com.dlmssecure.newline:id/Startreading" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="Btn_Closereading" Value="com.dlmssecure.newline:id/Cancel" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="checkbox_history" Value="secure.com.app.aasaan:id/checkbox_history" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="Btn_LocationButtonNo" Value="android:id/button2" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="TV_TaskDetails" Value="//android.widget.ListView/android.widget.LinearLayout" BYClass="Xpath" Index = "0"> </Object>
+   <Object Name="TV_MeterDetails" Value="secure.com.app.aasaan:id/meter_details" BYClass="ID" Index = "0"> </Object>
+   <Object Name="TV_TaskId" Value="secure.com.app.aasaan:id/task_desc" BYClass="ID" Index = "0"> </Object>    
+   <Object Name="Btn_Ok" Value="android:id/button1" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Btn_Ok_Location" Value="android:id/okButton" BYClass="ID" Index = "0"> </Object>
+   <Object Name="bottom_navigation" Value="secure.com.app.aasaan:id/bottom_navigation" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Btn_tabs" Value="secure.com.app.aasaan:id/tabs" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Text_message" Value="android:id/message" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Tab_consumer_details" Value="secure.com.app.aasaan:id/action_consumer_details" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Tab_inventory" Value="secure.com.app.aasaan:id/action_inventory" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Tab_job_details" Value="secure.com.app.aasaan:id/action_job_details" BYClass="ID" Index = "0"> </Object>
+   <Object Name="View_job_details" Value="secure.com.app.aasaan:id/id_job_details" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Btn_nextButton" Value="secure.com.app.aasaan:id/nextButton" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Btn_Open" Value="//android.widget.TextView[@text='Open']" BYClass="xpath" Index = "0"> </Object> 
+   <Object Name="Btn_Hold" Value="//android.widget.TextView[@text='Hold']" BYClass="xpath" Index = "0"> </Object>  
+   <Object Name="Btn_Close" Value="//android.widget.TextView[@text='Close']" BYClass="xpath" Index = "0"> </Object> 
+   <Object Name="Btn_Panding" Value="//android.widget.TextView[@text='Pending']" BYClass="xpath" Index = "0"> </Object>
+   <Object Name="Btn_Unaccepted" Value="//android.widget.TextView[@text='Unaccepted']" BYClass="xpath" Index = "0"> </Object>
+   <Object Name="Btn_Accept" Value="secure.com.app.aasaan:id/btnAccept" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="Btn_Reject" Value="secure.com.app.aasaan:id/btnReject" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="Btn_Back" Value="//android.widget.ImageButton[@content-desc='Navigate up']" BYClass="xpath" Index = "0"> </Object> 
+   <Object Name="Btn_Start" Value="//android.widget.TextView[@text='Start task']" BYClass="xpath" Index = "0"> </Object> 
+        
+  </SelenuumObject> 
+<SelenuumObject ParentName="MeterReading" Value="" Type="Page">  
+   <Object Name="Text_ConsumerName" Value="secure.com.app.aasaan:id/tv_consOrgNameValue" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Text_ConsumerAccNumber" Value="secure.com.app.aasaan:id/tv_consumerAccNumberValue" BYClass="Id" Index = "0"> </Object>
+   <Object Name="TextreviousKwh" Value="secure.com.app.aasaan:id/previousKwh" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Btn_ReadRemarks" Value="secure.com.app.aasaan:id/spinner_mbc_remarks" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Btn_ReadingType" Value="secure.com.app.aasaan:id/spinner_reading_type" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Btn_Reading_reason" Value="secure.com.app.aasaan:id/spinner_reading_reason" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="edtbox_cumulativeKwh" Value="secure.com.app.aasaan:id/cumulativeKwh" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_cumulativeKvah" Value="secure.com.app.aasaan:id/cumulativeKvah" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_cumulativeKva" Value="secure.com.app.aasaan:id/cumulativeKva" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_Capture" Value="secure.com.app.aasaan:id/capture" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="Btn_Remark" Value="secure.com.app.aasaan:id/spinner_remarks" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="edtbox_OtherRemarks" Value="secure.com.app.aasaan:id/otherRemarks" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_Save" Value="secure.com.app.aasaan:id/save" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="Btn_Startreading" Value="com.dlmssecure.newline:id/Startreading" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="Btn_Closereading" Value="com.dlmssecure.newline:id/Cancel" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Btn_Successreading" Value="com.dlmssecure.newline:id/Readingsuccess" BYClass="ID" Index = "0"> </Object> 
+  </SelenuumObject>  
+<SelenuumObject ParentName="Complain_Common" Value="" Type="Page">
+
+   <Object Name="edtbox_ComplaintNo" Value="secure.com.app.aasaan:id/tv_applicationOrComplaintNoValue" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_Remarks" Value="secure.com.app.aasaan:id/tv_remarks" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_representative_sign_Save" Value="secure.com.app.aasaan:id/card_view_continue" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_representative_sign_Clear" Value="secure.com.app.aasaan:id/card_view_cancel" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_representative_sign_Pad" Value="secure.com.app.aasaan:id/signature_pad" BYClass="Id" Index = "0"> </Object>	
+   <Object Name="edtbox_complaintTypeValue" Value="secure.com.app.aasaan:id/tv_complaintTypeValue" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_TaskStatus" Value="secure.com.app.aasaan:id/spinner_task_status" BYClass="Id" Index = "0"> </Object> 
+   <Object Name="Lst_complete_reason" Value="secure.com.app.aasaan:id/spinner_complete_reason" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_ReasonOfRemark" Value="secure.com.app.aasaan:id/spinner_selected_hold_remarks" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_representative_sign" Value="secure.com.app.aasaan:id/tv_representative_sign" BYClass="Id" Index = "0"> </Object>
+  </SelenuumObject> 
+<SelenuumObject ParentName="NPC" Value="" Type="Page">  
+   <Object Name="edtbox_meter_terminal_seal" Value="secure.com.app.aasaan:id/atc_new_meter_terminal_seal" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_meter_box_seal" Value="secure.com.app.aasaan:id/atc_new_meter_box_sealValue" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_representative_name" Value="secure.com.app.aasaan:id/atc_representative_name" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_IsSealUsed" Value="secure.com.app.aasaan:id/spinner_sealused" BYClass="Id" Index = "0"> </Object>
+  </SelenuumObject>
+<SelenuumObject ParentName="DTBreakdown" Value="" Type="Page">  
+   <Object Name="edtbox_ComplaintNo" Value="secure.com.app.aasaan:id/actv_applicationOrComplaintNo" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_complaintTypeValue" Value="secure.com.app.aasaan:id/actv_complaintType" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_complaintreason" Value="secure.com.app.aasaan:id/spinner_complaintreason" BYClass="Id" Index = "0"> </Object>    
+   <Object Name="Btn_meter_picture" Value="secure.com.app.aasaan:id/tv_meter_picture" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_Remarks" Value="secure.com.app.aasaan:id/actv_complete_other_remark" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_representative_name" Value="secure.com.app.aasaan:id/actv_representative_name" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_representative_sign" Value="secure.com.app.aasaan:id/tv_rep_sign" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_FieldUser_sign" Value="secure.com.app.aasaan:id/tv_field_user_sign" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_Save" Value="secure.com.app.aasaan:id/save" BYClass="Id" Index = "0"> </Object>
+  </SelenuumObject>
+<SelenuumObject ParentName="OTC_Safty" Value="" Type="Page">  
+ 	 <Object Name="edtbox_representative_name" Value="secure.com.app.aasaan:id/actv_representative_name" BYClass="Id" Index = "0"> </Object>
+     <Object Name="Btn_Save" Value="secure.com.app.aasaan:id/tv_save" BYClass="Id" Index = "0"> </Object>
+	 
+  </SelenuumObject>
+<SelenuumObject ParentName="OTC_Supply" Value="" Type="Page">  
+ 	 <Object Name="edtbox_representative_name" Value="secure.com.app.aasaan:id/actv_representative_name" BYClass="Id" Index = "0"> </Object>
+     <Object Name="Btn_Save" Value="secure.com.app.aasaan:id/tv_save" BYClass="Id" Index = "0"> </Object>
+	 <Object Name="edtbox_Remarks" Value="secure.com.app.aasaan:id/actv_remarks" BYClass="Id" Index = "0"> </Object>
+	 <Object Name="Lst_SameproblemExistNearN" Value="secure.com.app.aasaan:id/spinner_same_prob_neg" BYClass="Id" Index = "0"> </Object> 
+	 
+  </SelenuumObject>
+<SelenuumObject ParentName="OTC_Meter" Value="" Type="Page">  
+
+ 	 <Object Name="edtbox_Remarks" Value=" secure.com.app.aasaan:id/actv_remarks" BYClass="Id" Index = "0"> </Object>
+     <Object Name="edtbox_representative_name" Value="secure.com.app.aasaan:id/actv_representative_name" BYClass="Id" Index = "0"> </Object>
+     <Object Name="Btn_save" Value="secure.com.app.aasaan:id/tv_save" BYClass="Id" Index = "0"> </Object>
+	 
+  </SelenuumObject>
+<SelenuumObject ParentName="Bill_Distribution" Value="" Type="Page">  
+   <Object Name="edtbox_billing_cycle" Value="secure.com.app.aasaan:id/billing_cycle" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_TaskStatus" Value="secure.com.app.aasaan:id/spinner_ct_taskStatus" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_status_reason" Value="secure.com.app.aasaan:id/spinner_ct_status_reason" BYClass="Id" Index = "0"> </Object>    
+   <Object Name="Btn_meter_picture" Value="secure.com.app.aasaan:id/capture" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_Remarks" Value="secure.com.app.aasaan:id/remarks_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_representative_name" Value="secure.com.app.aasaan:id/actv_representative_name" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_representative_sign" Value="secure.com.app.aasaan:id/card_view_comm_representative_sign" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_Save" Value="secure.com.app.aasaan:id/saveCT" BYClass="Id" Index = "0"> </Object>
+  </SelenuumObject>
+<SelenuumObject ParentName="TDC_Notice_distribution" Value="" Type="Page">  
+   <Object Name="edtbox_billing_cycle" Value="secure.com.app.aasaan:id/billing_cycle" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_bill_number" Value="secure.com.app.aasaan:id/bill_number" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_notice_number" Value="secure.com.app.aasaan:id/notice_number" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_TaskStatus" Value="secure.com.app.aasaan:id/spinner_ct_taskStatus" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_status_reason" Value="secure.com.app.aasaan:id/spinner_ct_status_reason" BYClass="Id" Index = "0"> </Object>    
+   <Object Name="Lst_consumer_acknowledgement" Value="secure.com.app.aasaan:id/spinner_consumer_acknowledgement" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="Btn_Site_picture" Value="secure.com.app.aasaan:id/capture" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_Remarks" Value="secure.com.app.aasaan:id/remarks_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_representative_name" Value="secure.com.app.aasaan:id/actv_representative_name" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_representative_sign" Value="secure.com.app.aasaan:id/tv_representative_sign" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_Save" Value="secure.com.app.aasaan:id/saveCT" BYClass="Id" Index = "0"> </Object>
+  </SelenuumObject>
+<SelenuumObject ParentName="MeterTesting" Value="" Type="Page">  
+   <Object Name="edtbox_Testing_reason" Value="secure.com.app.aasaan:id/actv_testing_reason" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_TaskStatus" Value="secure.com.app.aasaan:id/spinner_taskStatus" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_status_reason" Value="secure.com.app.aasaan:id/spinner_status_reason" BYClass="Id" Index = "0"> </Object>    
+   <Object Name="edtbox_max_load_error" Value="secure.com.app.aasaan:id/actv_max_load_error" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_running_load_error" Value="secure.com.app.aasaan:id/actv_running_load_error" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_meter_bypass_duration" Value="secure.com.app.aasaan:id/actv_meter_bypass_duration" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_Reading_type" Value="secure.com.app.aasaan:id/spinner_reading_type" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="Lst_Reading_reason" Value="secure.com.app.aasaan:id/spinner_reading_reason" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="Lst_Reading_remark" Value="secure.com.app.aasaan:id/spinner_reading_remark" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="edtbox_cumulativeKwh" Value="secure.com.app.aasaan:id/actv_cumulativeKwh" BYClass="Id" Index = "0"> </Object>  
+    <Object Name="edtbox_cumulativeKvah" Value="secure.com.app.aasaan:id/actv_cumulativeKvah" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_cumulativeKva" Value="secure.com.app.aasaan:id/actv_cumulativeKva" BYClass="Id" Index = "0"> </Object>
+  <Object Name="Btn_Meter_picture" Value="secure.com.app.aasaan:id/tv_meter_picture" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_picture_accucheck" Value="secure.com.app.aasaan:id/tv_picture_accucheck" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_panel_seal_nos" Value="secure.com.app.aasaan:id/actv_panel_seal_nos" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_Meter_terminal_seal" Value="secure.com.app.aasaan:id/actv_mtr_terminal_seal" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_Meter_box_seal" Value="secure.com.app.aasaan:id/actv_mtr_box_seal" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_desc" Value="secure.com.app.aasaan:id/actv_desc" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_Remarks" Value="secure.com.app.aasaan:id/remarks_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_representative_name" Value="secure.com.app.aasaan:id/actv_representative_name" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_representative_sign" Value="secure.com.app.aasaan:id/tv_representative_sign" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_Save" Value="secure.com.app.aasaan:id/tv_save" BYClass="Id" Index = "0"> </Object>
+  </SelenuumObject>
+<SelenuumObject ParentName="CTPT_Testing" Value="" Type="Page">  
+   <Object Name="edtbox_Testing_reason" Value="secure.com.app.aasaan:id/actv_testing_reason" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_TaskStatus" Value="secure.com.app.aasaan:id/spinner_taskStatus" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_status_reason" Value="secure.com.app.aasaan:id/spinner_status_reason" BYClass="Id" Index = "0"> </Object>    
+   <Object Name="Lst_new_ctpt_type" Value="secure.com.app.aasaan:id/spinner_new_ctpt_type" BYClass="Id" Index = "0"> </Object>    
+   <Object Name="edtbox_max_load_error" Value="secure.com.app.aasaan:id/actv_max_load_error" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_running_load_error" Value="secure.com.app.aasaan:id/actv_running_load_error" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_meter_bypass_duration" Value="secure.com.app.aasaan:id/actv_meter_bypass_duration" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_mu_installed" Value="secure.com.app.aasaan:id/spinner_mu_installed" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="Lst_new_mu_ct_accuracy_class" Value="secure.com.app.aasaan:id/spinner_new_mu_ct_accuracy_class" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="Lst_new_mu_pt_accuracy_class" Value="secure.com.app.aasaan:id/spinner_new_mu_pt_accuracy_class" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="Lst_new_mu_ct_ratio" Value="secure.com.app.aasaan:id/spinner_new_mu_ct_ratio" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="Lst_new_mu_pt_ratio" Value="secure.com.app.aasaan:id/spinner_new_mu_pt_ratio" BYClass="Id" Index = "0"> </Object> 
+   <Object Name="Lst_new_ct_installed" Value="secure.com.app.aasaan:id/spinner_new_ct_installed" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="Lst_new_ct_installation_type" Value="secure.com.app.aasaan:id/spinner_new_ct_installation_type" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="Lst_new_ct_ratio" Value="secure.com.app.aasaan:id/spinner_new_ct_ratio" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="Lst_new_ct_accuracy_class" Value="secure.com.app.aasaan:id/spinner_new_ct_accuracy_class" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="Lst_new_pt_installed" Value="secure.com.app.aasaan:id/spinner_new_pt_installed" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="Lst_new_pt_ratio" Value="secure.com.app.aasaan:id/spinner_new_pt_ratio" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="Lst_new_pt_accuracy_class" Value="secure.com.app.aasaan:id/spinner_new_pt_accuracy_class" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="Btn_CTPT_picture" Value="secure.com.app.aasaan:id/tv_meter_picture" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_picture_accucheck" Value="secure.com.app.aasaan:id/tv_picture_accucheck" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="Btn_panel_seal_nos" Value="secure.com.app.aasaan:id/actv_panel_seal_nos" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_Meter_terminal_seal" Value="secure.com.app.aasaan:id/actv_mtr_terminal_seal" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_Meter_box_seal" Value="secure.com.app.aasaan:id/actv_mtr_box_seal" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_desc" Value="secure.com.app.aasaan:id/actv_desc" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_representative_name" Value="secure.com.app.aasaan:id/actv_representative_name" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_representative_sign" Value="secure.com.app.aasaan:id/tv_representative_sign" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_Save" Value="secure.com.app.aasaan:id/tv_save" BYClass="Id" Index = "0"> </Object>
+  </SelenuumObject>
+<SelenuumObject ParentName="Seal" Value="" Type="Page">  
+ <Object Name="Btn_search_button" Value="android:id/search_button" BYClass="Id" Index = "0"> </Object>
+ <Object Name="edtbox_search_src_text" Value="android:id/search_src_text" BYClass="Id" Index = "0"> </Object>
+ <Object Name="Chk_Seal" Value="secure.com.app.aasaan:id/checkBox" BYClass="Id" Index = "0"> </Object>
+ <Object Name="Chk_seal_list" Value="secure.com.app.aasaan:id/seal_list" BYClass="Id" Index = "0"> </Object>
+ <Object Name="Btn_cancelButton" Value="secure.com.app.aasaan:id/cancelButton" BYClass="Id" Index = "0"> </Object>
+ <Object Name="Btn_addButton" Value="secure.com.app.aasaan:id/addButton" BYClass="Id" Index = "0"> </Object>	 
+</SelenuumObject>
+<SelenuumObject ParentName="Component_Reading" Value="" Type="Page">  
+   <Object Name="Lst_reading_type" Value="secure.com.app.aasaan:id/spinner_reading_type" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_reading_reason" Value="secure.com.app.aasaan:id/spinner_reading_reason" BYClass="Id" Index = "0"> </Object>
+   <Object Name="text_previousKwh" Value="secure.com.app.aasaan:id/previousKwh" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_cumulativeKwh" Value="secure.com.app.aasaan:id/cumulativeKwh" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_cumulativeKvah" Value="secure.com.app.aasaan:id/cumulativeKvah" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_cumulativeKva" Value="secure.com.app.aasaan:id/cumulativeKva" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Text_kva_old_date_time" Value="secure.com.app.aasaan:id/kva_old_date_time" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="Btn_kva_old_date_time" Value="secure.com.app.aasaan:id/img_kva_date_time" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="edtbox_kw" Value="secure.com.app.aasaan:id/kw" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="Text_kw_date_time" Value="secure.com.app.aasaan:id/kw_date_time" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="Btn_kw_date_time" Value="secure.com.app.aasaan:id/img_kw_date_time" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="edtbox_Voltage_rPhase" Value="secure.com.app.aasaan:id/actVoltage_rPhase" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="edtbox_Voltage_yPhase" Value="secure.com.app.aasaan:id/actVoltage_yPhase" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_Voltage_bPhase" Value="secure.com.app.aasaan:id/actVoltage_bPhase" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_Current_rPhase" Value="secure.com.app.aasaan:id/actCurrent_rPhase" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="edtbox_Current_yPhase" Value="secure.com.app.aasaan:id/actCurrent_yPhase" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_Current_bPhase" Value="secure.com.app.aasaan:id/actCurrent_bPhase" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_PF" Value="secure.com.app.aasaan:id/act_pf" BYClass="Id" Index = "0"> </Object>
+ 
+</SelenuumObject>
+<SelenuumObject ParentName="Component_CT" Value="" Type="Page">  
+   <Object Name="Lst_new_ct_installed" Value="secure.com.app.aasaan:id/spinner_new_ct_install" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="lst_ct_installation_type" Value="secure.com.app.aasaan:id/spinner_ct_installation_type" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Edit_ct_box_serialno" Value="secure.com.app.aasaan:id/actv_ct_box_serialno" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_new_ct_ratio" Value="secure.com.app.aasaan:id/spinner_new_ct_ratio" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="Lst_new_CT_Acc_class" Value="secure.com.app.aasaan:id/spinner_new_ct_accr_class" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="Chk_new_ct_RPhase" Value="secure.com.app.aasaan:id/cb_ct_r" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Chk_new_ct_YPhase" Value="secure.com.app.aasaan:id/cb_ct_y" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Chk_new_ct_BPhase" Value="secure.com.app.aasaan:id/cb_ct_b" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Chk_new_ct_NPhase" Value="secure.com.app.aasaan:id/cb_ct_n" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Edt_new_ct_RPhase" Value="secure.com.app.aasaan:id/actv_new_ct_R" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Edt_new_ct_YPhase" Value="secure.com.app.aasaan:id/actv_new_ct_Y" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Edt_new_ct_BPhase" Value="secure.com.app.aasaan:id/actv_new_ct_B" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Edt_new_ct_NPhase" Value="secure.com.app.aasaan:id/actv_new_ct_Neutral" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Edt_ExistingCT_Number" Value="secure.com.app.aasaan:id/actv_CT_Number" BYClass="Id" Index = "0"> </Object>
+   <Object Name="lst_ExistingCT_Ratio" Value="secure.com.app.aasaan:id/spinner_existing_CT_ratio" BYClass="Id" Index = "0"> </Object>
+
+</SelenuumObject>
+<SelenuumObject ParentName="Component_PT" Value="" Type="Page">  
+   <Object Name="Lst_new_pt_installed" Value="secure.com.app.aasaan:id/spinner_new_pt_install" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="lst_PT_installation_type" Value="secure.com.app.aasaan:id/spinner_pt_installation_type" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Edit_PT_box_serialno" Value="secure.com.app.aasaan:id/actv_pt_box_serialno" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_new_PT_ratio" Value="secure.com.app.aasaan:id/spinner_new_pt_ratio" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="Lst_new_PT_Acc_class" Value="secure.com.app.aasaan:id/spinner_mu_pt_accr_class" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="Lst_new_CTPT_Type" Value="secure.com.app.aasaan:id/spinner_ctpt_type" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="Chk_new_PT_RPhase" Value="secure.com.app.aasaan:id/cb_pt_r" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Chk_new_PT_YPhase" Value="secure.com.app.aasaan:id/cb_pt_y" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Chk_new_PT_BPhase" Value="secure.com.app.aasaan:id/cb_pt_b" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Edt_new_PT_RPhase" Value="secure.com.app.aasaan:id/actv_new_pt_R" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Edt_new_PT_YPhase" Value="secure.com.app.aasaan:id/actv_new_pt_Y" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Edt_new_PT_BPhase" Value="secure.com.app.aasaan:id/actv_new_pt_B" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Edt_ExistingPT_Number" Value="secure.com.app.aasaan:id/actv_PT_Number" BYClass="Id" Index = "0"> </Object>
+   <Object Name="lst_ExistingPT_Ratio" Value="secure.com.app.aasaan:id/spinner_existing_PT_ratio" BYClass="Id" Index = "0"> </Object>
+ 
+</SelenuumObject>
+<SelenuumObject ParentName="Component_Modem" Value="" Type="Page">  
+   <Object Name="lst_old_modem_installed" Value="secure.com.app.aasaan:id/spinner_old_modem_installed" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_modem_make" Value="secure.com.app.aasaan:id/spinner_modem_make" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_old_modem" Value="secure.com.app.aasaan:id/actv_old_modem" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_new_modem_install" Value="secure.com.app.aasaan:id/spinner_new_modem_install" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_New_modem" Value="secure.com.app.aasaan:id/tv_modem_no" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_modem_picture" Value="secure.com.app.aasaan:id/tv_modem_picture" BYClass="Id" Index = "0"> </Object>
+</SelenuumObject>
+<SelenuumObject ParentName="Component_Image" Value="" Type="Page">  
+ <Object Name="View_Images" Value="//android.support.v7.widget.RecyclerView[@id='secure.com.app.aasaan:id/img_recycler_view']/android.widget.RelativeLayout" BYClass="xpath" Index = "0"> </Object>
+   
+</SelenuumObject>
+<SelenuumObject ParentName="Component_MU" Value="" Type="Page">  
+   <Object Name="Lst_new_MU_installed" Value="secure.com.app.aasaan:id/spinner_new_mu_install" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="Edit_MU_box_serialno" Value="secure.com.app.aasaan:id/actv_mu_s_no" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_new_ct_ratio" Value="secure.com.app.aasaan:id/spinner_new_CT_ratio" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="Lst_new_CT_Acc_class" Value="secure.com.app.aasaan:id/spinner_new_ct_accr_class" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="Lst_new_PT_ratio" Value="secure.com.app.aasaan:id/spinner_new_pt_ratio" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="Lst_new_PT_Acc_class" Value="secure.com.app.aasaan:id/spinner_mu_pt_accr_class" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="Lst_new_CTPT_Type" Value="secure.com.app.aasaan:id/spinner_ctpt_type" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="Edt_ExistingMU_Number" Value="secure.com.app.aasaan:id/actv_MU_Number" BYClass="Id" Index = "0"> </Object>
+
+</SelenuumObject>
+<SelenuumObject ParentName="Component_Common" Value="" Type="Page">  
+   <Object Name="btnSealItemDetail" Value="secure.com.app.aasaan:id/btnSealItemDetail" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="Btn_NewItemDetail" Value="secure.com.app.aasaan:id/btnNewItemDetail" BYClass="Id" Index = "0"> </Object>
+
+</SelenuumObject>
+<SelenuumObject ParentName="Calender" Value="" Type="Page">  
+ 	 <Object Name="Date_datePicker" Value="android:id/datePicker" BYClass="Id" Index = "0"> </Object>
+     <Object Name="month_view" Value="android:id/month_view" BYClass="Id" Index = "0"> </Object>
+	 <Object Name="header_year" Value="android:id/date_picker_header_year" BYClass="Id" Index = "0"> </Object>
+	 
+	 <Object Name="Btn_MonthBack" Value="android:id/prev" BYClass="Id" Index = "0"> </Object>
+	 <Object Name="Time_View" Value="android:id/radial_picker" BYClass="Id" Index = "0"> </Object>
+ 	 <Object Name="Btn_cancel" Value="android:id/button2" BYClass="Id" Index = "0"> </Object>
+	 <Object Name="Btn_Ok" Value="android:id/button1" BYClass="Id" Index = "0"> </Object>	 
+  </SelenuumObject>
+<SelenuumObject ParentName="Modem_Ins_Rep" Value="" Type="Page">  
+   <Object Name="View_NewItems" Value="secure.com.app.aasaan:id/recycler_view" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_ConsumerInfo" Value="secure.com.app.aasaan:id/tv_consumerInfo" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_TaskStatus" Value="secure.com.app.aasaan:id/spinner_ct_taskStatus" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_status_reason" Value="secure.com.app.aasaan:id/spinner_ct_status_reason" BYClass="Id" Index = "0"> </Object>    
+   <Object Name="Lst_cost_auth" Value="secure.com.app.aasaan:id/spinner_cost_auth_label" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_task_performed" Value="secure.com.app.aasaan:id/spinner_task_performed" BYClass="Id" Index = "0"> </Object>
+   <Object Name="EditBox_modem_serial_number" Value="secure.com.app.aasaan:id/modem_serial_number" BYClass="Id" Index = "0"> </Object>
+   <Object Name="EditBox_sim_serial_number" Value="secure.com.app.aasaan:id/sim_serial_number_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_modem_antenna_replaced" Value="secure.com.app.aasaan:id/spinner_modem_antenna_replaced" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_modem_sim_slot" Value="secure.com.app.aasaan:id/modem_sim_slot_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_MI_SaveLocal" Value="secure.com.app.aasaan:id/saveMIRequest_locally" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_Remarks" Value="secure.com.app.aasaan:id/remarks_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_representative_name" Value="secure.com.app.aasaan:id/actv_representative_name" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_representative_sign" Value="secure.com.app.aasaan:id/tv_representative_sign" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_NewItemDetail" Value="secure.com.app.aasaan:id/btnNewItemDetail" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_Save_Upload" Value="secure.com.app.aasaan:id/saveMR" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_SaveItems" Value="secure.com.app.aasaan:id/btnSave" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_Discardchanges" Value="android:id/button2" BYClass="Id" Index = "0"> </Object>
+  </SelenuumObject>
+<SelenuumObject ParentName="Modem_Replacement" Value="" Type="Page">  
+   <Object Name="Lst_TaskStatus" Value="secure.com.app.aasaan:id/spinner_ct_taskStatus" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_status_reason" Value="secure.com.app.aasaan:id/spinner_ct_status_reason" BYClass="Id" Index = "0"> </Object>    
+   <Object Name="Lst_meter_reading_type" Value="secure.com.app.aasaan:id/spinner_meter_reading_type" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_reading_remark" Value="secure.com.app.aasaan:id/spinner_reading_remark" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_cost_auth" Value="secure.com.app.aasaan:id/spinner_cost_auth_label" BYClass="Id" Index = "0"> </Object>
+   <Object Name="EditBox_modem_serial_number" Value="secure.com.app.aasaan:id/modem_serial_number" BYClass="Id" Index = "0"> </Object>
+   <Object Name="EditBox_sim_serial_number" Value="secure.com.app.aasaan:id/sim_serial_number_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_modem_antenna_replaced" Value="secure.com.app.aasaan:id/spinner_modem_antenna_replaced" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_new_meter_terminal_seal_value" Value="secure.com.app.aasaan:id/new_meter_terminal_seal_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_meter_picture" Value="secure.com.app.aasaan:id/meter_picture" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_new_meter_box_seal_value" Value="secure.com.app.aasaan:id/new_meter_box_seal_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_modem_sim_slot_value" Value="secure.com.app.aasaan:id/modem_sim_slot_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_optical_db9_cable" Value="secure.com.app.aasaan:id/spinner_optical_db9_cable_count" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_control_cable_used" Value="secure.com.app.aasaan:id/spinner_control_cable_type" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_MeterTo_Modem_cable" Value="secure.com.app.aasaan:id/spinner_comms_cable_count" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_control_cable_length_value" Value="secure.com.app.aasaan:id/control_cable_length_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_lugs_type1" Value="secure.com.app.aasaan:id/secure.com.app.aasaan:id/spinner_lugs_type1_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_lugs_type1" Value="secure.com.app.aasaan:id/num_lugs_type1_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_lugs_type2" Value="secure.com.app.aasaan:id/secure.com.app.aasaan:id/spinner_lugs_type2_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_lugs_type2" Value="secure.com.app.aasaan:id/num_lugs_type2_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_service_cable_type" Value="secure.com.app.aasaan:id/secure.com.app.aasaan:id/spinner_service_cable_type" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_service_cable_type" Value="secure.com.app.aasaan:id/service_cable_length_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_Remarks" Value="secure.com.app.aasaan:id/remarks_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_representative_name" Value="secure.com.app.aasaan:id/actv_representative_name" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_representative_sign" Value="secure.com.app.aasaan:id/tv_representative_sign" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_Save_Upload" Value="secure.com.app.aasaan:id/saveMR" BYClass="Id" Index = "0"> </Object>
+   </SelenuumObject>
+<SelenuumObject ParentName="Service_Meterbox_Replacement" Value="" Type="Page">  
+   <Object Name="Lst_TaskStatus" Value="secure.com.app.aasaan:id/spinner_ct_taskStatus" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_status_reason" Value="secure.com.app.aasaan:id/spinner_ct_status_reason" BYClass="Id" Index = "0"> </Object>    
+   <Object Name="Lst_meter_reading_type" Value="secure.com.app.aasaan:id/spinner_meter_reading_type" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_reading_remark" Value="secure.com.app.aasaan:id/spinner_reading_remark" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_reading_reason" Value="secure.com.app.aasaan:id/spinner_manual_reading_reason" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_cumulativeKwh" Value="secure.com.app.aasaan:id/actv_cumulativeKwh" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_cumulativeKvah" Value="secure.com.app.aasaan:id/actv_cumulativeKvah" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_cumulativeKva" Value="secure.com.app.aasaan:id/actv_cumulativeKva" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_meter_picture" Value="secure.com.app.aasaan:id/meter_picture" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_cost_auth" Value="secure.com.app.aasaan:id/spinner_cost_auth_label" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_new_ctpt_type" Value="secure.com.app.aasaan:id/spinner_new_ctpt_type" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_meter_box_type" Value="secure.com.app.aasaan:id/spinner_meter_box_type" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_new_meter_box_type" Value="secure.com.app.aasaan:id/spinner_meter_box_type" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_cable_type" Value="secure.com.app.aasaan:id/spinner_cable_type" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_service_cable_type" Value="secure.com.app.aasaan:id/spinner_service_cable_type" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_power_cable_type" Value="secure.com.app.aasaan:id/spinner_power_cable_type" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_power_cable_length_value" Value="secure.com.app.aasaan:id/power_cable_length_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_comm_port_seal_value" Value="secure.com.app.aasaan:id/comm_port_seal_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_new_comm_port_seal_value" Value="secure.com.app.aasaan:id/new_comm_port_seal_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_new_meter_terminal_seal_value" Value="secure.com.app.aasaan:id/new_meter_terminal_seal_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_new_meter_box_seal_value" Value="secure.com.app.aasaan:id/new_meter_box_seal_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_modem_sim_slot_seal_value" Value="secure.com.app.aasaan:id/modem_sim_slot_seal_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_new_meter_panel_seal" Value="secure.com.app.aasaan:id/new_meter_panel_seal" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_new_meter_body_seal" Value="secure.com.app.aasaan:id/new_meter_body_seal" BYClass="Id" Index = "0"> </Object>
+
+	<Object Name="Lst_control_cable_used" Value="secure.com.app.aasaan:id/spinner_control_cable_type" BYClass="Id" Index = "0"> </Object>
+    <Object Name="edtbox_control_cable_length_value" Value="secure.com.app.aasaan:id/control_cable_length_value" BYClass="Id" Index = "0"> </Object>
+    <Object Name="Lst_lugs_type1" Value="secure.com.app.aasaan:id/secure.com.app.aasaan:id/spinner_lugs_type1_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_lugs_type1" Value="secure.com.app.aasaan:id/num_lugs_type1_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_lugs_type2" Value="secure.com.app.aasaan:id/secure.com.app.aasaan:id/spinner_lugs_type2_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_lugs_type2" Value="secure.com.app.aasaan:id/num_lugs_type2_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_service_cable_length" Value="secure.com.app.aasaan:id/service_cable_length_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_Remarks" Value="secure.com.app.aasaan:id/remarks_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_representative_name" Value="secure.com.app.aasaan:id/actv_representative_name" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_representative_sign" Value="secure.com.app.aasaan:id/tv_representative_sign" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_Save_Upload" Value="secure.com.app.aasaan:id/saveMR" BYClass="Id" Index = "0"> </Object>
+   </SelenuumObject>
+<SelenuumObject ParentName="PDC_TDC" Value="" Type="Page">  
+   <Object Name="Lst_TaskStatus" Value="secure.com.app.aasaan:id/pdc_spinner_task_status" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_status_reason" Value="secure.com.app.aasaan:id/spinner_disconnection_status" BYClass="Id" Index = "0"> </Object>    
+   <Object Name="textview_meternumber" Value="secure.com.app.aasaan:id/existing_serial_number_value" BYClass="Id" Index = "0"> </Object>    
+   <Object Name="Lst_serial_no_mismatch" Value="secure.com.app.aasaan:id/spinner_serial_no_mismatch" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_meter_number_value" Value="secure.com.app.aasaan:id/actv_meter_number" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_actual_meter_number_value" Value="secure.com.app.aasaan:id/actual_meter_number_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_actual_ct_number_value" Value="secure.com.app.aasaan:id/actual_ct_number_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_meter_reading_type" Value="secure.com.app.aasaan:id/spinner_meter_reading_type" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_reading_reason" Value="secure.com.app.aasaan:id/spinner_manual_reading_reason" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_pdc_disconnection_through" Value="secure.com.app.aasaan:id/spinner_pdc_disconnection_through" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_Tdc_Reconnection_through" Value="secure.com.app.aasaan:id/spinner_reconnection_type" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_pdc_disconnection_through_code" Value="secure.com.app.aasaan:id/pdc_disconnection_through_code" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_reading_remark" Value="secure.com.app.aasaan:id/spinner_reading_remark" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_cumulativeKwh" Value="secure.com.app.aasaan:id/cumulativeKwh_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_cumulativeKvah" Value="secure.com.app.aasaan:id/cumulativeKvah_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_cumulativeKva" Value="secure.com.app.aasaan:id/cumulativeKva_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_meter_picture" Value="secure.com.app.aasaan:id/et_meter_picture" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_connection_status_picture" Value="secure.com.app.aasaan:id/connection_status_picture" BYClass="Id" Index = "0"> </Object>
+  <Object Name="edtbox_removed_cable_length" Value="secure.com.app.aasaan:id/removed_cable_length_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_removed_ct_number" Value="secure.com.app.aasaan:id/removed_ct_number_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_meter_manufacturer" Value="secure.com.app.aasaan:id/meter_manufacturer_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_meter_manufacturer_year" Value="secure.com.app.aasaan:id/meter_manufacturer_year_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_meter_batch_number" Value="secure.com.app.aasaan:id/meter_batch_number_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_Removed_meter_body_seal" Value="secure.com.app.aasaan:id/new_meter_body_seal" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_Removed_meter_terminal_seal" Value="secure.com.app.aasaan:id/new_meter_terminal_seal" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_Removed_meter_box_seal" Value="secure.com.app.aasaan:id/new_meter_box_seal" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_Remarks" Value="secure.com.app.aasaan:id/hold_remarks" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_representative_name" Value="secure.com.app.aasaan:id/rep_name_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_representative_sign" Value="secure.com.app.aasaan:id/representative_sign" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_Save_Upload" Value="secure.com.app.aasaan:id/pdc_save" BYClass="Id" Index = "0"> </Object>
+   </SelenuumObject>
+<SelenuumObject ParentName="Reconnection_PDC_TDC" Value="" Type="Page">  
+  <Object Name="edtbox_ConsumerInfo" Value="secure.com.app.aasaan:id/tv_consumerInfo" BYClass="Id" Index = "0"> </Object>
+  <Object Name="Tab_Step1" Value="//android.widget.TextView[@text='Step1']" BYClass="xpath" Index = "0"> </Object> 
+   <Object Name="Tab_Step2" Value="//android.widget.TextView[@text='Step2']" BYClass="xpath" Index = "0"> </Object> 
+   <Object Name="Lst_TaskStatus" Value="secure.com.app.aasaan:id/spinner_task_status" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_status_reason" Value="secure.com.app.aasaan:id/spinner_taskstatus_reason" BYClass="Id" Index = "0"> </Object>    
+   <Object Name="Lst_ReconnectionFrom" Value="secure.com.app.aasaan:id/spinner_reconnection_type" BYClass="Id" Index = "0"> </Object>    
+   <Object Name="edtbox_Meterserial_no" Value="secure.com.app.aasaan:id/tv_meter_bar_code" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_meter_reading_type" Value="secure.com.app.aasaan:id/spinner_reading_type" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_meter_Reading" Value="secure.com.app.aasaan:id/tv_Read_Meter_Auto" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_connection_through" Value="secure.com.app.aasaan:id/spinner_conn_through" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_through_code" Value="secure.com.app.aasaan:id/actv_conn_through_code" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_DT_code" Value="secure.com.app.aasaan:id/actv_DT_code" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_reading_reason" Value="secure.com.app.aasaan:id/spinner_manual_reading_reason" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_reading_remark" Value="secure.com.app.aasaan:id/spinner_reading_remark" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_cumulativeKwh" Value="secure.com.app.aasaan:id/cumulativeKwh" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_cumulativeKvah" Value="secure.com.app.aasaan:id/cumulativeKvah" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_cumulativeKva" Value="secure.com.app.aasaan:id/cumulativeKva" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_kwh_energy_export" Value="secure.com.app.aasaan:id/tv_kwh_energy_export" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_kwh_energy_export" Value="secure.com.app.aasaan:id/capture" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_meter_picture" Value="secure.com.app.aasaan:id/tv_meter_picture" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_new_modem_install" Value="secure.com.app.aasaan:id/spinner_new_modem_install" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_New_modem" Value="secure.com.app.aasaan:id/tv_modem_no" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_modem_picture" Value="secure.com.app.aasaan:id/tv_modem_picture" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_comm_port_seal" Value="secure.com.app.aasaan:id/tv_comm_port_seal" BYClass="Id" Index = "0"> </Object>
+   <Object Name="EditBox_mtr_body_seal" Value="secure.com.app.aasaan:id/tv_mtr_body_seal" BYClass="Id" Index = "0"> </Object>
+   <Object Name="btn_mtr_terminal_seal" Value="secure.com.app.aasaan:id/tv_mtr_terminal_seal" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_mtr_box_seal" Value="secure.com.app.aasaan:id/tv_mtr_box_seal" BYClass="Id" Index = "0"> </Object>
+   <Object Name="lst_service_cable_used" Value="secure.com.app.aasaan:id/spinner_service_cable_used" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Edt_ServiceCable" Value="secure.com.app.aasaan:id/actv_len_service_cable_used" BYClass="Id" Index = "0"> </Object>
+   <Object Name="lst_shunt_capacitor_install" Value="secure.com.app.aasaan:id/spinner_shunt_capacitor_install" BYClass="Id" Index = "0"> </Object>
+   <Object Name="lst_shunt_capacitor_working" Value="secure.com.app.aasaan:id/spinner_shunt_capacitor_working" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Edt_tension_clamp" Value="secure.com.app.aasaan:id/actv_tension_clamp" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Edt_ExistingPT_Number" Value="secure.com.app.aasaan:id/actv_PT_Number" BYClass="Id" Index = "0"> </Object>
+   <Object Name="lst_c_type_pole_brkt_used" Value="secure.com.app.aasaan:id/spinner_c_type_pole_brkt_used" BYClass="Id" Index = "0"> </Object>
+   <Object Name="lst_SupplyPhase" Value="secure.com.app.aasaan:id/spinner_supply_phase" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_JHook" Value="secure.com.app.aasaan:id/actv_j_hook" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_rect_loop" Value="secure.com.app.aasaan:id/actv_rect_loop" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_lt_dist_box_struct" Value="secure.com.app.aasaan:id/actv_lt_dist_box_struct" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_piercing_connector" Value="secure.com.app.aasaan:id/actv_piercing_connector" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_nigam_authority_post_name" Value="secure.com.app.aasaan:id/actv_nigam_authority_post_name" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_Remarks" Value="secure.com.app.aasaan:id/actv_remarks_desc" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_representative_name" Value="secure.com.app.aasaan:id/actv_representative_name" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_representative_sign" Value="secure.com.app.aasaan:id/tv_representative_sign" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_Save_Upload" Value="//android.widget.Button[@text='Save and Upload']" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_SaveLocal" Value="secure.com.app.aasaan:id/saveMIRequest_locally" BYClass="Id" Index = "0"> </Object>
+  </SelenuumObject>
+<SelenuumObject ParentName="MeterShifting" Value="" Type="Page">  
+   <Object Name="text_alter_reason_value" Value="secure.com.app.aasaan:id/tv_alter_reason_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_TaskStatus" Value="secure.com.app.aasaan:id/ms_spinner_task_status" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_status_reason" Value="secure.com.app.aasaan:id/spinner_disconnection_status" BYClass="Id" Index = "0"> </Object>    
+   <Object Name="Lst_reading_remark" Value="secure.com.app.aasaan:id/spinner_mbc_remarks" BYClass="Id" Index = "0"> </Object>    
+   <Object Name="edtbox_Meterserial_no" Value="secure.com.app.aasaan:id/meter_serial_number_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_meter_reading_type" Value="secure.com.app.aasaan:id/spinner_reading_type" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_reading_reason" Value="secure.com.app.aasaan:id/spinner_manual_reading_reason" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_cumulativeKwh" Value="secure.com.app.aasaan:id/cumulativeKwh_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_cumulativeKvah" Value="secure.com.app.aasaan:id/cumulativeKvah_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_cumulativeKva" Value="secure.com.app.aasaan:id/cumulativeKva_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_kwh_energy_export" Value="secure.com.app.aasaan:id/tv_kwh_energy_export" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_kwh_energy_export" Value="secure.com.app.aasaan:id/capture" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_meter_picture" Value="secure.com.app.aasaan:id/et_meter_picture" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_consumer_supply_phase" Value="secure.com.app.aasaan:id/spinner_consumer_supply_phase" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_pole_number" Value="secure.com.app.aasaan:id/pole_number_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_dt_number" Value="secure.com.app.aasaan:id/dt_number_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="dt_number" Value="secure.com.app.aasaan:id/spinner_meter_replaced" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_new_modem_install" Value="secure.com.app.aasaan:id/spinner_new_modem_install" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_New_modem" Value="secure.com.app.aasaan:id/tv_modem_no" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_modem_picture" Value="secure.com.app.aasaan:id/tv_modem_picture" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_comm_port_seal" Value="secure.com.app.aasaan:id/new_comm_port_seal_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="EditBox_mtr_body_seal" Value="secure.com.app.aasaan:id/new_mtr_body_seal_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="btn_mtr_terminal_seal" Value="secure.com.app.aasaan:id/new_mtr_terminal_seal_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_mtr_box_seal" Value="secure.com.app.aasaan:id/new_mtr_box_seal_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="lst_service_cable_used" Value="secure.com.app.aasaan:id/spinner_service_cable_type" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Edt_ServiceCable" Value="secure.com.app.aasaan:id/service_cable_length_used" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Edt_tension_clamp" Value="secure.com.app.aasaan:id/tension_clamp_quantity_used_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="lst_c_type_pole_brkt_used" Value="secure.com.app.aasaan:id/spinner_c_type_pole_brkt_used" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_JHook" Value="secure.com.app.aasaan:id/j_hook_type_qty_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_rect_loop" Value="secure.com.app.aasaan:id/rect_loop_qty_used_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_lt_dist_box_struct" Value="secure.com.app.aasaan:id/lt_dist_box_qty_used_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_piercing_connector" Value="secure.com.app.aasaan:id/piercing_connector_qty_used_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_lugs_used" Value="secure.com.app.aasaan:id/spinner_lugs_used" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_number_lugs_used" Value="secure.com.app.aasaan:id/number_lugs_used" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_lugs_used_type2" Value="secure.com.app.aasaan:id/spinner_lugs_used_type2" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_number_lugs_used_type2" Value="secure.com.app.aasaan:id/number_lugs_used_type2" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_nigam_authority_post_name" Value="secure.com.app.aasaan:id/et_nigam_authority_post_name" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_Remarks" Value="secure.com.app.aasaan:id/remarks_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_representative_name" Value="secure.com.app.aasaan:id/rep_name_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_representative_sign" Value="secure.com.app.aasaan:id/representative_sign" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_Save_Upload" Value="//android.widget.Button[@text='Save and Upload']" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_SaveLocal" Value="//android.widget.Button[@text='Save Local']" BYClass="Id" Index = "0"> </Object>
+  </SelenuumObject>
+<SelenuumObject ParentName="MeterReplacement_LE" Value="" Type="Page">  
+   <Object Name="Tab_Step1" Value="//android.widget.TextView[@text='Step1']" BYClass="xpath" Index = "0"> </Object> 
+   <Object Name="Tab_Step2" Value="//android.widget.TextView[@text='Step2']" BYClass="xpath" Index = "0"> </Object> 
+   <Object Name="Tab_Step3" Value="//android.widget.TextView[@text='Step3']" BYClass="xpath" Index = "0"> </Object> 
+   <Object Name="text_Enhancement_reason" Value="secure.com.app.aasaan:id/replacement_reason_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_TaskStatus" Value="secure.com.app.aasaan:id/spinner_task_status" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_status_reason" Value="secure.com.app.aasaan:id/spinner_status_reason" BYClass="Id" Index = "0"> </Object>    
+   <Object Name="edtbox_pole_number" Value="secure.com.app.aasaan:id/actv_pole_number" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_dt_code" Value="secure.com.app.aasaan:id/actv_dt_code" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_consumer_supply_phase" Value="secure.com.app.aasaan:id/spinner_supply_phase" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_Old_meter_number" Value="secure.com.app.aasaan:id/actv_meter_number" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_reading_remark" Value="secure.com.app.aasaan:id/spinner_mbc_remarks" BYClass="Id" Index = "0"> </Object>    
+   <Object Name="Lst_meter_reading_type" Value="secure.com.app.aasaan:id/spinner_reading_type" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_reading_reason" Value="secure.com.app.aasaan:id/spinner_manual_reading_reason" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_cumulativeKwh" Value="secure.com.app.aasaan:id/cumulativeKwh" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_FinalexportkWh_reading" Value="secure.com.app.aasaan:id/tv_kwh_energy_export" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_Finalexportkvah_reading" Value="secure.com.app.aasaan:id/tv_kvah_energy_export" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_Finalexportkva_reading" Value="secure.com.app.aasaan:id/tv_kva_demand_export" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_mdkva_export_datetime" Value="secure.com.app.aasaan:id/img_mdkva_export_datetime" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_kwh_energy_export" Value="secure.com.app.aasaan:id/capture" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_meter_picture" Value="secure.com.app.aasaan:id/tv_meter_picture" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_SaveOldData" Value="secure.com.app.aasaan:id/save" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_Meterserial_no" Value="secure.com.app.aasaan:id/tv_meter_bar_code" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_Read_Meter_Auto" Value="secure.com.app.aasaan:id/tv_Read_Meter_Auto" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_New_Meter_Pic" Value="secure.com.app.aasaan:id/tv_meter_picture3" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_new_modem_install" Value="secure.com.app.aasaan:id/spinner_new_modem_install" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_New_modem" Value="secure.com.app.aasaan:id/tv_modem_no" BYClass="Id" Index = "0"> </Object>
+   <Object Name="EditBox_comm_port_seal" Value="secure.com.app.aasaan:id/tv_comm_port_seal" BYClass="Id" Index = "0"> </Object>
+   <Object Name="EditBox_mtr_body_seal" Value="secure.com.app.aasaan:id/tv_mtr_body_seal" BYClass="Id" Index = "0"> </Object>
+   <Object Name="EditBox_mtr_terminal_seal" Value="secure.com.app.aasaan:id/tv_mtr_terminal_seal" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_mtr_box_seal" Value="secure.com.app.aasaan:id/tv_mtr_box_seal" BYClass="Id" Index = "0"> </Object>
+   <Object Name="EditBox_mtr_box_seal_Discom" Value="secure.com.app.aasaan:id/tv_mtr_box_seal1" BYClass="Id" Index = "0"> </Object>
+   <Object Name="EditBox_mu_panel_seal" Value="secure.com.app.aasaan:id/tv_mu_panel_seal" BYClass="Id" Index = "0"> </Object>
+   <Object Name="EditBox_mu_sec_terminal_seal" Value="secure.com.app.aasaan:id/tv_mu_sec_terminal_seal" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_lugs_used" Value="secure.com.app.aasaan:id/spinner_lugs_cabel_length" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_number_lugs_used" Value="secure.com.app.aasaan:id/actv_no_lungs_used" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_lugs_used_type2" Value="secure.com.app.aasaan:id/spinner_lugs_cabel_length_type2" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_number_lugs_used_type2" Value="secure.com.app.aasaan:id/actv_no_lungs_used_type2" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_ctrl_cbl_wire_used" Value="secure.com.app.aasaan:id/spinner_ctrl_cbl_wire_used" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_ctrl_cbl_wire_length" Value="secure.com.app.aasaan:id/actv_len_ctrl_cbl_wire" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Edt_ServiceCable" Value="secure.com.app.aasaan:id/service_cable_length_used" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Edt_tension_clamp" Value="secure.com.app.aasaan:id/tension_clamp_quantity_used_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="lst_c_type_pole_brkt_used" Value="secure.com.app.aasaan:id/spinner_c_type_pole_brkt_used" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_JHook" Value="secure.com.app.aasaan:id/j_hook_type_qty_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_rect_loop" Value="secure.com.app.aasaan:id/rect_loop_qty_used_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_lt_dist_box_struct" Value="secure.com.app.aasaan:id/lt_dist_box_qty_used_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_piercing_connector" Value="secure.com.app.aasaan:id/piercing_connector_qty_used_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_nigam_authority_post_name" Value="secure.com.app.aasaan:id/actv_nigam_authority_post_name" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_Remarks" Value="secure.com.app.aasaan:id/actv_remarks_desc" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_representative_name" Value="secure.com.app.aasaan:id/actv_representative_name" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_representative_sign" Value="secure.com.app.aasaan:id/tv_representative_sign" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_Save_Upload" Value="//android.widget.Button[@text='Save and Upload']" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_SaveLocal" Value="//android.widget.Button[@text='Save Local']" BYClass="Id" Index = "0"> </Object>
+  </SelenuumObject>
+<SelenuumObject ParentName="MeterReplacement_RE" Value="" Type="Page">  
+   <Object Name="Tab_Step1" Value="//android.widget.TextView[@text='Step1']" BYClass="xpath" Index = "0"> </Object> 
+   <Object Name="Tab_Step2" Value="//android.widget.TextView[@text='Step2']" BYClass="xpath" Index = "0"> </Object> 
+   <Object Name="Tab_Step3" Value="//android.widget.TextView[@text='Step3']" BYClass="xpath" Index = "0"> </Object> 
+   <Object Name="text_reduce_reason" Value="secure.com.app.aasaan:id/tv_alter_reason_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_TaskStatus" Value="secure.com.app.aasaan:id/spinner_task_status" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_status_reason" Value="secure.com.app.aasaan:id/spinner_disconnection_status" BYClass="Id" Index = "0"> </Object>    
+   <Object Name="edtbox_pole_number" Value="secure.com.app.aasaan:id/actv_pole_number" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_dt_code" Value="secure.com.app.aasaan:id/actv_dt_code" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_consumer_supply_phase" Value="secure.com.app.aasaan:id/spinner_supply_phase" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_Old_meter_number" Value="secure.com.app.aasaan:id/meter_serial_number_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_reading_remark" Value="secure.com.app.aasaan:id/spinner_mbc_remarks" BYClass="Id" Index = "0"> </Object>    
+   <Object Name="Lst_meter_reading_type" Value="secure.com.app.aasaan:id/spinner_reading_type" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_reading_reason" Value="secure.com.app.aasaan:id/spinner_manual_reading_reason" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_cumulativeKwh" Value="secure.com.app.aasaan:id/cumulativeKwh_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_cumulativeKvah" Value="secure.com.app.aasaan:id/cumulativeKVAh_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_cumulativeKva" Value="secure.com.app.aasaan:id/cumulativeKVA_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_meter_picture" Value="secure.com.app.aasaan:id/tv_meter_picture" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_connection_through" Value="secure.com.app.aasaan:id/spinner_connection_through" BYClass="Id" Index = "0"> </Object>    
+   <Object Name="edtbox_connection_through_code_value" Value="secure.com.app.aasaan:id/connection_through_code_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_Meterserial_no" Value="secure.com.app.aasaan:id/new_meter_serial_number" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_Read_Meter_Auto" Value="secure.com.app.aasaan:id/new_meter_reading_type_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_New_Meter_Pic" Value="secure.com.app.aasaan:id/new_meter_picture" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_new_modem_install" Value="secure.com.app.aasaan:id/spinner_new_modem_install" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_New_modem" Value="secure.com.app.aasaan:id/tv_modem_no" BYClass="Id" Index = "0"> </Object>
+   <Object Name="EditBox_comm_port_seal" Value="secure.com.app.aasaan:id/new_comm_port_seal_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="EditBox_mtr_body_seal" Value="secure.com.app.aasaan:id/new_mtr_body_seal_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="EditBox_mtr_terminal_seal" Value="secure.com.app.aasaan:id/new_mtr_terminal_seal_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_mtr_box_seal" Value="secure.com.app.aasaan:id/new_mtr_box_seal_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="EditBox_mtr_box_seal_Discom" Value="secure.com.app.aasaan:id/new_mtr_box_seal1" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_power_cable_used" Value="secure.com.app.aasaan:id/spinner_power_cable_used" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_length_power_cable_used" Value="secure.com.app.aasaan:id/length_power_cable_used" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_lugs_used" Value="secure.com.app.aasaan:id/spinner_lugs_used" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_number_lugs_used" Value="secure.com.app.aasaan:id/number_lugs_used" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_lugs_used_type2" Value="secure.com.app.aasaan:id/spinner_lugs_used_type2" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_number_lugs_used_type2" Value="secure.com.app.aasaan:id/number_lugs_used_type2" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_ctrl_cbl_wire_used" Value="secure.com.app.aasaan:id/spinner_control_cable_used" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_ctrl_cbl_wire_length" Value="secure.com.app.aasaan:id/control_cable_length_used" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Edt_ServiceCable" Value="secure.com.app.aasaan:id/service_cable_length_used" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Edt_tension_clamp" Value="secure.com.app.aasaan:id/tension_clamp_quantity_used_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="lst_c_type_pole_brkt_used" Value="secure.com.app.aasaan:id/spinner_c_type_pole_brkt_used" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_JHook" Value="secure.com.app.aasaan:id/j_hook_type_qty_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_rect_loop" Value="secure.com.app.aasaan:id/rect_loop_qty_used_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_lt_dist_box_struct" Value="secure.com.app.aasaan:id/lt_dist_box_qty_used_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_piercing_connector" Value="secure.com.app.aasaan:id/piercing_connector_qty_used_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_nigam_authority_post_name" Value="secure.com.app.aasaan:id/et_nigam_authority_post_name" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_Remarks" Value="secure.com.app.aasaan:id/remarks_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_representative_name" Value="secure.com.app.aasaan:id/rep_name_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_representative_sign" Value="secure.com.app.aasaan:id/representative_sign" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_Save_Upload" Value="//android.widget.Button[@text='Save and Upload']" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_SaveLocal" Value="//android.widget.Button[@text='Save Local']" BYClass="Id" Index = "0"> </Object>
+  </SelenuumObject>
+<SelenuumObject ParentName="TF" Value="" Type="Page">  
+   <Object Name="Lst_TaskStatus" Value="secure.com.app.aasaan:id/spinner_task_status" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_status_reason" Value="secure.com.app.aasaan:id/spinner_tfStatus" BYClass="Id" Index = "0"> </Object>    
+   <Object Name="edtbox_reserve_capacity" Value="secure.com.app.aasaan:id/actv_reserve_capacity" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_DT_code" Value="secure.com.app.aasaan:id/actv_dt_code" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_pole_code" Value="secure.com.app.aasaan:id/actv_pole_code" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_service_cable_length" Value="secure.com.app.aasaan:id/actv_service_cable_length" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_nearest_k_no" Value="secure.com.app.aasaan:id/actv_nearest_k_no" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_line_availability" Value="secure.com.app.aasaan:id/spinner_line_availability" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_augmentation_type" Value="secure.com.app.aasaan:id/spinner_augmentation_type" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_dt_loading_condition" Value="secure.com.app.aasaan:id/spinner_dt_loading_condition" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_sld_images" Value="secure.com.app.aasaan:id/tv_sld_images" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_wiring_cert_images" Value="secure.com.app.aasaan:id/tv_wiring_cert_images" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_desc" Value="secure.com.app.aasaan:id/actv_desc" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_representative_name" Value="secure.com.app.aasaan:id/actv_representative_name" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_representative_sign" Value="secure.com.app.aasaan:id/tv_representative_sign" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_Save_Upload" Value="secure.com.app.aasaan:id/saveTF" BYClass="Id" Index = "0"> </Object>
+   </SelenuumObject>
+<SelenuumObject ParentName="MeterReplacement" Value="" Type="Page">  
+   <Object Name="View_NewItems" Value="secure.com.app.aasaan:id/recycler_view" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_ConsumerInfo" Value="secure.com.app.aasaan:id/tv_consumerInfo" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Tab_Step1" Value="//android.widget.TextView[@text='Step1']" BYClass="xpath" Index = "0"> </Object> 
+   <Object Name="Tab_Step2" Value="//android.widget.TextView[@text='Step2']" BYClass="xpath" Index = "0"> </Object> 
+   <Object Name="Tab_Step3" Value="//android.widget.TextView[@text='Step3']" BYClass="xpath" Index = "0"> </Object> 
+   <Object Name="Lst_conn_through" Value="secure.com.app.aasaan:id/spinner_conn_through" BYClass="Id" Index = "0"> </Object>
+   <Object Name="EditBox_conn_through" Value="secure.com.app.aasaan:id/actv_conn_through_code" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_TaskStatus" Value="secure.com.app.aasaan:id/spinner_task_status" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_dt_type" Value="secure.com.app.aasaan:id/spinner_dt_type" BYClass="Id" Index = "0"> </Object>    
+   <Object Name="Lst_old_meter_installed" Value="secure.com.app.aasaan:id/spinner_old_meter_installed" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_meter_make" Value="secure.com.app.aasaan:id/spinner_meter_make" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_meter_mismatch" Value="secure.com.app.aasaan:id/spinner_ext_invent_mismatch" BYClass="Id" Index = "0"> </Object>
+   <Object Name="EditBox_OldmeterNo" Value="secure.com.app.aasaan:id/actv_meterNo" BYClass="Id" Index = "0"> </Object>    
+   <Object Name="EditBox_contractor_code" Value="secure.com.app.aasaan:id/actv_contractor_code" BYClass="Id" Index = "0"> </Object>    
+   <Object Name="Lst_reading_type" Value="secure.com.app.aasaan:id/spinner_reading_type" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_reading_reason" Value="secure.com.app.aasaan:id/spinner_reading_reason" BYClass="Id" Index = "0"> </Object>
+   <Object Name="text_previousKwh" Value="secure.com.app.aasaan:id/previousKwh" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_cumulativeKwh" Value="secure.com.app.aasaan:id/tilKwh" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_cumulativeKvah" Value="secure.com.app.aasaan:id/cumulativeKvah" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_cumulativeKva" Value="secure.com.app.aasaan:id/cumulativeKva" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Text_kva_old_date_time" Value="secure.com.app.aasaan:id/kva_old_date_time" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="Btn_kva_old_date_time" Value="secure.com.app.aasaan:id/img_kva_date_time" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="edtbox_kw" Value="secure.com.app.aasaan:id/kw" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="Text_kw_date_time" Value="secure.com.app.aasaan:id/kw_date_time" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="Btn_kw_date_time" Value="secure.com.app.aasaan:id/img_kw_date_time" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="edtbox_Voltage_rPhase" Value="secure.com.app.aasaan:id/actVoltage_rPhase" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="edtbox_Voltage_yPhase" Value="secure.com.app.aasaan:id/actVoltage_yPhase" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_Voltage_bPhase" Value="secure.com.app.aasaan:id/actVoltage_bPhase" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_Current_rPhase" Value="secure.com.app.aasaan:id/actCurrent_rPhase" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="edtbox_Current_yPhase" Value="secure.com.app.aasaan:id/actCurrent_yPhase" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_Current_bPhase" Value="secure.com.app.aasaan:id/actCurrent_bPhase" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_PF" Value="secure.com.app.aasaan:id/act_pf" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_OldMeter_picture" Value="secure.com.app.aasaan:id/capture" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_old_modem_installed" Value="secure.com.app.aasaan:id/spinner_old_modem_installed" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_modem_make" Value="secure.com.app.aasaan:id/spinner_modem_make" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_old_modem" Value="secure.com.app.aasaan:id/actv_old_modem" BYClass="Id" Index = "0"> </Object>
+   <Object Name="EditBox_newmeterNo" Value="secure.com.app.aasaan:id/tv_meter_bar_code" BYClass="Id" Index = "0"> </Object>
+   <Object Name="btnSealDetail" Value="secure.com.app.aasaan:id/btnSealDetail" BYClass="Id" Index = "0"> </Object>
+   <Object Name="btnAutoRead" Value="secure.com.app.aasaan:id/tv_Read_Meter_Auto" BYClass="Id" Index = "0"> </Object>
+
+   <Object Name="Lst_new_modem_install" Value="secure.com.app.aasaan:id/spinner_new_modem_install" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_New_modem" Value="secure.com.app.aasaan:id/tv_modem_no" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_Location" Value="secure.com.app.aasaan:id/img_native_map_app_launcher" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_Location_Save" Value=" secure.com.app.aasaan:id/txt_save" BYClass="Id" Index = "0"> </Object>
+   <Object Name="lst_MeterMismatached" Value="secure.com.app.aasaan:id/spinner_ext_invent_mismatch" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Edt_ExistingMU_Number" Value="secure.com.app.aasaan:id/til_existing_MU_num" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Edt_ExistingCT_Number" Value="secure.com.app.aasaan:id/actv_CT_Number" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Edt_ExistingPT_Number" Value="secure.com.app.aasaan:id/actv_PT_Number" BYClass="Id" Index = "0"> </Object>
+   <Object Name="lst_ExistingCT_Ratio" Value="secure.com.app.aasaan:id/spinner_existing_CT_ratio" BYClass="Id" Index = "0"> </Object>
+   <Object Name="lst_ExistingPT_Ratio" Value="secure.com.app.aasaan:id/spinner_existing_PT_ratio" BYClass="Id" Index = "0"> </Object>
+   <Object Name="lst_SupplyPhase" Value="secure.com.app.aasaan:id/spinner_supply_phase" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_DTCode" Value="secure.com.app.aasaan:id/actv_DT_code" BYClass="Id" Index = "0"> </Object>
+   <Object Name="lst_Mounting" Value="secure.com.app.aasaan:id/spinner_mounting" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_no_of_circuit" Value="secure.com.app.aasaan:id/actv_no_of_circuit" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_dt_capacity" Value="secure.com.app.aasaan:id/actv_dt_capacity" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_modem_picture" Value="secure.com.app.aasaan:id/tv_modem_picture" BYClass="Id" Index = "0"> </Object>
+   <Object Name="lst_new_ct_install" Value="secure.com.app.aasaan:id/spinner_new_ct_install" BYClass="Id" Index = "0"> </Object>
+   <Object Name="lst_ct_installation_type" Value="secure.com.app.aasaan:id/spinner_ct_installation_type" BYClass="Id" Index = "0"> </Object>
+   <Object Name="lst_ct_box_serialno" Value="secure.com.app.aasaan:id/actv_ct_box_serialno" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_new_ct_ratio" Value="secure.com.app.aasaan:id/spinner_new_ct_ratio" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="lst_new_ct_accr_class" Value="secure.com.app.aasaan:id/spinner_new_ct_accr_class" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_MI_SaveLocal" Value="secure.com.app.aasaan:id/saveMIRequest_locally" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_Remarks" Value="secure.com.app.aasaan:id/actv_remarks_desc" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_representative_name" Value="secure.com.app.aasaan:id/actv_representative_name" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_representative_sign" Value="secure.com.app.aasaan:id/tv_representative_sign" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_NewItemDetail" Value="secure.com.app.aasaan:id/btnNewItemDetail" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_SaveLocal" Value="secure.com.app.aasaan:id/saveMMRRequest_locally" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_Save_Upload" Value="secure.com.app.aasaan:id/saveMMRRequest" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_SaveItems" Value="secure.com.app.aasaan:id/btnSave" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_Discardchanges" Value="android:id/button2" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_desc" Value="secure.com.app.aasaan:id/actv_desc" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_SaveOldData" Value="secure.com.app.aasaan:id/save" BYClass="Id" Index = "0"> </Object>
+  </SelenuumObject>
+<SelenuumObject ParentName="MeterInstallation" Value="" Type="Page">  
+   <Object Name="Editbox_DTCode" Value="secure.com.app.aasaan:id/actv_DT_code" BYClass="Id" Index = "0"> </Object>
+   <Object Name="lst_Mounting" Value="secure.com.app.aasaan:id/spinner_mounting" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_no_of_circuit" Value="secure.com.app.aasaan:id/actv_no_of_circuit" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_dt_capacity" Value="secure.com.app.aasaan:id/actv_dt_capacity" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_modem_picture" Value="secure.com.app.aasaan:id/tv_modem_picture" BYClass="Id" Index = "0"> </Object>
+   <Object Name="lst_new_ct_install" Value="secure.com.app.aasaan:id/spinner_new_ct_install" BYClass="Id" Index = "0"> </Object>
+   <Object Name="lst_ct_installation_type" Value="secure.com.app.aasaan:id/spinner_ct_installation_type" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Edit_ct_box_serialno" Value="secure.com.app.aasaan:id/actv_ct_box_serialno" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_new_ct_ratio" Value="secure.com.app.aasaan:id/spinner_new_ct_ratio" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="lst_new_ct_accr_class" Value="secure.com.app.aasaan:id/spinner_new_ct_accr_class" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_Remarks" Value="secure.com.app.aasaan:id/actv_remarks_desc" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_representative_name" Value="secure.com.app.aasaan:id/actv_representative_name" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_representative_sign" Value="secure.com.app.aasaan:id/tv_representative_sign" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_NewItemDetail" Value="secure.com.app.aasaan:id/btnNewItemDetail" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_SaveLocal" Value="secure.com.app.aasaan:id/saveMIRequest_locally" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_Save_Upload" Value="secure.com.app.aasaan:id/saveMIRequest" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_SaveItems" Value="secure.com.app.aasaan:id/btnSave" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_Discardchanges" Value="android:id/button2" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_desc" Value="secure.com.app.aasaan:id/actv_desc" BYClass="Id" Index = "0"> </Object>
+  
+  </SelenuumObject>
+<SelenuumObject ParentName="MeterInstallation_Old" Value="" Type="Page">  
+   <Object Name="View_NewItems" Value="secure.com.app.aasaan:id/recycler_view" BYClass="Id" Index = "0"> </Object>
+   <Object Name="text_ConsumerInfo" Value="secure.com.app.aasaan:id/tv_consumerInfo" BYClass="Id" Index = "0"> </Object>
+   <Object Name="text_replacement_reason" Value="secure.com.app.aasaan:id/replacement_reason_value" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Tab_Step1" Value="//android.widget.TextView[@text='Step1']" BYClass="xpath" Index = "0"> </Object> 
+   <Object Name="Tab_Step2" Value="//android.widget.TextView[@text='Step2']" BYClass="xpath" Index = "0"> </Object> 
+   <Object Name="Tab_Step3" Value="//android.widget.TextView[@text='Step3']" BYClass="xpath" Index = "0"> </Object> 
+   <Object Name="Lst_TaskStatus" Value="secure.com.app.aasaan:id/spinner_task_status" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_status_reason" Value="secure.com.app.aasaan:id/spinner_status_reason" BYClass="Id" Index = "0"> </Object>   
+   <Object Name="lst_MeterMismatached" Value="secure.com.app.aasaan:id/spinner_ext_invent_mismatch" BYClass="Id" Index = "0"> </Object>    
+   <Object Name="EditBox_OldmeterNo" Value="secure.com.app.aasaan:id/actv_meterNo" BYClass="Id" Index = "0"> </Object>    
+   <Object Name="EditBox_old_modem" Value="secure.com.app.aasaan:id/actv_old_modem" BYClass="Id" Index = "0"> </Object>    
+   <Object Name="EditBox_OldPT_Number" Value="secure.com.app.aasaan:id/til_existing_PT_num" BYClass="Id" Index = "0"> </Object>    
+   <Object Name="Lst_existing_PT_ratio" Value="secure.com.app.aasaan:id/spinner_existing_PT_ratio" BYClass="Id" Index = "0"> </Object>
+   <Object Name="EditBox_CT_Number" Value="secure.com.app.aasaan:id/actv_CT_Number" BYClass="Id" Index = "0"> </Object>    
+   <Object Name="Lst_existing_CT_ratio" Value="secure.com.app.aasaan:id/spinner_existing_CT_ratio" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_mbc_remarks" Value="secure.com.app.aasaan:id/spinner_mbc_remarks" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_reading_type" Value="secure.com.app.aasaan:id/spinner_reading_type" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_reading_reason" Value="secure.com.app.aasaan:id/spinner_reading_reason" BYClass="Id" Index = "0"> </Object>
+   <Object Name="text_previousKwh" Value="secure.com.app.aasaan:id/previousKwh" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_cumulativeKwh" Value="secure.com.app.aasaan:id/cumulativeKwh" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_cumulativeKvah" Value="secure.com.app.aasaan:id/cumulativeKvah" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_cumulativeKva" Value="secure.com.app.aasaan:id/cumulativeKva" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edt_cableRemoved" Value="  secure.com.app.aasaan:id/cableRemovedATV" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="lst_SupplyPhase" Value="secure.com.app.aasaan:id/spinner_supply_phase" BYClass="Id" Index = "0"> </Object>
+   <Object Name="lst_conn_through_code" Value="secure.com.app.aasaan:id/spinner_conn_through" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_conn_through_code" Value="secure.com.app.aasaan:id/actv_conn_through_code" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_dt_code" Value="secure.com.app.aasaan:id/actv_DT_code" BYClass="Id" Index = "0"> </Object>
+   <Object Name="EditBox_newmeterNo" Value="secure.com.app.aasaan:id/tv_meter_bar_code" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_new_modem_install" Value="secure.com.app.aasaan:id/spinner_new_modem_install" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_New_modem" Value="secure.com.app.aasaan:id/tv_modem_no" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_mtr_mri_cable" Value="secure.com.app.aasaan:id/actv_mtr_mri_cable" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_mtr_modem_cable" Value="secure.com.app.aasaan:id/actv_mtr_modem_cable" BYClass="Id" Index = "0"> </Object>
+   <Object Name="btn_comm_port_seal" Value="secure.com.app.aasaan:id/tv_comm_port_seal" BYClass="Id" Index = "0"> </Object>     <Object Name="Btn_old_modem_installed" Value="secure.com.app.aasaan:id/spinner_old_modem_installed" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_mtr_body_seal" Value="secure.com.app.aasaan:id/tv_mtr_body_seal" BYClass="Id" Index = "0"> </Object>
+   <Object Name="btn_mtr_terminal_seal" Value="secure.com.app.aasaan:id/tv_mtr_terminal_seal" BYClass="Id" Index = "0"> </Object>
+   <Object Name="btn_mtr_box_seal" Value="secure.com.app.aasaan:id/tv_mtr_box_seal" BYClass="Id" Index = "0"> </Object>
+   <Object Name="editbox_mtr_box_seal_Discom" Value="secure.com.app.aasaan:id/tv_mtr_box_seal1" BYClass="Id" Index = "0"> </Object>
+   <Object Name="editbox_mu_panel_seal" Value="secure.com.app.aasaan:id/tv_mu_panel_seal" BYClass="Id" Index = "0"> </Object>
+   <Object Name="editbox_mu_sec_terminal_seal" Value="secure.com.app.aasaan:id/tv_mu_sec_terminal_seal" BYClass="Id" Index = "0"> </Object>
+   <Object Name="lst_service_cable_used" Value="secure.com.app.aasaan:id/spinner_service_cable_used" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Edt_ServiceCable" Value="secure.com.app.aasaan:id/actv_len_existing_cable_remove" BYClass="Id" Index = "0"> </Object>
+   <Object Name="lst_lugs_used_type" Value="secure.com.app.aasaan:id/spinner_lugs_cabel_length" BYClass="Id" Index = "0"> </Object>
+   <Object Name="editbox_no_lugs_used_type" Value="secure.com.app.aasaan:id/spinner_lugs_cabel_length_type2" BYClass="Id" Index = "0"> </Object>
+   <Object Name="lst_lugs_used_type2" Value="secure.com.app.aasaan:id/actv_no_lungs_used_type2" BYClass="Id" Index = "0"> </Object>
+   <Object Name="editbox_no_lugs_used_type2" Value="secure.com.app.aasaan:id/actv_no_lugs_used_type2" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Edt_tension_clamp" Value="secure.com.app.aasaan:id/actv_tension_clamp" BYClass="Id" Index = "0"> </Object>
+   <Object Name="lst_shunt_capacitor_install" Value="secure.com.app.aasaan:id/spinner_shunt_capacitor_install" BYClass="Id" Index = "0"> </Object>
+   <Object Name="lst_c_type_pole_brkt_used" Value="secure.com.app.aasaan:id/spinner_c_type_pole_brkt_used" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_JHook" Value="secure.com.app.aasaan:id/actv_j_hook" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_rect_loop" Value="secure.com.app.aasaan:id/actv_rect_loop" BYClass="Id" Index = "0"> </Object>
+   <Object Name="lst_lt_dist_box_struct" Value="secure.com.app.aasaan:id/spinner_lt_dist_box_struct" BYClass="Id" Index = "0"> </Object>
+   <Object Name="lst_lt_dist_box_cable_used" Value="secure.com.app.aasaan:id/spinner_lt_dist_box_cable_used" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_dist_box_cable_Type" Value="secure.com.app.aasaan:id/actv_lt_dist_box_cable" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_piercing_connector" Value="secure.com.app.aasaan:id/actv_piercing_connector" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_nigam_authority_post_name" Value="secure.com.app.aasaan:id/actv_nigam_authority_post_name" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_Remark" Value="secure.com.app.aasaan:id/actv_remarks_desc" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Editbox_DTCode" Value="secure.com.app.aasaan:id/actv_DT_code" BYClass="Id" Index = "0"> </Object>
+   <Object Name="lst_Mounting" Value="secure.com.app.aasaan:id/spinner_mounting" BYClass="Id" Index = "0"> </Object>   
+   <Object Name="lst_ctrl_cbl_wire_used" Value="secure.com.app.aasaan:id/spinner_ctrl_cbl_wire_used" BYClass="Id" Index = "0"> </Object>
+   <Object Name="editbox_length_ctrl_cbl_wire" Value="secure.com.app.aasaan:id/actv_len_ctrl_cbl_wire" BYClass="Id" Index = "0"> </Object>
+   <Object Name="lst_PowerCable_used" Value="secure.com.app.aasaan:id/spinner_service_cable_used" BYClass="Id" Index = "0"> </Object>
+   <Object Name="editbox_length_PowerCable" Value="secure.com.app.aasaan:id/actv_len_existing_power_cable_remove" BYClass="Id" Index = "0"> </Object>
+   <Object Name="lst_new_ct_install" Value="secure.com.app.aasaan:id/spinner_new_ct_install" BYClass="Id" Index = "0"> </Object>
+   <Object Name="lst_ct_installation_type" Value="secure.com.app.aasaan:id/spinner_ct_installation_type" BYClass="Id" Index = "0"> </Object>
+   <Object Name="lst_ct_box_serialno" Value="secure.com.app.aasaan:id/actv_ct_box_serialno" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_new_ct_ratio" Value="secure.com.app.aasaan:id/spinner_new_ct_ratio" BYClass="Id" Index = "0"> </Object>  
+   <Object Name="lst_new_ct_accr_class" Value="secure.com.app.aasaan:id/spinner_new_ct_accr_class" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Edt_new_ct_RPhase" Value="secure.com.app.aasaan:id/actv_new_ct_R" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Edt_new_ct_YPhase" Value="secure.com.app.aasaan:id/actv_new_ct_Y" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Edt_new_ct_BPhase" Value="secure.com.app.aasaan:id/actv_new_ct_B" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Edt_new_ct_NPhase" Value="secure.com.app.aasaan:id/actv_new_ct_Neutral" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_MI_SaveLocal" Value="secure.com.app.aasaan:id/saveMIRequest_locally" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_Remarks" Value="secure.com.app.aasaan:id/actv_remarks_desc" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_representative_name" Value="secure.com.app.aasaan:id/actv_representative_name" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_representative_sign" Value="secure.com.app.aasaan:id/tv_representative_sign" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_SaveLocal" Value="secure.com.app.aasaan:id/saveMMRRequest_locally" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_Save_Upload" Value="secure.com.app.aasaan:id/saveMMRRequest" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_SaveOldData" Value="secure.com.app.aasaan:id/save" BYClass="Id" Index = "0"> </Object>
+  </SelenuumObject>
+</SeleniumObjectsRO>

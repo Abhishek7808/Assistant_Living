@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<SeleniumObjectsOR>
+  <SeleniumObject ParentName="Page_Login" Value="" Type="Page" Scenario="User login">
+  <NavigationDetails Name="Navigatingtoname" SeqNo="2" Tabindex="0">
+      <Object LabelText="BUTTON" Type="BUTTON" SeqNo="0" DataType="TEXT">
+        <Properties LocatorType="ACCESSIBILITYID" Value="Open" Index="0" />
+        <Validation IsEnabled="True" Readonly="False" MaxLength="0" IsMandatory="True" IsPassword="False" />
+        <TestData DataType="Text" AllowChar="True" NotAllowchar="False" />
+        <ChildObjects />
+      </Object>
+	  <Object LabelText="BUTTON" Type="BUTTON" SeqNo="1" DataType="TEXT">
+        <Properties LocatorType="ID" Value="com.secure.beanbag.cool.dev:id/tv_settings" Index="0" />
+        <Validation IsEnabled="True" Readonly="False" MaxLength="0" IsMandatory="True" IsPassword="False" />
+        <TestData DataType="Text" AllowChar="True" NotAllowchar="False" />
+        <ChildObjects />
+      </Object>
+	  <Object LabelText="NameofUser" Type="INPUT" SeqNo="2" DataType="TEXT">
+        <Properties LocatorType="ID" Value="com.secure.beanbag.cool.dev:id/userName" Index="0" />
+        <Validation IsEnabled="True" Readonly="False" MaxLength="0" IsMandatory="True" IsPassword="False" />
+        <TestData DataType="Text" AllowChar="True" NotAllowchar="False" />
+        <ChildObjects />
+      </Object>
+	  <Object LabelText="Savebtn" Type="BUTTON" SeqNo="3" DataType="TEXT">
+        <Properties LocatorType="ID" Value="com.secure.beanbag.cool.dev:id/editBtn_name" Index="0" />
+        <Validation IsEnabled="True" Readonly="False" MaxLength="0" IsMandatory="True" IsPassword="False" />
+        <TestData DataType="Text" AllowChar="True" NotAllowchar="False" />
+        <ChildObjects />
+      </Object>
+	  <Object LabelText="Okbtn" Type="BUTTON" SeqNo="4" DataType="TEXT">
+        <Properties LocatorType="ID" Value="android:id/button1" Index="0" />
+        <Validation IsEnabled="True" Readonly="False" MaxLength="0" IsMandatory="True" IsPassword="False" />
+        <TestData DataType="Text" AllowChar="True" NotAllowchar="False" />
+        <ChildObjects />
+      </Object>
+	  <Object LabelText="BackBtn" Type="BUTTON" SeqNo="5" DataType="TEXT">
+        <Properties LocatorType="XPATH" Value="//android.widget.ImageButton[@content-desc='Navigate up']" Index="0" />
+        <Validation IsEnabled="True" Readonly="False" MaxLength="0" IsMandatory="True" IsPassword="False" />
+        <TestData DataType="Text" AllowChar="True" NotAllowchar="False" />
+        <ChildObjects />
+      </Object>
+    </NavigationDetails>
+
+	<NavigationDetails Name="Logout" SeqNo="3" Tabindex="0">
+      <Object LabelText="MenuBtn" Type="BUTTON" SeqNo="0" DataType="TEXT">
+        <Properties LocatorType="ACCESSIBILITYID" Value="Open" Index="0" />
+        <Validation IsEnabled="True" Readonly="False" MaxLength="0" IsMandatory="True" IsPassword="False" />
+        <TestData DataType="Text" AllowChar="True" NotAllowchar="False" />
+        <ChildObjects />
+      </Object>
+	  <Object LabelText="SignoutBtn" Type="BUTTON" SeqNo="1" DataType="TEXT">
+        <Properties LocatorType="ID" Value="com.secure.beanbag.cool.dev:id/design_menu_item_text" Index="7" />
+        <Validation IsEnabled="True" Readonly="False" MaxLength="0" IsMandatory="True" IsPassword="False" />
+        <TestData DataType="Text" AllowChar="True" NotAllowchar="False" />
+        <ChildObjects />
+      </Object>
+    </NavigationDetails>
+  <UserInputFormDetail Name="UFD_LOGIN" SeqNo="0" Tabindex="0">
+      <Object LabelText="User name" Type="INPUT" SeqNo="0" DataType="TEXT">
+        <Properties LocatorType="ID" Value="com.secure.beanbag.cool.dev:id/email" Index="0" />
+        <Validation IsEnabled="True" Readonly="False" MaxLength="0" IsMandatory="True" IsPassword="False" />
+        <TestData DataType="Text" AllowChar="True" NotAllowchar="False" />
+        <ChildObjects />
+      </Object>
+      <Object LabelText="Password" Type="INPUT" SeqNo="0" DataType="TEXT">
+        <Properties LocatorType="ID" Value="com.secure.beanbag.cool.dev:id/password" Index="0" />
+        <Validation IsEnabled="True" Readonly="False" MaxLength="0" IsMandatory="True" IsPassword="True" />
+        <TestData DataType="Text" AllowChar="True" NotAllowchar="False" />
+        <ChildObjects />
+      </Object>
+    </UserInputFormDetail>
+	<UserInputFormDetail Name="UFD_LOGIN1" SeqNo="3" Tabindex="0">
+      <Object LabelText="NameofUser" Type="INPUT" SeqNo="0" DataType="TEXT">
+        <Properties LocatorType="XPATH" Value="//*[@id='fullname']" Index="0" />
+        <Validation IsEnabled="True" Readonly="False" MaxLength="0" IsMandatory="True" IsPassword="False" />
+        <TestData DataType="Text" AllowChar="True" NotAllowchar="False" />
+        <ChildObjects />
+      </Object>
+    </UserInputFormDetail>
+    <SavingControls SeqNo="1" Tabindex="0" Name="SC_LOGIN">
+      <Object LabelText="Login" Type="BUTTON" SeqNo="0" DataType="TEXT">
+        <Properties LocatorType="ID" Value="com.secure.beanbag.cool.dev:id/btnSignIn" Index="0" />
+        <Validation IsEnabled="True" Readonly="True" MaxLength="0" IsMandatory="True" IsPassword="True" />
+        <TestData DataType="None" AllowChar="False" NotAllowchar="False" />
+        <ChildObjects />
+      </Object>
+    </SavingControls>
+	<SavingControls SeqNo="4" Tabindex="0" Name="SC_LOGIN1">
+      <Object LabelText="Login" Type="BUTTON" SeqNo="0" DataType="TEXT">
+        <Properties LocatorType="XPATH" Value="//*[@id='formName']/div/div/a" Index="0" />
+        <Validation IsEnabled="True" Readonly="True" MaxLength="0" IsMandatory="True" IsPassword="True" />
+        <TestData DataType="None" AllowChar="False" NotAllowchar="False" />
+        <ChildObjects />
+      </Object>
+    </SavingControls>
+	<SavingControls SeqNo="5" Tabindex="0" Name="SC_LOGIN2">
+      <Object LabelText="Login" Type="BUTTON" SeqNo="0" DataType="TEXT">
+        <Properties LocatorType="XPATH" Value="//*[text()='OK']" Index="0" />
+        <Validation IsEnabled="True" Readonly="True" MaxLength="0" IsMandatory="True" IsPassword="True" />
+        <TestData DataType="None" AllowChar="False" NotAllowchar="False" />
+        <ChildObjects />
+      </Object>
+    </SavingControls>
+    <NavigationDetails Name="NVD_METER DEFINITION_1" SeqNo="2">
+      <Object LabelText="Reset home" Type="CARD" SeqNo="0" DataType="TEXT">
+        <Properties LocatorType="XPATH" Value="//*[@id='div-account']" Index="0" />
+        <Validation IsEnabled="True" Readonly="False" MaxLength="0" IsMandatory="True" IsPassword="False" />
+        <TestData DataType="None" AllowChar="False" NotAllowchar="False" />
+        <ChildObjects />
+      </Object>
+      <Object LabelText="Home page" Type="CARD" SeqNo="0" DataType="TEXT">
+        <Properties LocatorType="XPATH" Value="//*[@id='div-profile']/ul/li[2]/a" Index="0" />
+        <Validation IsEnabled="True" Readonly="False" MaxLength="0" IsMandatory="True" IsPassword="False" />
+        <TestData DataType="None" AllowChar="False" NotAllowchar="False" />
+        <ChildObjects />
+      </Object>
+    </NavigationDetails>
+	<NavigationDetails Name="NVD_logout" SeqNo="9">
+      <Object LabelText="Reset home" Type="CARD" SeqNo="0" DataType="TEXT">
+        <Properties LocatorType="XPATH" Value="//*[@id='div-account']" Index="0" />
+        <Validation IsEnabled="True" Readonly="False" MaxLength="0" IsMandatory="True" IsPassword="False" />
+        <TestData DataType="None" AllowChar="False" NotAllowchar="False" />
+        <ChildObjects />
+      </Object>
+      <Object LabelText="Home page" Type="CARD" SeqNo="1" DataType="TEXT">
+        <Properties LocatorType="XPATH" Value="//a[contains(text(),'Sign out')]" Index="0" />
+        <Validation IsEnabled="True" Readonly="False" MaxLength="0" IsMandatory="True" IsPassword="False" />
+        <TestData DataType="None" AllowChar="False" NotAllowchar="False" />
+        <ChildObjects />
+      </Object>
+    </NavigationDetails>
+	<NavigationDetails Name="NVD_METER DEFINITION_2" SeqNo="9">
+      <Object LabelText="Reset home" Type="CARD" SeqNo="0" DataType="TEXT">
+        <Properties LocatorType="XPATH" Value="//*[@id='div-account']" Index="0" />
+        <Validation IsEnabled="True" Readonly="False" MaxLength="0" IsMandatory="True" IsPassword="False" />
+        <TestData DataType="None" AllowChar="False" NotAllowchar="False" />
+        <ChildObjects />
+      </Object>
+      <Object LabelText="Home page" Type="CARD" SeqNo="0" DataType="TEXT">
+        <Properties LocatorType="XPATH" Value="//*[@id='div-profile']/ul/li[3]" Index="0" />
+        <Validation IsEnabled="True" Readonly="False" MaxLength="0" IsMandatory="True" IsPassword="False" />
+        <TestData DataType="None" AllowChar="False" NotAllowchar="False" />
+        <ChildObjects />
+      </Object>
+    </NavigationDetails>
+    <VerificationControls SeqNo="0" Name="VC_PAGE_LOGIN_1" TabIndex="0">
+      <Object LabelText="Tag" Type="TEXT" SeqNo="0" DataType="TEXT">
+        <Properties LocatorType="TAGNAME" Value="Title" Index="0" />
+        <Validation IsEnabled="True" Readonly="True" MaxLength="0" IsMandatory="True" IsPassword="False" />
+        <TestData DataType="Text" AllowChar="False" NotAllowchar="False" />
+        <ChildObjects />
+      </Object>
+    </VerificationControls>
+  </SeleniumObject>
+</SeleniumObjectsOR>

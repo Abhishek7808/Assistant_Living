@@ -1,0 +1,612 @@
+<?xml version="1.0"?>
+<SeleniumObjectsRO>
+<SelenuumObject ParentName="Page_FFS" Value="" Type="Page">
+   <Object Name="edtbox_Username" Value="txtUsername" BYClass="Id" Index = "0" >  </Object>  
+   <Object Name="edtbox_Password" Value="txtPassword" BYClass="Id" Index = "0" >  </Object>  
+   <Object Name="btn_Login" Value="button" BYClass="TAGNAME" Index = "0" >  </Object>  
+   <Object Name="btn_LogOut" Value="btnlogout" BYClass="ID" Index = "0" >  </Object>
+   <Object Name="btnsaveuser" Value="btnsaveuser" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="btncancel" Value="btncancel" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Label_Count" Value="//span[@class='divtotaltrcount']" BYClass="xpath" Index = "0"> </Object>
+   <Object Name="Label_username" Value="spnusername" BYClass="id" Index = "0"> </Object>
+   <Object Name="Label_Projectname" Value="spnprojectname" BYClass="id" Index = "0"> </Object>    
+   <Object Name="Tab_Rejected" Value="tabrejected" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Tab_Pending" Value="tabpending" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Tab_Inprogress" Value="tabinprogress" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Tab_Hold" Value="tabhold" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Tab_Complete" Value="tabcompleted" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Tab_TaskSummary" Value="tabtasksummary" BYClass="ID" Index = "0"> </Object>
+   
+   <Object Name="Grid_ProjectSelect" Value="MasterList" BYClass="ID" Index = "0"> </Object>    
+ </SelenuumObject>
+ <SelenuumObject ParentName="Page_ProjectCreation" Value="" Type="Page">
+   <Object Name="Lnk_CreateProjects" Value="//*[@id='automenu']/div[1]/div/div[2]/div/div[1]/a" BYClass="XPATH" Index = "0"> </Object>  
+   <Object Name="edtbox_projectno" Value="txtprojectno" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="edtbox_purchaseorderno" Value="txtpurchaseorderno" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="edtbox_purchaseorderdate" Value="txtpurchaseorderdate" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="edtbox_customername" Value="txtcustomername" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="edtbox_projectname" Value="txtprojectname" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="edtbox_description" Value="txtdescription" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="edtbox_startdate" Value="txtstartdate" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="edtbox_txtenddate" Value="txtenddate" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Lst_userstatus" Value="ddluserstatus" BYClass="ID" Index = "0"> </Object>     
+   <Object Name="txtsearch" Value="txtsearch" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Grid_Projects" Value="MasterList1" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Grid_SelectProject" Value="MasterListHTML" BYClass="ID" Index = "0"> </Object> 
+    <Object Name="btn_metermake" Value="ddlMultiselect" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="Lst_metermake" Value="ddlmakeType" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="edtbox_utilitycode" Value="utilitycode" BYClass="ID" Index = "0"> </Object>
+   <Object Name="edtbox_spvcode" Value="spvcode" BYClass="ID" Index = "0"> </Object>
+ </SelenuumObject>
+  <SelenuumObject ParentName="Page_GAA" Value="" Type="Page">
+   <Object Name="edtbox_GAAname" Value="txtGAAlevelname" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Lst_GAAlevel" Value="ddlgaalevel" BYClass="ID" Index = "0"> </Object>  
+    <Object Name="edtbox_GAACode" Value="txtGAAcode" BYClass="ID" Index = "0"> </Object>     
+  <Object Name="Lst_parentgaa" Value="ddlparentgaa" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="btn_new" Value="btnsubmit" BYClass="ID" Index = "0"> </Object>      
+ </SelenuumObject> 
+   <SelenuumObject ParentName="Page_GAALevel" Value="" Type="Page">
+   <Object Name="edtbox_GAAname" Value="txtGAAname" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Lst_Parentgaa" Value="ddlparentgaa" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="btn_new" Value="btnsaveuser" BYClass="ID" Index = "0"> </Object>    
+   <Object Name="Grid_GAALevel" Value="gridgaamaster" BYClass="ID" Index = "0"> </Object>      
+ </SelenuumObject> 
+
+   <SelenuumObject ParentName="Page_MangeGAADetails" Value="" Type="Page">
+   <Object Name="Lst_GAALevel" Value="ddlgaalevel" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Lst_Parentgaa" Value="ddlparentgaa" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Editbox_GAALevelName" Value="txtGAAlevelname" BYClass="ID" Index = "0"> </Object>    
+   <Object Name="btn_new" Value="btnsubmit" BYClass="ID" Index = "0"> </Object>    
+   <Object Name="Grid_GAADetails" Value="gridmanagegaadata" BYClass="ID" Index = "0"> </Object>     
+ </SelenuumObject> 
+ <SelenuumObject ParentName="Page_Assignjob" Value="" Type="Page">
+  
+   <Object Name="Lst_servicename" Value="ddlservicename" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Lst_JobType" Value="ddljobtype" BYClass="ID" Index = "0"> </Object>      
+   <Object Name="Btn_View" Value="btnview" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Tab_UnassigedJob" Value=" //*[@id='tabunassign']" BYClass="xpath" Index = "0"> </Object>   
+   <Object Name="Text_Search" Value="txtsearch2" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Grid_Jobs" Value="jsGridA" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Grid_Users" Value="MasterList1" BYClass="ID" Index = "0"> </Object>  
+ </SelenuumObject>
+ <SelenuumObject ParentName="Page_Assignjob_Priority" Value="" Type="Page">
+  
+   <Object Name="Lst_servicename" Value="ddlpriorityservicename" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Lst_JobType" Value="ddlpriorityjobtype" BYClass="ID" Index = "0"> </Object>      
+   <Object Name="Btn_View" Value="btnvpriorityiew" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Tab_UnassigedJob" Value="tabpriorityUnassignedjob" BYClass="id" Index = "0"> </Object>   
+   <Object Name="Text_Search" Value="txtsearch5" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Grid_Jobs" Value="jsGridAP" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Grid_Users" Value="MasterList1" BYClass="ID" Index = "0"> </Object>  
+ </SelenuumObject>
+ 
+  <SelenuumObject ParentName="Page_Globalparameters" Value="" Type="Page">
+  
+   <Object Name="Lst_Category" Value="ddlcategory" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="edtbox_Codename" Value="txtcodename" BYClass="ID" Index = "0"> </Object>      
+   <Object Name="Btn_AddNew" Value="btnsubmit" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Lst_Parentcode" Value="ddlparentcode" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Text_Search" Value="txtsearch" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Grid_Globalparameters" Value="gridcodemaster" BYClass="ID" Index = "0"> </Object>  
+
+ </SelenuumObject>
+  
+  <SelenuumObject ParentName="Page_Managejob" Value="" Type="Page">
+  
+  
+   <Object Name="Lst_servicename" Value="ddlservicename" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="edtbox_Jobtypename" Value="txtactivitytypename" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Lst_activitytype" Value="ddlactivitytype" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="edtbox_jobtypecode" Value="txtjobtypecode" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Lst_Servicelevelagreement_D" Value="//*[@dbfield='Sladays']" BYClass="Xpath" Index = "0"> </Object>
+   <Object Name="Lst_Servicelevelagreement_H" Value="//*[@dbfield='Slahour']" BYClass="Xpath" Index = "0"> </Object>   
+   <Object Name="Lst_Servicelevelagreement_M" Value="//*[@dbfield='Slamin']" BYClass="Xpath" Index = "0"> </Object>   
+   <Object Name="Lst_ServicelevelTarget_D" Value="//*[@dbfield='Targetdays']" BYClass="Xpath" Index = "0"> </Object>  
+   <Object Name="Lst_ServicelevelTarget_H" Value="//*[@dbfield='Targethour']" BYClass="Xpath" Index = "0"> </Object>  
+   <Object Name="Lst_ServicelevelTarget_M" Value="//*[@dbfield='Targetmin']" BYClass="Xpath" Index = "0"> </Object> 	
+   <Object Name="Btn_New" Value="btnsubmit" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Lst_Systemjob" Value="ddlJobType" BYClass="ID" Index = "0"> </Object>   
+
+  
+   <Object Name="Btn_DefinetoolKit" Value="btnsubmit" BYClass="ID" Index = "1"> </Object>   
+   <Object Name="txtsearch" Value="txtsearch" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Grid_Jobs" Value="MasterListRadio1" BYClass="ID" Index = "0"> </Object>  
+ </SelenuumObject>
+   <SelenuumObject ParentName="Page_CreateJob" Value="" Type="Page">
+   
+   
+   <Object Name="Lst_service" Value="ddlservice" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Lst_GAA" Value="ddlgaa" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Lst_job" Value="ddljob" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="edtbox_jobStartDate" Value="txtstartdate" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="edtbox_jobEndDate" Value="txtenddate" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="txtquantity" Value="txtquantity" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="edtbox_txtdateofeffect" Value="txtdateofeffect" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="Lst_activity" Value="ddlactivity" BYClass="ID" Index = "0"> </Object>    
+   <Object Name="Lst_Category" Value="ddlStkCat" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Lst_Items" Value="ddlitem" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Btn_Close" Value="btnrequestcoldetail" BYClass="ID" Index = "1"> </Object>  
+   <Object Name="Btn_New" Value="btnsaveuser" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="txtsearch" Value="txtsearch" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Grid_JobsList" Value="gridjobtypemaster" BYClass="ID" Index = "0"> </Object>  
+ </SelenuumObject>
+
+   <SelenuumObject ParentName="Page_ActivityMaster" Value="" Type="Page">
+    <Object Name="Lst_supplyvoltage" Value="ddlMultiselect" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Lst_Activityname" Value="txtactivityname" BYClass="ID" Index = "0"> </Object>  
+  <Object Name="edtbox_sanctionloadFrom" Value="txtfromsanctionload" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="edtbox_sanctionloadTo" Value="txttosanctionload" BYClass="ID" Index = "0"> </Object>    
+   <Object Name="Btn_New" Value="btnsubmit" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="txtsearch" Value="txtsearch" BYClass="ID" Index = "0"> </Object>  
+  <Object Name="Lst_issystemlevel" Value="ddsYSTEMactivitytype" BYClass="ID" Index = "0"> </Object>  
+    <Object Name="edtbox_Activity" Value="gridgaamaster" BYClass="ID" Index = "0"> </Object>  
+	<Object Name="Grid_ActivityMaster" Value="MasterList1" BYClass="ID" Index = "0"> </Object>  
+ </SelenuumObject>
+   <SelenuumObject ParentName="Page_Role" Value="" Type="Page">
+   <Object Name="Lst_hierarchyid" Value="ddlhierarchyid" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="edtbox_role" Value="txtrole" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Btn_New" Value="btnrolesubmit" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="txtsearch" Value="txtsearch" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Grid_Role" Value="gridrolemaster" BYClass="ID" Index = "0"> </Object>  
+ </SelenuumObject>
+ 
+   <SelenuumObject ParentName="Page_Permission" Value="" Type="Page">
+   <Object Name="Lst_role" Value="ddlrole" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Btn_Save" Value="btnSavepermission" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Btn_View" Value="btngetpermission" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="txtsearch" Value="txtsearch" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Grid_PermissionList" Value="MasterList" BYClass="ID" Index = "0"> </Object>  
+    </SelenuumObject>
+ <SelenuumObject ParentName="Page_MassComplainCloser" Value="" Type="Page">
+   <Object Name="Lst_Service" Value="ddlMCCservice" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Lst_Jobtypes" Value="ddlMCCjobtype" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Lst_JobStatus" Value="ddlMCC_Changestatus" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Lst_Reason" Value="ddlMCC_comReason" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Lst_HoldReason" Value="ddlMCC_HoldReason" BYClass="ID" Index = "0"> </Object> 
+    <Object Name="txtRemark" Value="txtMCCRemark" BYClass="ID" Index = "0"> </Object>     
+    <Object Name="Lst_JobtStatus" Value="ddlJobStatus" BYClass="ID" Index = "0"> </Object>  
+	<Object Name="TxtFromDate" Value="txtfrmdate" BYClass="ID" Index = "0"> </Object>  
+	<Object Name="TxtEndDate" Value="txttodate" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Btn_View" Value="btnviewMassComplaintData" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="Btn_Save" Value="btnSubmitMassComplaintData" BYClass="ID" Index = "0"> </Object>     
+   <Object Name="txtsearch" Value="txtsearch" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Grid_JobsList" Value="MasterList0" BYClass="ID" Index = "0"> </Object>  
+    </SelenuumObject>
+   <SelenuumObject ParentName="Manage_service" Value="" Type="Page">
+    <Object Name="edtbox__servicename" Value="txtservicename" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="edtbox_txtservicecode" Value="txtservicecode" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="edtbox_txtservicepriority" Value="txtservicepriority" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="Lst_runfromffs" Value="ddlJobSorce" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Btn_New" Value="btnsubmit" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="txtsearch" Value="txtsearch" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Grid_ServiceList" Value="gridservicemaster" BYClass="ID" Index = "0"> </Object> 
+ </SelenuumObject>
+   <SelenuumObject ParentName="Page_Users" Value="" Type="Page">
+   <Object Name="edtbox_username" Value="txtusername" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="edtbox_employename" Value="txtemployename" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Lst_role" Value="ddlrole" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="edtbox_emailid" Value="txtemailid" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Lst_manager" Value="ddlmanager" BYClass="ID" Index = "0"> </Object>
+   <Object Name="edtbox_mobileno" Value="txtmobileno" BYClass="ID" Index = "0"> </Object>   
+    <Object Name="edtbox_Password" Value="txtpass" BYClass="ID" Index = "0"> </Object>   
+    <Object Name="edtbox_ConfimPassword" Value="txtcpassword" BYClass="ID" Index = "0"> </Object> 
+	<Object Name="btn_GAA" Value="btnbtn" BYClass="ID" Index = "0"> </Object> 
+	<Object Name="Lst_graphadminarea" Value="ddlgraphadminarea" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Lst_userstatus" Value="ddluserstatus" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Btn_Save" Value="btnsaveuser" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="txtsearch" Value="txtsearch" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Grid_UserList" Value="MasterList1" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Lst_Services" Value="ddlMultiselect" BYClass="ID" Index = "0"> </Object>   
+  
+ </SelenuumObject>
+
+   <SelenuumObject ParentName="Page_FieldUsers" Value="" Type="Page">
+   <Object Name="edtbox_username" Value="txtusername" BYClass="ID" Index = "0"> </Object>  
+  <Object Name="edtbox_Password" Value="txtpass" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="edtbox_ConfimPassword" Value="txtcpassword" BYClass="ID" Index = "0"> </Object>    
+   <Object Name="edtbox_employename" Value="txtemployename" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Lst_manager" Value="ddlmanager" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="edtbox_address1" Value="txtaddress1" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="edtbox_address2" Value="txtaddress2" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="Lst_manager" Value="ddlmanager" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Btn_jobtypeskill" Value="//*[@id='btnbtn']" BYClass="Xpath" Index = "0"> </Object>
+   <Object Name="Btn_Activity" Value="//button[@id='ddlMultiselect']" BYClass="Xpath" Index = "1"> </Object>
+   <Object Name="edtbox_mobileno" Value="txtmobileno" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="lst_ftpconfig" Value="ddlftpconfig" BYClass="ID" Index = "0"> </Object>    
+   <Object Name="Lst_Idproof" Value="ddlidproof" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="txt_idproofnumber" Value="txtidproofnumber" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Btn_Save" Value="btnsaveuser" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Btn_File" Value="imgfile1" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="txtsearch" Value="txtsearch" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Grid_FieldUserList" Value="gridusermanagefield" BYClass="ID" Index = "0"> </Object>  
+ </SelenuumObject>
+    <SelenuumObject ParentName="Page_Category" Value="" Type="Page">
+   <Object Name="edtbox_CategoryName" Value="txtcatname" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Lst_ParentCat" Value="ddlparentcat" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="btn_new" Value="btnsubmit" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="Grid_Category" Value="MasterList1" BYClass="ID" Index = "0"> </Object>   
+ </SelenuumObject> 
+    <SelenuumObject ParentName="Page_FTP" Value="" Type="Page">
+   <Object Name="edtbox_FTPSiteName" Value="txtftpsitename" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Lst_FilePro" Value="ddlfileprotocol" BYClass="ID" Index = "0"> </Object>
+	<Object Name="edtbox_HostURL" Value="txthosturl" BYClass="ID" Index = "0"> </Object>   
+	<Object Name="edtbox_FTPPort" Value="txtftpport" BYClass="ID" Index = "0"> </Object>   
+	<Object Name="edtbox_FTPDir" Value="txtftpdir" BYClass="ID" Index = "0"> </Object>   
+	<Object Name="edtbox_Username" Value="txtusername" BYClass="ID" Index = "0"> </Object>  
+    <Object Name="edtbox_FTPPassword" Value="txtftppassword" BYClass="ID" Index = "0"> </Object>      
+    <Object Name="btn_new" Value="btnsave" BYClass="ID" Index = "0"> </Object> 
+    <Object Name="Grid_FTP" Value="MasterList1" BYClass="ID" Index = "0"> </Object>   
+ </SelenuumObject> 
+   <SelenuumObject ParentName="Page_CreateStore" Value="" Type="Page">
+    <Object Name="edtbox_storename" Value="txtstorename" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="edtbox_Address1" Value="txtAd1" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="edtbox_Address2" Value="txtAd2" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Btn_GAA" Value="btnbtn" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="edtbox_Phone" Value="txtphone" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="edtbox_Lat" Value="txtLat" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="edtbox_Log" Value="txtLong" BYClass="ID" Index = "0"> </Object>       
+   <Object Name="Btn_New" Value="btnsaveuser" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="txtsearch" Value="txtsearch" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Grid_Store" Value="gridStoredetail" BYClass="ID" Index = "0"> </Object>    
+   </SelenuumObject> 
+   <SelenuumObject ParentName="Page_CreateItemMaster" Value="" Type="Page">
+   <Object Name="Lnk_CreateItem" Value="//*[@id='automenu']/div[3]/div/div[2]/div/div[3]/a" BYClass="XPATH" Index = "0"> </Object> 
+   <Object Name="Tab_ItemMaster" Value="tabitemmaster" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Lst_Itemmaster" Value="ddlitemmaster" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Btn_Addnewitem" Value="//*[@id='btnadditem']" BYClass="xpath" Index = "0"> </Object>   
+   <Object Name="Lst_serialize" Value="ddlserialize" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="edtbox_Itemname" Value="txtitemname" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="edtbox_Subitemname" Value="txtSubitemname" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Lst_Unitofmeasure" Value="ddlunitofmeasure" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Lst_PMR" Value="ddlpmr" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="Lst_Itemclass" Value="ddlitemclass" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Lst_iteminventoriable" Value="ddliteminventoriable" BYClass="ID" Index = "0"> </Object>
+   <Object Name="edtbox_Discription" Value="txtdescription" BYClass="ID" Index = "0"> </Object>
+   <Object Name="edtbox_Additionaldiscription" Value="txtAdditionalSpec" BYClass="ID" Index = "0"> </Object>	
+   <!-- <Object Name="Edt_Itemcode" Value="txtitemcode" BYClass="ID" Index = "0"> </Object> -->
+   <Object Name="Btn_New" Value="btnsaveitemissue" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="txtsearch" Value="txtsearch" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Grid_ItemsList" Value="griditemmaster" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="edtbox_Item" Value="griditemmaster" BYClass="ID" Index = "0"> </Object>
+</SelenuumObject>
+   <SelenuumObject ParentName="Page_CreateIteminProject" Value="" Type="Page">
+   <Object Name="Btn_additeminproject" Value="tabIteminproject" BYClass="ID" Index = "0"> </Object>  
+    <Object Name="Btn_selecttemplate" Value="ddlitemtemplatename" BYClass="ID" Index = "0"> </Object>      
+   <Object Name="Lst_templatename" Value="ddlitemtemplatename" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Lst_itemtype" Value="ddlItemType" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Lst_itemsubtype" Value="ddlItemSubType" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Lst_Itemcategory" Value="ddlstkcat" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="edtbox_Itemcode" Value="txtitemcode" BYClass="ID" Index = "0"> </Object>
+   <Object Name="edtbox_Shelflife" Value="txtitemselflife" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="Lst_Defaultitemconsume" Value="ddldefaultconsume" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Lst_selectactivity" Value="ddlactivity" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Lst_Itemfeaturetype" Value="ddlItemfeature" BYClass="ID" Index = "0"> </Object>	
+   <Object Name="Btn_New" Value="btnsubmit" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="txtsearch" Value="txtsearch" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Grid_ItemsList" Value="gridSubitemdetail" BYClass="ID" Index = "0"> </Object>
+ </SelenuumObject>
+
+    <SelenuumObject ParentName="Page_StockManual" Value="" Type="Page">
+   <Object Name="Btn_Stockin" Value="tabstockin" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Lst_Store" Value="ddlStore" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Lst_Suplier" Value="ddlvendor" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Editbox_POnumber" Value="txtrefno" BYClass="ID" Index = "0"> </Object>    
+   <Object Name="Editbox_Chalan" Value="txtgrn" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="edtbox_txtdate" Value="txtdate" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Lst_Category" Value="ddlStkCat" BYClass="ID" Index = "0"> </Object>    
+   <Object Name="Lst_Item" Value="/html/body/div[6]/div[1]/div/div/div/div/div[1]/div[2]/div[1]/div/div/select" BYClass="XPATH" Index = "0"> </Object>     
+   <Object Name="Btn_New" Value="btnadditem" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Btn_Save" Value="btnsavestockin" BYClass="ID" Index = "0"> </Object>    
+   <Object Name="txtQty" Value="txtQty" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="Editbox_Seriallength" Value="txtitemlength" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="Edt_Prefix" Value="txtprefixlength" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="Edt_Serialnumber" Value="txtitemprefixname" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="txtsearch" Value="txtsearch" BYClass="ID" Index = "0"> </Object>  
+    <Object Name="Lst_Itemfeaturetype" Value="ddlstockintype" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="Grid_ItemsList" Value="MasterList" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Lst_Storevoucher" Value="ddlStorevoucher" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="edtbox_FromDate" Value="txtfrmdate" BYClass="ID" Index = "0"> </Object>               
+   <Object Name="edtbox_ToDate" Value="txttodate" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Btn_View_Voucher" Value="viewstockchallan" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Grid_Voucher" Value="gridStoredetail" BYClass="ID" Index = "0"> </Object>   
+
+   </SelenuumObject>
+    <SelenuumObject ParentName="Page_Stockissue" Value="" Type="Page">
+   <Object Name="Issuewithjob" Value="rdWithjob" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Lst_Service" Value="ddlservice" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Lst_Jobtype" Value="ddljobtype" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Lst_Servicelead" Value="ddlsupervisor" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="edtbox_fromdate" Value="txtfrmdate" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="edtbox_todate" Value="txttodate" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="View" Value="btnviewstockissue" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="edtbox_jobid" Value="grid_stockissue" BYClass="ID" Index = "0"> </Object>    
+   <Object Name="Lst_Store" Value="/html/body/div[6]/div[5]/div/div/div[2]/div[1]/div/div/div/div/div/span/select" BYClass="Xpath" Index = "0"> </Object>    
+   <Object Name="edtbox_Serialno" Value="/html/body/div[6]/div[1]/div/div/div/div/div[3]/div[2]/div/div/table/tbody/tr/td[9]/input" BYClass="Xpath" Index = "0"> </Object>
+   <Object Name="Issuewithoutjob" Value="rdWithoutjob" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Lst_Fielduser" Value="/html/body/div[6]/div[1]/div/div/div/div/div[1]/div[7]/div[1]/div/div/select" BYClass="Xpath" Index = "0"> </Object>
+   <Object Name="Btn_Next" Value="btnNext" BYClass="ID" Index = "0"> </Object>
+   <Object Name="edtbox_pagename" Value="grid_stockissue2" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="edtbox_pageissue" Value="grid_stockissueseriallist" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Btn_Additem" Value="/html/body/div[6]/div[1]/div/div/div/div/div[2]/div[4]/div/div/div[2]/input" BYClass="Xpath" Index = "0"> </Object>
+   <Object Name="Lst_Itemcategory" Value="ddlcategory" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Lst_Itemname" Value="/html/body/div[6]/div[3]/div/div/div[2]/div[1]/div/div/div[2]/div/div/select" BYClass="Xpath" Index = "0"> </Object>
+   <Object Name="Edt_quantity" Value="/html/body/div[6]/div[3]/div/div/div[2]/div[1]/div/div/div[3]/div/div/input" BYClass="Xpath" Index = "0"> </Object>
+   <Object Name="Lst_Defaultconsume" Value="/html/body/div[6]/div[3]/div/div/div[2]/div[2]/div/div/div/div/div/span[2]/select" BYClass="Xpath" Index = "0"> </Object>
+   <Object Name="Btn_Submit" Value="btnsubmit" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Btn_save" Value="btnsaveitemissue" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="Btn_Saveitem" Value="/html/body/div[6]/div[3]/div/div/div[2]/div[3]/div/div[1]/input[2]" BYClass="Xpath" Index = "0"> </Object> 
+   <Object Name="Btn_Addserialno" Value="btnaddserialitem" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Btn_materialsave" Value="btnselectserialitem" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Continue" Value="/html/body/div[6]/div[5]/div/div/div[2]/div[2]/div/div/input" BYClass="Xpath" Index = "0"> </Object>
+
+
+
+ 
+ </SelenuumObject>
+    <SelenuumObject ParentName="Page_Stockdeposit" Value="" Type="Page">
+   <Object Name="edtbox_pagename" Value="grid_stockdeposit" BYClass="ID" Index = "0"> </Object>
+   <Object Name="edtbox_pagedeposit" Value="griddeposititemavailableserial" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Deposit" Value="tabdeposit" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Lst_Stockdeposit" Value="ddltransaction" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="edtbox_date" Value="txtissuedate" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Lst_Store" Value="ddlstore" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Lst_Receiveuser" Value="ddlservicelead" BYClass="ID" Index = "0"> </Object>    
+   <Object Name="edtbox_Serialno" Value="/html/body/div[6]/div[1]/div/div/div/div/div[3]/div[2]/div/div/table/tbody/tr/td[9]/input" BYClass="Xpath" Index = "0"> </Object>
+   <Object Name="edtbox_quantity" Value="input" BYClass="TAGNAME" Index = "0"> </Object>
+   <Object Name="View" Value="btnviewstockdeposit" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Btn_materialsave" Value="btnaddserialitem" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Btn_save" Value="btnsaveitemdeposite" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Lst_Storevoucher" Value="ddlStorevoucher" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="edtbox_FromDate" Value="txtfrmdate" BYClass="ID" Index = "0"> </Object>               
+   <Object Name="edtbox_ToDate" Value="txttodate" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Btn_View_Voucher" Value="viewstockchallan" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Grid_Voucher" Value="griddepositinstore" BYClass="ID" Index = "0"> </Object>    
+  </SelenuumObject>
+   <SelenuumObject ParentName="Page_Print" Value="" Type="Page">
+   <Object Name="Text_Title" Value="//*[@id='a']" BYClass="xpath" Index = "0"> </Object>   
+   <Object Name="Text_PO" Value="//*[@id='b']" BYClass="xpath" Index = "0"> </Object>
+   <Object Name="Text_Date" Value="//*[@id='c']" BYClass="xpath" Index = "0"> </Object>
+   <Object Name="Text_Store" Value="//*[@id='d']" BYClass="xpath" Index = "0"> </Object>   
+   <Object Name="Text_UserBy" Value="//*[@id='e']" BYClass="xpath" Index = "0"> </Object> 
+   <Object Name="Text_DocNo" Value="//*[@id='g']" BYClass="xpath" Index = "0"> </Object>   
+   <Object Name="Grid_Details" Value="gridStoredetail" BYClass="ID" Index = "0"> </Object>    
+  </SelenuumObject>
+    <SelenuumObject ParentName="Pag_Stockout" Value="" Type="Page">
+	<Object Name="Out" Value="tabstockin" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="Lst_Returntype" Value="/html/body/div[6]/div/div/div/div/div/div[2]/div[1]/div[1]/div/div/select" BYClass="XPATH" Index = "0"> </Object>   
+   <Object Name="Editbox_GatePass" Value="txtchallanno" BYClass="ID" Index = "0"> </Object>
+   <Object Name="edtbox_date" Value="txttransferdate" BYClass="ID" Index = "0"> </Object>    
+   <Object Name="Lst_Store" Value="ddlstore" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Lst_SendtoSupplier" Value="/html/body/div[6]/div/div/div/div/div/div[2]/div[1]/div[4]/div/div/select" BYClass="XPATH" Index = "0"> </Object>   
+   <Object Name="Lst_Category" Value="ddlStkCat" BYClass="ID" Index = "0"> </Object>    
+   <Object Name="Lst_Item" Value="/html/body/div[6]/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div/div/select" BYClass="XPATH" Index = "0"> </Object>  
+   <Object Name="Cancel" Value="btncancel" BYClass="ID" Index = "0"> </Object>
+    <Object Name="edtbox_pagename" Value="grid_stocktransfer" BYClass="ID" Index = "0"> </Object>
+   <Object Name="edtbox_pageout" Value="/html/body/div[6]/div/div/div/div/div/div[3]/div[2]/div/div" BYClass="XPATH" Index = "0"> </Object>
+   <Object Name="edtbox_Serialno" Value="/html/body/div[6]/div[1]/div/div/div/div/div[3]/div[2]/div/div/table/tbody/tr/td[9]/input" BYClass="XPATH" Index = "0"> </Object>
+   <Object Name="edtbox_quantity" Value="input" BYClass="TAGNAME" Index = "0"> </Object>
+   <Object Name="Btn_save" Value="btnsavestocktransfer" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Btn_materialsave" Value="btnaddserialitem" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Btn_Close" Value="submit" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Lst_Storevoucher" Value="ddlStorevoucher" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="edtbox_FromDate" Value="txtfrmdate" BYClass="ID" Index = "0"> </Object>               
+   <Object Name="edtbox_ToDate" Value="txttodate" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Btn_View_Voucher" Value="viewstockoutchallan" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Grid_Voucher" Value="gridStockoutstore" BYClass="ID" Index = "0"> </Object> 
+   
+  </SelenuumObject>
+    <SelenuumObject ParentName="Page_Stocktransfer" Value="" Type="Page">
+   <Object Name="Transfer" Value="tabstockin" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="edtbox_date" Value="txttransferdate" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Editbox_Challannumber" Value="/html/body/div[6]/div/div/div/div/div/div[2]/div[1]/div[2]/div/div/input" BYClass="XPATH" Index = "0"> </Object>    
+   <Object Name="Lst_Store" Value="ddlstore" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Lst_SendtoStore" Value="ddlsendstore" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Lst_item" Value="ddlitem" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="Lst_Category" Value="ddlStkCat" BYClass="ID" Index = "0"> </Object>    
+   <Object Name="Editbox_Quantity" Value="txtQty" BYClass="ID" Index = "0"> </Object>     
+   <Object Name="Editbox_Itemprefix" Value="txtitemprefixname" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Editbox_Serialno" Value="txtfrmsrno" BYClass="ID" Index = "0"> </Object>    
+   <Object Name="Btn_New" Value="btnaddstocktransfer" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Btn_Save" Value="btnsavestocktransfer" BYClass="ID" Index = "0"> </Object>    
+   <Object Name="Lst_Storevoucher" Value="ddlStorevoucher" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="edtbox_FromDate" Value="txtfrmdate" BYClass="ID" Index = "0"> </Object>               
+   <Object Name="edtbox_ToDate" Value="txttodate" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Btn_View_Voucher" Value="viewstocktransfer" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Grid_Voucher" Value="gridTransferinstore" BYClass="ID" Index = "0"> </Object> 
+  
+   </SelenuumObject>
+    <SelenuumObject ParentName="Page_Stockconsumed" Value="" Type="Page">
+   <Object Name="Consumed" Value="tabdeposit" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="Lst_Storetransactiontype" Value="ddltransaction" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Lst_Store" Value="ddlstore" BYClass="ID" Index = "0"> </Object>
+   <Object Name="edtbox_date" Value="txtissuedate" BYClass="ID" Index = "0"> </Object>    
+   <Object Name="Lst_Selecttoreceiveuser" Value="ddlservicelead" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Btn_View" Value="btnviewstockdeposit" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="edtbox_pagename" Value="grid_stockdeposit" BYClass="ID" Index = "0"> </Object>
+   <Object Name="edtbox_pageconsumed" Value="griddeposititemavailableserial" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Btn_save" Value="btnsaveitemdeposite" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Btn_materialsave" Value="btnaddserialitem" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Btn_Close" Value="submit" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Lst_Storevoucher" Value="ddlStorevoucher" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="edtbox_FromDate" Value="txtfrmdate" BYClass="ID" Index = "0"> </Object>               
+   <Object Name="edtbox_ToDate" Value="txttodate" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Btn_View_Voucher" Value="viewstockchallan" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Grid_Voucher" Value="griddepositinstore" BYClass="ID" Index = "0"> </Object> 
+      
+</SelenuumObject>
+  <SelenuumObject ParentName="Page_Job_Undeleivered" Value="" Type="Page">
+  <Object Name="Tab_Undeleivered" Value="tabundeleivered" BYClass="ID" Index = "0"> </Object>
+  <Object Name="Lst_servicename" Value="ddlundeliveredsername" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Lst_JobName" Value="ddlundeliveredjobtype" BYClass="ID" Index = "0"> </Object>      
+   <Object Name="Btn_View" Value="btnviewundelivered" BYClass="ID" Index = "0"> </Object>       
+   <Object Name="Text_Search" Value="txtsearchundelivered" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Grid_Jobs" Value="jsGrid" BYClass="ID" Index = "0"> </Object>  
+ </SelenuumObject> 
+  <SelenuumObject ParentName="Page_Job_Unaccepted" Value="" Type="Page">
+  <Object Name="Tab_Unaccepted" Value="tabunaccepted" BYClass="ID" Index = "0"> </Object>
+  <Object Name="Lst_servicename" Value="ddlunaccsername" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Lst_JobName" Value="ddlunaccjobtype" BYClass="ID" Index = "0"> </Object>      
+   <Object Name="Btn_View" Value="btnviewUnaccepted" BYClass="ID" Index = "0"> </Object>       
+   <Object Name="Text_Search" Value="txtsearch" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Grid_Jobs" Value="jsGridU" BYClass="ID" Index = "0"> </Object>  
+ </SelenuumObject> 
+ <SelenuumObject ParentName="Page_Job_rejected" Value="" Type="Page">
+  <Object Name="Tab_rejected" Value="tabrejected" BYClass="ID" Index = "0"> </Object>
+  <Object Name="Lst_servicename" Value="ddlrejectedjobtype" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Lst_JobName" Value="ddlrejectedjobtype" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Lst_FieldUsers" Value="ddlpendingassignusername" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Btn_View" Value="btnviewrejected" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Text_Massage" Value="serialmodal" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Btn_Continue" Value="reassignwarningreject" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Btn_Yes" Value="reassignrejectjob" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Btn_No" Value="reassigncancel3" BYClass="ID" Index = "0"> </Object>
+   
+   <Object Name="Text_Search" Value="txtsearchrejected" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Grid_Jobs" Value="jsGridR" BYClass="ID" Index = "0"> </Object>  
+ </SelenuumObject> 
+ <SelenuumObject ParentName="Page_Job_Pending" Value="" Type="Page">
+  <Object Name="Tab_Pending" Value="tabpending" BYClass="ID" Index = "0"> </Object>
+  <Object Name="Lst_servicename" Value="ddlpendingsername" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Lst_JobName" Value="ddlpendingjobtype" BYClass="ID" Index = "0"> </Object>      
+   <Object Name="Btn_View" Value="btnviewpending" BYClass="ID" Index = "0"> </Object>       
+    <Object Name="Text_FromDate" Value="txtfrmdate" BYClass="ID" Index = "0"> </Object>
+	<Object Name="Lst_FieldUsers" Value="ddlrejectreassignusername" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Btn_View" Value="btnviewrejected" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Text_Massage" Value="serialmodal" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Btn_Continue" Value="reassignwarningpending" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Btn_Yes" Value="reassignpendingjob" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Btn_No" Value="reassigncancel2" BYClass="ID" Index = "0"> </Object>
+  
+   <Object Name="Grid_Jobs" Value="jsGridP" BYClass="ID" Index = "0"> </Object>  
+ </SelenuumObject> 
+<SelenuumObject ParentName="Page_Job_inprogress" Value="" Type="Page">
+  <Object Name="Tab_inprogress" Value="tabinprogress" BYClass="ID" Index = "0"> </Object>
+  <Object Name="Lst_servicename" Value="ddlinprogresssername" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Lst_JobName" Value="ddlinprogressjobtype" BYClass="ID" Index = "0"> </Object>      
+   <Object Name="Btn_View" Value="btnviewinprogress" BYClass="ID" Index = "0"> </Object>       
+   <Object Name="Text_Search" Value="txtsearchinprogress" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Grid_Jobs" Value="jsGridI" BYClass="ID" Index = "0"> </Object>  
+ </SelenuumObject> 
+ <SelenuumObject ParentName="Page_Job_Hold" Value="" Type="Page">
+  <Object Name="Tab_Hold" Value="tabhold" BYClass="ID" Index = "0"> </Object>
+  <Object Name="Lst_servicename" Value="ddlholdsername" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Lst_JobName" Value="ddlholdjobtype" BYClass="ID" Index = "0"> </Object>      
+   <Object Name="Btn_View" Value="btnviewhold" BYClass="ID" Index = "0"> </Object>       
+    <Object Name="Text_FromDate" Value="txtfrmdate" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Grid_Jobs" Value="jsGridH" BYClass="ID" Index = "0"> </Object>  
+ </SelenuumObject> 
+ <SelenuumObject ParentName="Page_Job_Complete" Value="" Type="Page">
+  <Object Name="Tab_Complete" Value="tabcompleted" BYClass="ID" Index = "0"> </Object>
+  <Object Name="Lst_servicename" Value="ddlcompletesername" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Lst_JobName" Value="ddlcompletejobtype" BYClass="ID" Index = "0"> </Object>      
+   <Object Name="Btn_View" Value="btnviewcompleted" BYClass="ID" Index = "0"> </Object>       
+   <Object Name="Text_Search" Value="txtsearchcomplete" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Text_FromDate" Value="txtfrmdate" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Text_ToDate" Value="txttodate" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Grid_Jobs" Value="jsGridC" BYClass="ID" Index = "0"> </Object>  
+ </SelenuumObject> 
+ <SelenuumObject ParentName="Page_Job_Summary" Value="" Type="Page">
+  <Object Name="Tab_Summary" Value="tabtasksummary" BYClass="ID" Index = "0"> </Object>
+  <Object Name="Lst_servicename" Value="ddlTaskSummarysername" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Lst_JobName" Value="ddlTaskSummaryjobtype" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Lst_Users" Value="ddlTaskSummaryusername" BYClass="ID" Index = "0"> </Object>     
+   <Object Name="Btn_View" Value="btnviewTaskSummary" BYClass="ID" Index = "0"> </Object>       
+   <Object Name="Text_Search" Value="txtsearchTaskSummary" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Text_Search_key" Value="txtsearchTaskSummaryCond" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Text_FromDate" Value="txtTaskSummaryfrmdate" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Text_ToDate" Value="txtTaskSummarytodate" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Grid_Jobs" Value="jsGridS" BYClass="ID" Index = "0"> </Object>  
+ </SelenuumObject> 
+  <SelenuumObject ParentName="Page_Job_Jobsummary" Value="" Type="Page">
+  <Object Name="Tab_tasksummary" Value="tabtasksummary" BYClass="ID" Index = "0"> </Object>
+  <Object Name="Lst_servicename" Value="ddlTaskSummarysername" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Lst_JobName" Value="ddlTaskSummaryjobtype" BYClass="ID" Index = "0"> </Object>      
+   <Object Name="Btn_View" Value="btnviewTaskSummary" BYClass="ID" Index = "0"> </Object>       
+   <Object Name="Text_Search" Value="txtsearchTaskSummary" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Text_FromDate" Value="txtTaskSummaryfrmdate" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Text_ToDate" Value="txtTaskSummarytodate" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Grid_Jobs" Value="jsGridS" BYClass="ID" Index = "0"> </Object>  
+ </SelenuumObject> 
+<SelenuumObject ParentName="Page_BLE" Value="" Type="Page">
+  <Object Name="Lst_Product" Value="ddlProduct" BYClass="Id" Index = "0" >  </Object>  
+   <Object Name="edtbox_Password" Value="txtPassword" BYClass="Id" Index = "0" >  </Object>  
+   <Object Name="btn_upload" Value="btnupload" BYClass="id" Index = "0" >  </Object>  
+   <Object Name="btn_file" Value="file" BYClass="ID" Index = "0" >  </Object>  
+   <Object Name="Btn_View" Value="btnviewUnaccepted" BYClass="ID" Index = "0"> </Object>       
+   <Object Name="Text_Search" Value="txtsearch" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Grid_Jobs" Value="jsGridU" BYClass="ID" Index = "0"> </Object>  
+ </SelenuumObject> 
+<SelenuumObject ParentName="Page_Filemaster" Value="" Type="Page">
+   <Object Name="Lst_Permission" Value="ddlpermission" BYClass="Id" Index = "0" >  </Object>  
+   <Object Name="edtbox_File" Value="txtfile" BYClass="Id" Index = "0" >  </Object>  
+   <Object Name="btn_Save" Value="btnfilesubmit" BYClass="id" Index = "0" >  </Object>  
+   <Object Name="Grid_Filemaster" Value="gridfilemaster" BYClass="ID" Index = "0"> </Object>  
+ </SelenuumObject> 
+ <SelenuumObject ParentName="Page_Productmaster" Value="" Type="Page">
+   <Object Name="Lst_Permission" Value="ddlpermission" BYClass="Id" Index = "0" >  </Object>  
+   <Object Name="edtbox_Product" Value="txtproduct" BYClass="Id" Index = "0" >  </Object>  
+   <Object Name="btn_Save" Value="btnproductsubmit" BYClass="id" Index = "0" >  </Object>  
+   <Object Name="Grid_Productmaster" Value="gridproductmaster" BYClass="ID" Index = "0"> </Object>  
+ </SelenuumObject>
+ <SelenuumObject ParentName="Page_DLMSpassword" Value="" Type="Page">
+   <Object Name="Lst_Permission" Value="ddlpermission" BYClass="Id" Index = "0" >  </Object> 
+   <Object Name="Lst_Metertype" Value="ddlmetertype" BYClass="Id" Index = "0" >  </Object> 
+   <Object Name="edtbox_Password" Value="txtPassword" BYClass="Id" Index = "0" >  </Object>  
+   <Object Name="btn_Save" Value="btnsave" BYClass="id" Index = "0" >  </Object>  
+   <Object Name="Grid_Productmaster" Value="gridpassword" BYClass="ID" Index = "0"> </Object>  
+ </SelenuumObject>
+ <SelenuumObject ParentName="Page_MeterWithKeyslist" Value="" Type="Page">
+   <Object Name="Lst_Client" Value="ddlClient" BYClass="Id" Index = "0" >  </Object> 
+   <Object Name="edtbox_Toserialno" Value="txttoserialno" BYClass="Id" Index = "0" >  </Object> 
+   <Object Name="edtbox_fromserialno" Value="txtfromserialno" BYClass="Id" Index = "0" >  </Object>  
+   <Object Name="btn_View" Value="btnview" BYClass="id" Index = "0" >  </Object>  
+   <Object Name="Grid_Metersmaster" Value="gridpassword" BYClass="ID" Index = "0"> </Object>  
+ </SelenuumObject>
+ <SelenuumObject ParentName="Page_Productkeymapping" Value="" Type="Page">
+   <Object Name="Lst_Product" Value="ddlproduct" BYClass="Id" Index = "0" >  </Object> 
+   <Object Name="Lst_FileType" Value="ddlfile" BYClass="Id" Index = "0" >  </Object> 
+   <Object Name="btn_View" Value="btngetpermission" BYClass="id" Index = "0" >  </Object>  
+   <Object Name="btn_Save" Value="btnSavepermission" BYClass="id" Index = "0" >  </Object>  
+   <Object Name="Grid_productkeymapping" Value="gridproductkeymapping" BYClass="ID" Index = "0"> </Object>  
+ </SelenuumObject>
+  <SelenuumObject ParentName="Page_Itemlookup" Value="" Type="Page">
+   <Object Name="Lst_Category" Value="ddlStkCat" BYClass="Id" Index = "0" >  </Object> 
+   <Object Name="Lst_Item" Value="ddlitem" BYClass="Id" Index = "0" >  </Object> 
+   <Object Name="edtbox_SerialPrefix" Value="txtitemprefixserial" BYClass="Id" Index = "0" >  </Object>   
+   <Object Name="btn_View" Value="btnviewitem" BYClass="id" Index = "0" >  </Object>  
+   <Object Name="btn_Cancel" Value="btncancel" BYClass="id" Index = "0" >  </Object>  
+   <Object Name="Grid_itemlookup" Value="griditemlookup" BYClass="ID" Index = "0"> </Object>  
+ </SelenuumObject>
+ <SelenuumObject ParentName="Page_JobData" Value="" Type="Page">
+   <Object Name="Lst_Service" Value="ddlservice" BYClass="Id" Index = "0" >  </Object> 
+   <Object Name="Lst_JobName" Value="ddljobtype" BYClass="Id" Index = "0" >  </Object> 
+   <Object Name="btn_GAA" Value="ddlgaa" BYClass="Id" Index = "0" >  </Object>   
+   <Object Name="Lst_Users" Value="ddlusergaa" BYClass="Id" Index = "0" >  </Object> 
+   <Object Name="Lst_Activity" Value="ddlactivity" BYClass="Id" Index = "0" >  </Object> 
+   <Object Name="edtbox_JobId" Value="txtjobid" BYClass="Id" Index = "0" >  </Object> 
+   <Object Name="Lst_Range" Value="ddldaterange" BYClass="Id" Index = "0" >  </Object> 
+   <Object Name="edtbox_FromDate" Value="txtfrmdate" BYClass="Id" Index = "0" >  </Object> 
+   <Object Name="edtbox_ToDate" Value="txttodate" BYClass="Id" Index = "0" >  </Object> 
+   <Object Name="btn_View" Value="btnviewjobdata" BYClass="id" Index = "0" >  </Object>  
+   <Object Name="btn_Cancel" Value="btncancel" BYClass="id" Index = "0" >  </Object>  
+   <Object Name="btn_ExportToExcel" Value="btnexport" BYClass="id" Index = "0" >  </Object>  
+   <Object Name="Grid_JobData" Value="gridjobdata" BYClass="ID" Index = "0"> </Object>  
+ </SelenuumObject>
+  <SelenuumObject ParentName="Page_ConfigureItemsforAPP" Value="" Type="Page">
+   <Object Name="Lst_ConfigurationType" Value="ddlConfigurationType" BYClass="Id" Index = "0" >  </Object> 
+   <Object Name="Lst_Service" Value="ddlservice" BYClass="Id" Index = "0" >  </Object> 
+   <Object Name="Lst_JobName" Value="ddljobtype" BYClass="Id" Index = "0" >  </Object> 
+   <Object Name="Lst_Category" Value="ddlStkCat" BYClass="Id" Index = "0" >  </Object>    
+   <Object Name="Lst_Selectitem" Value="ddlitem" BYClass="Id" Index = "0" >  </Object> 
+   <Object Name="Lst_Activityname" Value="ddlactivity" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="Lst_Location" Value="ddlLocation" BYClass="Id" Index = "0" >  </Object> 
+   <Object Name="Lst_Mandatory" Value="ddlisMandatory" BYClass="Id" Index = "0" >  </Object> 
+   <Object Name="Lst_FromInventory" Value="ddlisInventory" BYClass="Id" Index = "0" >  </Object>    
+   <Object Name="Lst_IsMultiple" Value="ddlismultiple" BYClass="Id" Index = "0" >  </Object> 
+   <Object Name="edtbox_Quantity" Value="txtqtycons" BYClass="Id" Index = "0" >  </Object>  
+   <Object Name="btn_Add" Value="btnviewjobdata" BYClass="id" Index = "0" >  </Object>  
+   <Object Name="btn_Cancel" Value="btncancel" BYClass="id" Index = "0" >  </Object>  
+   <Object Name="Grid_Details" Value="master1" BYClass="id" Index = "0" >  </Object>  
+   
+ </SelenuumObject>
+</SeleniumObjectsRO>

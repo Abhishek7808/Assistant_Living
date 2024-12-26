@@ -1,0 +1,2 @@
+python egm_heartbeat_json.py
+pause

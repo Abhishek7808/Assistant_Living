@@ -1,0 +1,547 @@
+<?xml version="1.0"?>
+<SeleniumObjectsRO>
+<SelenuumObject ParentName="Home_Page" Value="" Type="Page">
+   <Object Name="btn_Install" Value="com.secure.beanbag:id/btnInstall" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="btn_Chk_Sys_Status" Value="com.secure.beanbag:id/btnCheckSystem" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="btn_Create_Accnt" Value="com.secure.beanbag:id/btnSignUp" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="btn_Login" Value="com.secure.beanbag:id/btnSignIn" BYClass="Id" Index = "0" >  </Object>   
+   <Object Name="txt_Appname" Value="com.secure.beanbag:id/txtAppName" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="txt_AppDesc" Value="com.secure.beanbag:id/txtAppDesc" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="btn_Demo" Value="com.secure.beanbag:id/txtDemo" BYClass="Id" Index = "0" >  </Object>
+  </SelenuumObject> 
+  <SelenuumObject ParentName="Login_Page" Value="" Type="Page">
+   <Object Name="Edtbx_email" Value="com.secure.beanbag:id/email" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="Edtbx_passwrd" Value="com.secure.beanbag:id/password" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="Chkbx_Shw_passwrd" Value="com.secure.beanbag:id/chkShowPassword" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="Chkbx_I_m_installr" Value="com.secure.beanbag:id/chkSigninAsInstaller" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="lnk_frgt_pass" Value="com.secure.beanbag:id/txtForgotPassword" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="btn_login" Value="com.secure.beanbag:id/btnSignIn" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="btn_back" Value="//*[contains(@content-desc,'Navigate up')]" BYClass="XPATH" Index = "0" >  </Object>
+   <Object Name="btn_login_OwnerTitle" Value="com.secure.beanbag:id/tv_continue_installation" BYClass="Id" Index = "0" >  </Object> 
+   <Object Name="btn_login_TakeOwnership" Value="com.secure.beanbag:id/tv_ownership_take_over" BYClass="Id" Index = "0" >  </Object>   
+   <Object Name="btn_loginInstllrtitl" Value="com.secure.beanbag:id/tv_install_new_system" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="txt_Login_Title" Value="com.secure.beanbag:id/txtUserName" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="menu_chng_usr_type" Value="com.secure.beanbag:id/action_done" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="optn_sign_as_inst" Value="android:id/text1" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="txt_InstallerTitle" Value="com.secure.beanbag:id/action_bar" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="btn_signout" Value="com.secure.beanbag:id/tv_signout" BYClass="Id" Index = "0" >  </Object>
+  </SelenuumObject> 
+  <SelenuumObject ParentName="Create_Account_Page" Value="" Type="Page">
+   <Object Name="txt_Title" Value="com.secure.beanbag:id/txtTitle" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="Edtbx_email" Value="com.secure.beanbag:id/email" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="Edtbx_passwrd" Value="com.secure.beanbag:id/password" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="btn_Create_Accnt" Value="com.secure.beanbag:id/btnSignUp" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="Chkbx_Shw_passwrd" Value="com.secure.beanbag:id/chkShowPassword" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="txt_Verify_Email" Value="com.secure.beanbag:id/txtTitle" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="Edtbx_OTP" Value="com.secure.beanbag:id/txtOTP" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="btn_Verify_OTP" Value="com.secure.beanbag:id/btnVerifyOTP" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="txt_Accnt_Created" Value="com.secure.beanbag:id/txtTitle" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="btn_Continue" Value="com.secure.beanbag:id/btnContinue" BYClass="Id" Index = "0" >  </Object>
+  </SelenuumObject> 
+     
+  <SelenuumObject ParentName="Welcome_List" Value="" Type="Page">
+   <Object Name="Option" Value="//*[contains(@content-desc,'More options')]" BYClass="XPATH" Index = "0" >  </Object>
+   <Object Name="drp_Logout" Value="Logout" BYClass="NAME" Index = "0" >  </Object>
+   <Object Name="InstallSys" Value="Install a new system" BYClass="NAME" Index = "0" >  </Object>   
+   <Object Name="New_Sys_Install" Value="com.secure.beanbag:id/tv_install_new_system" BYClass="Id" Index = "0" >  </Object>   
+  </SelenuumObject>  
+  <SelenuumObject ParentName="Install_new_system" Value="" Type="Page">  
+	<Object Name="Install_title" Value="com.secure.beanbag:id/tv_install_new_system" BYClass="Id" Index = "0" >  </Object> 	 
+	<Object Name="Install_title_User" Value="com.secure.beanbag:id/tv_title" BYClass="Id" Index = "0" >  </Object> 	 
+	<Object Name="txt_select_type_kit" Value="com.secure.beanbag:id/tv_install_new_system" BYClass="Id" Index = "0" >  </Object> 	 
+	<Object Name="btn_Install_title_User_Continue" Value="com.secure.beanbag:id/tv_continue" BYClass="Id" Index = "0" >  </Object> 	 
+      <Object Name="Install_Beanbag_Kit" Value="com.secure.beanbag:id/rowTextView" BYClass="Id" Index = "0" >  </Object>
+      <Object Name="Install_Beanbag_Kit_With_Expansion_Pack" Value="com.secure.beanbag:id/rowTextView" BYClass="Id" Index = "1" >  </Object>
+	 <Object Name="Advanced_setup" Value="com.secure.beanbag:id/rowTextView" BYClass="Id" Index = "2" >  </Object>
+	 <Object Name="Setup_title" Value="com.secure.beanbag:id/tv_install_new_system" BYClass="Id" Index = "0" >  </Object>
+	 <Object Name="Sys_Address_title" Value="com.secure.beanbag:id/tv_system_address_info" BYClass="Id" Index = "0" >  </Object>	 
+	 <Object Name="txt_confirm_home_wifi" Value="com.secure.beanbag:id/tv_wifi_heading" BYClass="Id" Index = "0" >  </Object>
+	 <Object Name="txt_home_wifi" Value="com.secure.beanbag:id/tv_wifi_name" BYClass="Id" Index = "0" >  </Object>
+	 <Object Name="btn_home_wifi_confirm_continue" Value="com.secure.beanbag:id/tv_wifi_continue" BYClass="Id" Index = "0" >  </Object>
+	 <Object Name="txt_home_wifi_pwd" Value="com.secure.beanbag:id/tv_wifi" BYClass="Id" Index = "0" >  </Object>
+  </SelenuumObject>
+  
+  <SelenuumObject ParentName="Select_Kit_Type" Value="" Type="Page">
+      <Object Name="Small_Kit" Value="com.secure.beanbag:id/rowTextView" BYClass="Id" Index = "0" >  </Object>
+      <Object Name="Medium_Kit" Value="com.secure.beanbag:id/rowTextView" BYClass="Id" Index = "1" >  </Object>
+      <Object Name="Large_Kit" Value="com.secure.beanbag:id/rowTextView" BYClass="Id" Index = "2" >  </Object>
+   </SelenuumObject>
+   
+   <SelenuumObject ParentName="Specify_Sys_Add" Value="" Type="Page">  
+	  <Object Name="Edtbx_Name" Value="com.secure.beanbag:id/txt_system_name" BYClass="Id" Index = "0" >  </Object>	
+      <Object Name="Edtbx_Street" Value="com.secure.beanbag:id/txt_system_street" BYClass="Id" Index = "0" >  </Object>
+      <Object Name="Edtbx_House_Number" Value="com.secure.beanbag:id/txt_system_house_no" BYClass="Id" Index = "0" >  </Object>
+      <Object Name="Edtbx_City" Value="com.secure.beanbag:id/txt_system_city" BYClass="Id" Index = "0" >  </Object>
+	  <Object Name="Edtbx_Postcode" Value="com.secure.beanbag:id/txt_system_postcode" BYClass="Id" Index = "0" >  </Object>
+	  <Object Name="Btn_continue" Value="com.secure.beanbag:id/btn_continue" BYClass="Id" Index = "0" >  </Object>
+   </SelenuumObject> 
+   
+   <SelenuumObject ParentName="Connect_Gateway" Value="" Type="Page">          
+	  <Object Name="txt_CnnctGatwy" Value="com.secure.beanbag:id/tv_prepare_gateway" BYClass="Id" Index = "0" >  </Object>
+	  <Object Name="Btn_continue" Value="com.secure.beanbag:id/tv_prepare_gateway_continue" BYClass="Id" Index = "0" >  </Object>
+	  <Object Name="txt_GatwyCredentials" Value="com.secure.beanbag:id/tv_access_gateway" BYClass="Id" Index = "0" >  </Object>
+	  <Object Name="txt_EnterGatwyDetails" Value="com.secure.beanbag:id/access_gateway_instruction" BYClass="Id" Index = "0" >  </Object>
+	  <Object Name="txt_EnterGtwySrlNumbr" Value="com.secure.beanbag:id/tv_sno" BYClass="Id" Index = "0" >  </Object>
+	  <Object Name="Edtbx_GtwySrlNumbr" Value="com.secure.beanbag:id/et_serial_no" BYClass="Id" Index = "0" >  </Object>
+	  <Object Name="Edtbx_GtwyMacId" Value="com.secure.beanbag:id/et_mac_id" BYClass="Id" Index = "0" >  </Object>
+	  <Object Name="btn_serailno_continue" Value="com.secure.beanbag:id/tv_sno_continue" BYClass="Id" Index = "0" >  </Object> 
+	  <Object Name="txt_Wificnct" Value="com.secure.beanbag:id/tv_connect_to_gateway" BYClass="Id" Index = "0" >  </Object>
+	  <Object Name="txt_Wifiname" Value="com.secure.beanbag:id/tv_wifi_name_value" BYClass="Id" Index = "0" >  </Object> 
+	  <Object Name="txt_Wifipassword" Value="com.secure.beanbag:id/tv_wifi_password_value" BYClass="Id" Index = "0" >  </Object> 
+	  <Object Name="txt_GtwySrlNumbr" Value="Enter Gateway Serial number" BYClass="NAME" Index = "0" >  </Object>
+	  <Object Name="btn_wifipsswrd" Value="com.secure.beanbag:id/btn_copy_wifi_password" BYClass="Id" Index = "0" >  </Object>
+	  <Object Name="btn_CnnctGatwy_Continue" Value="com.secure.beanbag:id/tv_gateway_status_continue" BYClass="Id" Index = "0" >  </Object>
+	  <Object Name="btn_cnnct" Value="com.secure.beanbag:id/btn_gateway_connect" BYClass="Id" Index = "0" >  </Object> 
+	  <Object Name="txt_Gtwydetails" Value="com.secure.beanbag:id/tv_gateway_details" BYClass="Id" Index = "0" >  </Object>
+	  <Object Name="Edtbx_GtwyName" Value="com.secure.beanbag:id/et_device_name" BYClass="Id" Index = "0" >  </Object>
+	  <Object Name="Edtbx_GtwyLoctn" Value="com.secure.beanbag:id/tv_device_location_value" BYClass="Id" Index = "0" >  </Object>
+	  <Object Name="btn_GWDetailCntnue" Value="com.secure.beanbag:id/tv_gateway_detail_continue" BYClass="Id" Index = "0" >  </Object>
+	  <Object Name="txt_GWTimeSettng" Value="com.secure.beanbag:id/tv_gateway_time_settings" BYClass="Id" Index = "0" >  </Object>
+	  <Object Name="list_timezone" Value="com.secure.beanbag:id/tv_timezone_value" BYClass="Id" Index = "0" >  </Object>
+	  <Object Name="list_timezonenames" Value="com.secure.beanbag:id/tv_timezone_name" BYClass="Id" Index = "0" >  </Object>
+	  <Object Name="btn_timezone_continue" Value="com.secure.beanbag:id/tv_timezone_continue" BYClass="Id" Index = "0" >  </Object>
+	  <Object Name="txt_Adddevice" Value="Prepare to add Intelligent Relay" BYClass="NAME" Index = "0" >  </Object> 
+	  <Object Name="btn_Cnfrm" Value="com.secure.beanbag:id/tv_time_setting_continue" BYClass="Id" Index = "0" >  </Object>
+	  <Object Name="txt_help" Value="com.secure.beanbag:id/tv_more_info" BYClass="Id" Index = "0" >  </Object>
+	  <Object Name="txt_timecnfrm" Value="com.secure.beanbag:id/tv_time_settings_details" BYClass="Id" Index = "0" >  </Object>
+	  <Object Name="btn_ConfigureGateway_Continue" Value="com.secure.beanbag:id/tv_time_setting_continue" BYClass="Id" Index = "0" >  </Object>
+	  <Object Name="txt_pre_receiver_confirm" Value="com.secure.beanbag:id/tv_device_info" BYClass="Id" Index = "0" >  </Object>
+	  <Object Name="btn_pre_receiver_ready" Value="com.secure.beanbag:id/tv_gateway_status_continue" BYClass="Id" Index = "0" >  </Object>
+	  <Object Name="btn_skip_repeater" Value="com.secure.beanbag:id/card_view_continue" BYClass="Id" Index = "0" >  </Object>
+   </SelenuumObject> 
+   
+   <SelenuumObject ParentName="SmallKit" Value="" Type="Page">
+   <Object Name="txt_desc" Value="com.secure.beanbag:id/tv_info" BYClass="Id" Index = "0" >  </Object>  
+   <Object Name="btn_continue" Value="com.secure.beanbag:id/tv_continue" BYClass="Id" Index = "0" >  </Object> 
+   <Object Name="txt_Capability" Value="com.secure.beanbag:id/tv_small_kit_capabilities" BYClass="Id" Index = "0" >  </Object>  
+   <Object Name="btn_Heat_Hot" Value="com.secure.beanbag:id/tv_heating_and_hotWater" BYClass="Id" Index = "0" >  </Object>  
+   <Object Name="btn_Heat" Value="com.secure.beanbag:id/tv_heating_only" BYClass="Id" Index = "0" >  </Object>     
+   </SelenuumObject>
+   
+   <SelenuumObject ParentName="MediumKit" Value="" Type="Page">
+	<Object Name="txt_desc" Value="com.secure.beanbag:id/tv_info" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_continue" Value="com.secure.beanbag:id/card_view_continue" BYClass="Id" Index = "0" >  </Object>
+   </SelenuumObject>
+   
+   <SelenuumObject ParentName="LargeKit" Value="" Type="Page">
+	<Object Name="txt_desc" Value="com.secure.beanbag:id/tv_info" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_continue" Value="com.secure.beanbag:id/card_view_continue" BYClass="Id" Index = "0" >  </Object>
+   </SelenuumObject>
+   
+   <SelenuumObject ParentName="Includedevice" Value="" Type="Page">
+   <Object Name="btn_searchdevice" Value="com.secure.beanbag:id/btn_device" BYClass="Id" Index = "0" >  </Object> 
+   <Object Name="txt_AddIR" Value="com.secure.beanbag:id/tv_physical_device" BYClass="Id" Index = "0" >  </Object>  
+   <Object Name="txt_IR" Value="com.secure.beanbag:id/tv_ir_detail" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="Edtbx_IRName" Value="com.secure.beanbag:id/et_device_name" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="Edtbx_IRLocation" Value="com.secure.beanbag:id/tv_device_location_value" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="lst_Ch1AreaName" Value="com.secure.beanbag:id/tv_channel1_area_value" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="btn_Adddevice" Value="com.secure.beanbag:id/tv_add_device" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="btn_AddArea" Value="com.secure.beanbag:id/tv_add_area" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="Edtbx_AreaName" Value="com.secure.beanbag:id/et_space_name" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="btn_AddNewArea" Value="com.secure.beanbag:id/tv_add_space" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="btn_Done" Value="com.secure.beanbag:id/action_done" BYClass="Id" Index = "0" >  </Object> 
+   <Object Name="txt_AddSPD" Value="com.secure.beanbag:id/tv_physical_device" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="btn_AddSPD" Value="com.secure.beanbag:id/btn_device" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="txt_SPDdetails" Value="com.secure.beanbag:id/tv_ir_detail" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="Edtbx_SPDlocation" Value="com.secure.beanbag:id/tv_device_location_value" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="Edtbx_SPDName" Value="com.secure.beanbag:id/et_device_location" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="txt_Systemcreated" Value="com.secure.beanbag:id/tv_system_created" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="btn_CreateBBdevice" Value="com.secure.beanbag:id/btn_create_bb_device" BYClass="Id" Index = "0" >  </Object>   
+   </SelenuumObject>
+   
+   <SelenuumObject ParentName="Expansion" Value="" Type="Page">
+   <Object Name="txt_expansion" Value="com.secure.beanbag:id/tv_install_expansion_pack" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="option_repeater" Value="com.secure.beanbag:id/rowTextView" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="option_sensor" Value="com.secure.beanbag:id/tv_device_name" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="txt_ready_add_sensor" Value="com.secure.beanbag:id/tv_device_info" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="txt_ready_add_expansion" Value="com.secure.beanbag:id/tv_install_expansion_pack" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="option_sensor_add" Value="com.secure.beanbag:id/tv_device_name" BYClass="Id" Index = "1" >  </Object>
+   <Object Name="txt_ses_alert" Value="com.secure.beanbag:id/alertTitle" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="option_ses_add" Value="android:id/text1" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="btn_sensor_ready" Value="com.secure.beanbag:id/tv_gateway_status_continue" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="txt_sensor_status" Value="com.secure.beanbag:id/tv_progress_status" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="txt_sensor_connected" Value="com.secure.beanbag:id/tv_device_info" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="btn_sensor_added_continue" Value="com.secure.beanbag:id/tv_gateway_status_continue" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="edtbx_sensor_name" Value="com.secure.beanbag:id/et_device_name" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="edtbx_sensor_location" Value="com.secure.beanbag:id/tv_device_location_value" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="btn_sensor_details_continue" Value="com.secure.beanbag:id/tv_add_device" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="txt_expansion_bb_created" Value="com.secure.beanbag:id/tv_system_created" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="btn_expansion_bb_created_continue" Value="com.secure.beanbag:id/btn_create_bb_device" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="txt_all_devices_added" Value="com.secure.beanbag:id/tv_expansion_pack_exit_msg" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="option_yes" Value="android:id/text1" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="option_no_add_more" Value="android:id/text1" BYClass="Id" Index = "1" >  </Object>
+   <Object Name="txt_" Value="android:id/text1" BYClass="Id" Index = "1" >  </Object>
+  </SelenuumObject>
+     
+  
+  <SelenuumObject ParentName="OTP" Value="" Type="Page">
+   <Object Name="Username_editbox" Value="Email" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="btn_Next" Value="next" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="Edtbx_search" Value="gbqfq" BYClass="Id" Index = "0" >  </Object>
+  </SelenuumObject>
+	
+<SelenuumObject ParentName="Installer_Details" Value="" Type="Page">          
+	<Object Name="txt_Name" Value="com.secure.beanbag:id/tvFirstName" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="txt_CompanyName" Value="com.secure.beanbag:id/tvCompany" BYClass="Id" Index = "0" >  </Object>  
+	<Object Name="txt_PhoneNumber" Value="com.secure.beanbag:id/tvMobile" BYClass="Id" Index = "0" >  </Object>  
+	<Object Name="btn_Done" Value="com.secure.beanbag:id/btnContinue" BYClass="Id" Index = "0" >  </Object>  
+</SelenuumObject> 
+<SelenuumObject ParentName="Installer_Menu" Value="" Type="Page">          
+	<Object Name="optn_install_new" Value="com.secure.beanbag:id/tv_install_new_system" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="optn_install_history" Value="com.secure.beanbag:id/tv_installations_archive" BYClass="Id" Index = "0" >  </Object>  
+	<Object Name="optn_access_n_update" Value="com.secure.beanbag:id/tv_access_system" BYClass="Id" Index = "0" >  </Object>  
+	<Object Name="optn_access_system" Value="com.secure.beanbag:id/tv_accessible_systems" BYClass="Id" Index = "0" >  </Object>  
+	<Object Name="optn_account_details" Value="com.secure.beanbag:id/tv_settings" BYClass="Id" Index = "0" >  </Object>  
+	<Object Name="optn_support" Value="com.secure.beanbag:id/tv_support" BYClass="Id" Index = "0" >  </Object>  
+	<Object Name="optn_about" Value="com.secure.beanbag:id/tv_about" BYClass="Id" Index = "0" >  </Object>  
+	<Object Name="optn_version" Value="com.secure.beanbag:id/tv_version" BYClass="Id" Index = "0" >  </Object> 
+	<Object Name="txt_access_ready_title" Value="com.secure.beanbag:id/tv_title" BYClass="Id" Index = "0" >  </Object> 	 	
+	<Object Name="btn_access_ready_continue" Value="com.secure.beanbag:id/tv_continue" BYClass="Id" Index = "0" >  </Object> 	 	
+	<Object Name="edt_access_pin" Value="com.secure.beanbag:id/et_access_pin" BYClass="Id" Index = "0" >  </Object> 	
+	<Object Name="optn_bb_users" Value="com.secure.beanbag:id/tvPropertyUsers" BYClass="Id" Index = "0" >  </Object>   	
+	<Object Name="txt_invite_new_user" Value="com.secure.beanbag:id/txtInvite" BYClass="Id" Index = "0" >  </Object>   	
+	<Object Name="edt_email" Value="com.secure.beanbag:id/tvEmail" BYClass="Id" Index = "0" >  </Object>   	
+	<Object Name="btn_invite" Value="com.secure.beanbag:id/btnInvite" BYClass="Id" Index = "0" >  </Object>   	
+	<Object Name="btn_invite_done" Value="com.secure.beanbag:id/tv_done" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="txt_accessible_sys_name" Value="com.secure.beanbag:id/tvName" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="txt_invite_msg" Value="com.secure.beanbag:id/tvInvitationDetail" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_accept_invite" Value="com.secure.beanbag:id/btnAccept" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_invite_continue" Value="com.secure.beanbag:id/tv_continue" BYClass="Id" Index = "0" >  </Object> 	 	
+	<Object Name="txt_invite_type" Value="com.secure.beanbag:id/tv_user_role_value" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="invite_as_guest" Value="android:id/text1" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="invite_as_user" Value="android:id/text1" BYClass="Id" Index = "1" >  </Object>
+	<Object Name="user_names" Value="com.secure.beanbag:id/tvName" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="user_roles" Value="com.secure.beanbag:id/tvDetail" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="setup_beanbag" Value="com.secure.beanbag:id/tv_setup" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="optn_my_bb" Value="com.secure.beanbag:id/tv_my_properties" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="optn_transfer_ownership" Value="com.secure.beanbag:id/tv_transfer_ownership" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_transfer_ownership" Value="com.secure.beanbag:id/tv_transfer_ownership_done" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_cancel_invitation" Value="com.secure.beanbag:id/btnCancelInvitation" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_leave_bb" Value="com.secure.beanbag:id/btn_leave_property" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="optn_holiday" Value="com.secure.beanbag:id/tv_holiday_mode" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="switch_holiday" Value="com.secure.beanbag:id/switch_holiday_mode" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="holiday_start_date" Value="com.secure.beanbag:id/tv_start_date" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="holiday_end_date" Value="com.secure.beanbag:id/tv_end_date" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="holiday_date_picker" Value="android:id/date_picker_header" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_done" Value="com.secure.beanbag:id/action_done" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="optn_acc_details" Value="com.secure.beanbag:id/tv_my_account" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="rl_password" Value="com.secure.beanbag:id/rl_password" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="edt_old_password" Value="com.secure.beanbag:id/password" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="edt_new_password" Value="com.secure.beanbag:id/password1" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="show_old_password" Value="com.secure.beanbag:id/tvShowPassword" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="show_new_password" Value="com.secure.beanbag:id/tvShowPassword1" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="optn_pre_heat" Value="com.secure.beanbag:id/tv_optimal_setting" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="switch_pre_heat" Value="com.secure.beanbag:id/switch_optimal" BYClass="Id" Index = "1" >  </Object>
+	<Object Name="optn_location_based_heating" Value="com.secure.beanbag:id/tv_location_setting" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="switch_location" Value="com.secure.beanbag:id/switch_location" BYClass="Id" Index = "1" >  </Object>
+</SelenuumObject> 
+<SelenuumObject ParentName="Android_Settings" Value="" Type="Page">          
+	<Object Name="lenovo_settings_wlan" Value="com.android.settings:id/title" BYClass="Id" Index = "1" >  </Object>
+	<Object Name="wlan_gatewaywifi" Value="android:id/title" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="Edtbx_gatewaywifi_pswd" Value="com.android.settings:id/password" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_gatewaywifi_save" Value="android:id/button1" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_gatewaywifi_connect" Value="android:id/button1" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_lenovo_recent_app" Value="com.android.systemui:id/activity_description" BYClass="Id" Index = "0" >  </Object>  
+	<Object Name="btn_motog4_recent_app" Value="com.android.systemui:id/title" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="motog4_settings_wlan" Value="android:id/title" BYClass="Id" Index = "1" >  </Object>	
+	<Object Name="asus_settings_wlan" Value="com.android.settings:id/title" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="asus_btn_gatewaywifi_connect" Value="android:id/button1" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="asus_Edtbx_gatewaywifi_pswd" Value="com.android.settings:id/password" BYClass="Id" Index = "0" ></Object>
+	<Object Name="asus_btn_gatewaywifi_newconnect" Value="android:id/button1" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_asus_recent_app" Value="com.android.systemui:id/activity_description" BYClass="Id" Index = "1" >  </Object>
+	<Object Name="micromax_settings_wlan" Value="android.widget.TextView" BYClass="CLASSNAME" Index = "0" >  </Object>
+	<Object Name="micromax_wifi_list" Value="android.widget.TextView" BYClass="CLASSNAME" Index = "0" >  </Object>
+	<Object Name="Edtbx_micromax_wifi_pswd" Value="android.widget.EditText" BYClass="CLASSNAME" Index = "0" >  </Object>
+	<Object Name="btn_micromax_wifi_new_connect" Value="android.widget.Button" BYClass="CLASSNAME" Index = "1" >  </Object>
+	<Object Name="btn_micromax_wifi_connect" Value="android.widget.Button" BYClass="CLASSNAME" Index = "2" >  </Object>
+	<Object Name="btn_micromax_recent_app" Value="android.widget.RelativeLayout" BYClass="CLASSNAME" Index = "0" >  </Object>
+	<Object Name="nexus_wifi" Value="android:id/title" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="oneplus_wifi_title" Value="com.android.settings:id/dashboard_tile" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_karbon_recent_app" Value="com.android.systemui:id/activity_description" BYClass="Id" Index = "1" >  </Object>
+	<Object Name="samsung_settings_wlan" Value="android:id/title" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_samsung_recent_app" Value="com.android.systemui:id/recents_launch_button" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_samsung_beanbag" Value="com.sec.android.app.controlpanel:id/app_name" BYClass="Id" Index = "0" >  </Object> 
+	 
+</SelenuumObject> 
+
+<SelenuumObject ParentName="Add_Receiver" Value="" Type="Page">          
+	<Object Name="txt_add_receiver" Value="com.secure.beanbag:id/tv_device_info" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="txt_conected_receiver" Value="com.secure.beanbag:id/tv_device_info" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_receiver_continue" Value="com.secure.beanbag:id/card_view_continue" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="txt_receiver_detail" Value="com.secure.beanbag:id/tv_ir_detail" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="edt_box_device_name" Value="com.secure.beanbag:id/et_device_name" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="edt_box_device_location" Value="com.secure.beanbag:id/tv_device_location_value" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_receiver_detail_continue" Value="com.secure.beanbag:id/tv_add_device" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="txt_receiver_no" Value="com.secure.beanbag:id/tv_device_serial_no" BYClass="Id" Index = "0" >  </Object>
+</SelenuumObject> 
+
+<SelenuumObject ParentName="Add_Thermostat" Value="" Type="Page">          
+	<Object Name="txt_add_thermo" Value="com.secure.beanbag:id/tv_device_info" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_search_thermo" Value="com.secure.beanbag:id/tv_gateway_status_continue" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="txt_conected_thermo" Value="com.secure.beanbag:id/tv_device_info" BYClass="Id" Index = "1" >  </Object>
+	<Object Name="btn_thermo_continue" Value="com.secure.beanbag:id/card_view_continue" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="txt_thermo_detail" Value="com.secure.beanbag:id/tv_ir_detail" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="edt_box_device_name" Value="com.secure.beanbag:id/et_device_name" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="edt_box_device_location" Value="com.secure.beanbag:id/tv_device_location_value" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_thermo_detail_continue" Value="com.secure.beanbag:id/tv_add_device" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="txt_thermo_no" Value="com.secure.beanbag:id/tv_device_serial_no" BYClass="Id" Index = "0" >  </Object>
+</SelenuumObject> 
+
+<SelenuumObject ParentName="Fuel" Value="" Type="Page"> 
+    <Object Name="txt_fuel" Value="com.secure.beanbag:id/tv_fuel_info" BYClass="Id" Index = "0" >  </Object>     
+	<Object Name="option_fuel" Value="com.secure.beanbag:id/tv_fuel_type_value" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="list_fuel_values" Value="com.secure.beanbag:id/tv_space_type" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_done" Value="com.secure.beanbag:id/action_done" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_continue" Value="com.secure.beanbag:id/tv_action_continue" BYClass="Id" Index = "0" >  </Object>
+</SelenuumObject> 
+
+<SelenuumObject ParentName="SystemCompletion" Value="" Type="Page"> 
+	<Object Name="txt_system_created" Value="com.secure.beanbag:id/tv_system_created" BYClass="Id" Index = "0" >  </Object>
+    <Object Name="btn_bbcreated_continue" Value="com.secure.beanbag:id/card_view_continue" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="txt_kit_installed" Value="com.secure.beanbag:id/tv_created" BYClass="Id" Index = "0" >  </Object>
+    <Object Name="btn_kitinstalled_continue" Value="com.secure.beanbag:id/btn_continnue" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_reset_ses_continue" Value="com.secure.beanbag:id/btn_continnue" BYClass="Id" Index = "0" >  </Object>
+</SelenuumObject> 
+
+<SelenuumObject ParentName="Systemcheck" Value="" Type="Page">
+   <Object Name="txt_Systemcheck" Value="com.secure.beanbag:id/txtTitle" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="btn_Systemcheck" Value="com.secure.beanbag:id/tv_check_system" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="txt_signalcheck" Value="com.secure.beanbag:id/txtTitle" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="btn_thermo_note_ok" Value="android:id/button1" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="btn_signal_continue" Value="com.secure.beanbag:id/tv_check_system" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="txt_mount_thermo" Value="com.secure.beanbag:id/tv_mount_thermo" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="btn_mount_thermo_continue" Value="com.secure.beanbag:id/card_view_continue" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="txt_test_capabilities" Value="com.secure.beanbag:id/txtTitle" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="btn_test_capabilities_done" Value="com.secure.beanbag:id/action_done" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="txt_alert_tested" Value="com.secure.beanbag:id/alertTitle" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="btn_alert_tested_ok" Value="android:id/button1" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="txt_device_signal" Value="com.secure.beanbag:id/tv_device_signal" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="txt_gtwy_conected_to_hom_wifi" Value="com.secure.beanbag:id/tv_gateway_connect" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="btn_gtwy_conected_to_hom_wifi_cont" Value="com.secure.beanbag:id/tv_gateway_continue" BYClass="Id" Index = "0" >  </Object>
+   <Object Name="btn_system_check_quit" Value="com.secure.beanbag:id/action_quit" BYClass="Id" Index = "0" >  </Object>
+</SelenuumObject>
+
+<SelenuumObject ParentName="Welcome_Flow" Value="" Type="Page">
+	<Object Name="btn_start" Value="com.secure.beanbag:id/tv_welcome_start" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="lbl_home_wifi" Value="com.secure.beanbag:id/tv_wifi_name" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_confirm_wifi_continue" Value="com.secure.beanbag:id/card_view_continue" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="lbl_home_wifi_pwd" Value="com.secure.beanbag:id/tv_wifi" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="edt_box_wifi_pwd" Value="com.secure.beanbag:id/et_wifi_password_settings" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="lbl_show_wifi_pwd" Value="com.secure.beanbag:id/tvShowPassword" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_wifi_pwd_continue" Value="com.secure.beanbag:id/tv_wifi_settings_continue" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="lbl_configure_gateway" Value="com.secure.beanbag:id/tv_prepare_gateway" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_configure_gateway_continue" Value="com.secure.beanbag:id/card_view_continue" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="txt_GatwyCredentials" Value="com.secure.beanbag:id/tv_access_gateway" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="txt_EnterGatwyDetails" Value="com.secure.beanbag:id/access_gateway_instruction" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="txt_EnterGtwySrlNumbr" Value="com.secure.beanbag:id/tv_sno" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="Edtbx_GtwySrlNumbr" Value="com.secure.beanbag:id/et_serial_no" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="Edtbx_GtwyMacId" Value="com.secure.beanbag:id/et_mac_id" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_serailno_continue" Value="com.secure.beanbag:id/tv_sno_continue" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="txt_Wifiname" Value="com.secure.beanbag:id/tv_wifi_name_value" BYClass="Id" Index = "0" >  </Object> 
+	<Object Name="txt_Wifipassword" Value="com.secure.beanbag:id/tv_wifi_password_value" BYClass="Id" Index = "0" >  </Object> 
+	<Object Name="txt_Gtwydetails" Value="com.secure.beanbag:id/tv_gateway_details" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="txt_connected_to_gtwy_wifi" Value="com.secure.beanbag:id/tv_gateway_details" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_CnnctGatwy_Continue" Value="com.secure.beanbag:id/tv_gateway_status_continue" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_gtwy_to_homewifi__Continue" Value="com.secure.beanbag:id/view_gateway_continue" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="lbl_connect_home_wifi" Value="com.secure.beanbag:id/tv_connect_to_gateway" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="lbl_bb_connected" Value="com.secure.beanbag:id/tv_connected_successfully" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_bb_connected_Continue" Value="com.secure.beanbag:id/tv_gateway_continue" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_phone_Continue" Value="com.secure.beanbag:id/btn_schedule_continue" BYClass="Id" Index = "0" >  </Object>
+</SelenuumObject>
+
+<SelenuumObject ParentName="Welcome_Flow_User" Value="" Type="Page">
+	<Object Name="lbl_hello_bb" Value="com.secure.beanbag:id/tv_welcome_name_title" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="edt_box_name" Value="com.secure.beanbag:id/et_welcome_name" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_hello_bb_continue" Value="com.secure.beanbag:id/tv_welcome_name_continue" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="lbl_bb_name_ques" Value="com.secure.beanbag:id/tv_welcome_system_name_desc" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="edt_box_sys_name" Value="com.secure.beanbag:id/et_welcome_system_name" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_sys_name_continue" Value="com.secure.beanbag:id/tv_welcome_system_name_continue" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="edt_box_phone" Value="com.secure.beanbag:id/et_welcome_phone_no" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_phone_continue" Value="com.secure.beanbag:id/view_continue" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_phone_later" Value="com.secure.beanbag:id/view_phone_no_later" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="lbl_devices_list" Value="com.secure.beanbag:id/tv_user_device_list" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="lbl_devices_name_list" Value="com.secure.beanbag:id/tv_device_name" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="lbl_devices_location_list" Value="com.secure.beanbag:id/tv_device_location" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_devices_continue" Value="com.secure.beanbag:id/tv_welcome_device_list_continue" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="lbl_modes" Value="com.secure.beanbag:id/tv_modes" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_show_bb_default" Value="com.secure.beanbag:id/tv_mode_listing_continue" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_schedule_happy" Value="com.secure.beanbag:id/view_continue" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="lbl_schedule_name" Value="com.secure.beanbag:id/tv_mode_heading" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="lbl_bb_home_name" Value="com.secure.beanbag:id/txtHomeName" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_sign_out" Value="com.secure.beanbag:id/ll_logout" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="lbl_device_firmware_version_value" Value="com.secure.beanbag:id/tv_firmware_version_value" BYClass="Id" Index = "1" >  </Object>
+	<Object Name="lbl_device_name_value" Value="com.secure.beanbag:id/tv_device_name_value" BYClass="Id" Index = "1" >  </Object>
+	<Object Name="btn_user_home" Value="com.secure.beanbag:id/bb_bottom_bar_icon" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_nav_back" Value="//android.widget.ImageButton[@content-desc='Navigate up']" BYClass="XPATH" Index = "0" >  </Object>
+</SelenuumObject>
+
+<SelenuumObject ParentName="ResetSystem" Value="" Type="Page">
+	<Object Name="btn_user_home_more" Value="com.secure.beanbag:id/bb_bottom_bar_icon" BYClass="Id" Index = "2" >  </Object>
+	<Object Name="lbl_bb_settings_for" Value="com.secure.beanbag:id/tv_property_settings" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="lbl_bb_install" Value="com.secure.beanbag:id/tv_new_installation" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="lbl_bb_general_settings" Value="com.secure.beanbag:id/tv_general_settings" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="lbl_bb_settings_for_devices" Value="com.secure.beanbag:id/tv_hardware" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="lbl_bb_snackbar" Value="com.secure.beanbag:id/snackbar_text" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="lbl_bb_advanced_setup" Value="com.secure.beanbag:id/tv_advance_setup" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="lbl_bb_reset_network" Value="com.secure.beanbag:id/tv_reset_network" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="edt_bb_password" Value="com.secure.beanbag:id/password" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_enter_pswd_done" Value="com.secure.beanbag:id/action_done" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="lbl_devices_name_list" Value="com.secure.beanbag:id/tv_device_name" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_reset_thermo_ready" Value="com.secure.beanbag:id/card_view_continue" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="lbl_thermo_reset_success" Value="com.secure.beanbag:id/tv_created" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_reset_thermo_continue" Value="com.secure.beanbag:id/card_view_continue" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_reset_rcvr_ready" Value="com.secure.beanbag:id/btn_device" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="lbl_rcvr_reset_success" Value="com.secure.beanbag:id/tv_created" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_reset_rcvr_continue" Value="com.secure.beanbag:id/card_view_continue" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_reset_gateway_ready" Value="com.secure.beanbag:id/btn_device" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="lbl_gateway_reset_success" Value="com.secure.beanbag:id/tv_created" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_gateway_rcvr_continue" Value="com.secure.beanbag:id/card_view_continue" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_before_start_continue" Value="com.secure.beanbag:id/tv_continue" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_reset_sensor_ready" Value="com.secure.beanbag:id/btn_device" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="lbl_sensor_reset_success" Value="com.secure.beanbag:id/tv_created" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_reset_sensor_continue" Value="com.secure.beanbag:id/card_view_continue" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="lbl_bb_add_expansion_pack" Value="com.secure.beanbag:id/tv_add_device" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="lbl_generate_access_pin" Value="com.secure.beanbag:id/tv_generate_access_pin" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_generate_access_pin" Value="com.secure.beanbag:id/btn_generate_access_pin" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="txt_access_pin" Value="com.secure.beanbag:id/txtAccessPin" BYClass="Id" Index = "0" >  </Object>
+</SelenuumObject>
+
+<SelenuumObject ParentName="Replace" Value="" Type="Page">
+	<Object Name="optn_replace_device" Value="com.secure.beanbag:id/tv_replace_device" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="txt_invalid_pwd" Value="com.secure.beanbag:id/textinput_error" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_done" Value="android.support.v7.widget.LinearLayoutCompat" BYClass="CLASSNAME" Index = "0" >  </Object>
+	<Object Name="lbl_devices_name_list" Value="com.secure.beanbag:id/tv_device_name" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="txt_ready_to_replace_device" Value="com.secure.beanbag:id/tv_physical_device" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_ready" Value="com.secure.beanbag:id/btn_device" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="txt_device_replaced" Value="com.secure.beanbag:id/tv_created" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_continue" Value="com.secure.beanbag:id/btn_continnue" BYClass="Id" Index = "0" >  </Object>
+</SelenuumObject>
+
+<SelenuumObject ParentName="ChangeWiFiCredentials" Value="" Type="Page">
+	<Object Name="optn_change_wifi_credentials" Value="com.secure.beanbag:id/tv_change_wifi_credentials" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="txt_enable_gtwy_ap" Value="com.secure.beanbag:id/tv_info" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_acces_n_update_continue" Value="com.secure.beanbag:id/tv_continue" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="txt_confirm_wifi" Value="com.secure.beanbag:id/tv_wifi_heading" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="txt_home_wifi" Value="com.secure.beanbag:id/tv_wifi_name" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_home_wifi_cont" Value="com.secure.beanbag:id/tv_wifi_continue" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="edt_box_wifi_pwd" Value="com.secure.beanbag:id/et_wifi_password_settings" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="lbl_show_wifi_pwd" Value="com.secure.beanbag:id/tvShowPassword" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_home_wifi_pwd_cont" Value="com.secure.beanbag:id/tv_wifi_settings_continue" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_configure_gtwy_continue" Value="com.secure.beanbag:id/tv_prepare_gateway_continue" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_gtwy_conected_to_hom_wifi_cont" Value="com.secure.beanbag:id/tv_gateway_continue" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_bb_conected_cont" Value="com.secure.beanbag:id/tv_gateway_continue" BYClass="Id" Index = "0" >  </Object>
+</SelenuumObject>
+
+<SelenuumObject ParentName="Alerts" Value="" Type="Page">
+	<Object Name="btn_alert_ok" Value="android:id/button1" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="txt_alert_msg" Value="android:id/message" BYClass="Id" Index = "1" >  </Object>
+	<Object Name="txt_alert_title" Value="com.secure.beanbag:id/alertTitle" BYClass="Id" Index = "0"> </Object>
+	<Object Name="process_icon" Value="com.secure.beanbag:id/pb" BYClass="Id" Index = "0"> </Object>
+	<Object Name="progress_icon" Value="com.secure.beanbag:id/pb_gateway_detail" BYClass="Id" Index = "0"> </Object>
+</SelenuumObject>
+
+<SelenuumObject ParentName="ImageView" Value="" Type="Page">
+	<Object Name="iv_connected_to_gtwy_wifi" Value="com.secure.beanbag:id/iv_demo" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="iv_gtwy_connected_to_home_wifi" Value="com.secure.beanbag:id/iv_connected" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="iv_bb_connected" Value="com.secure.beanbag:id/imageView" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="iv_tick_sign" Value="com.secure.beanbag:id/imageView" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="iv_email" Value="com.secure.beanbag:id/img_mail" BYClass="Id" Index = "0" >  </Object>
+</SelenuumObject>
+
+<SelenuumObject ParentName="UserDashboard" Value="" Type="Page">
+	<Object Name="progress_bar" Value="com.secure.beanbag:id/pb_progress" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="current_mode_name" Value="com.secure.beanbag:id/tvName" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="next_mode_name" Value="com.secure.beanbag:id/txtNextScheduleName" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_start_next_mode" Value="com.secure.beanbag:id/btnStartNow" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="optn_modes" Value="com.secure.beanbag:id/tv_accessible_systems" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="list_modes" Value="com.secure.beanbag:id/tv_mode_name" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="expected_current_mode_target_temp" Value="com.secure.beanbag:id/tv_heating_status" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="expected_current_mode_hot_water" Value="com.secure.beanbag:id/switch_hotwater_included" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="action_done_mode" Value="com.secure.beanbag:id/action_edit" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="relative_layout_heat" Value="com.secure.beanbag:id/rlServiceDetails" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="seekbar" Value="com.secure.beanbag:id/seek_mode_heating" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="heat_linear_layout1" Value="com.secure.beanbag:id/linearLayout1" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="txt_today" Value="com.secure.beanbag:id/action_today" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="txt_week_view" Value="com.secure.beanbag:id/title" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_user_home_schedule" Value="com.secure.beanbag:id/bb_bottom_bar_icon" BYClass="Id" Index = "1" >  </Object>
+	<Object Name="txt_start_value" Value="com.secure.beanbag:id/tv_start_time_value" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="txt_end_value" Value="com.secure.beanbag:id/tv_end_time_value" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="txt_tapped_on_mode" Value="com.secure.beanbag:id/tv_mode_value" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="lbl_devices_name_list" Value="com.secure.beanbag:id/tv_device_name" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="txt_current_time_value" Value="com.secure.beanbag:id/tv_current_time_value" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="card_view_alerts" Value="com.secure.beanbag:id/card_view" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="txt_temp_current_settings" Value="com.secure.beanbag:id/tv_device_current_mode" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="txt_maintain_next_mode" Value="com.secure.beanbag:id/tv_maintain_next_mode" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="option_until_fixed_duration" Value="android:id/text1" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="option_heat_first" Value="android:id/text1" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="option_heat_second" Value="android:id/text1" BYClass="Id" Index = "1" >  </Object>
+	<Object Name="option_economy" Value="android:id/text1" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_ok" Value="com.secure.beanbag:id/button1" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="txt_target_temp_heading" Value="com.secure.beanbag:id/tv_target_temp_heading" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="toggle_hot_water" Value="com.secure.beanbag:id/switch_hot_water" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="txt_water_heating" Value="com.secure.beanbag:id/tv_water_heating_state" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="txt_water_time_remaining" Value="com.secure.beanbag:id/tv_hot_water_duration_left" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="txt_one_hour_boost" Value="com.secure.beanbag:id/tv_one_hour_boost" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="txt_two_hour_boost" Value="com.secure.beanbag:id/tv_two_hour_boost" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="create_new_mode" Value="com.secure.beanbag:id/tv_new_mode" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="edt_new_mode_name" Value="com.secure.beanbag:id/et_mode_name" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="txt_target_temp" Value="com.secure.beanbag:id/tv_heating_status" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="toggle_new_mode_heat" Value="com.secure.beanbag:id/switch_heat_included" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="toggle_new_mode_hot_water" Value="com.secure.beanbag:id/switch_hotwater_included" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="txt_new_mode_target_temp" Value="com.secure.beanbag:id/tv_target_temp_value" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="txt_min_max_target_temp" Value="com.secure.beanbag:id/tv_target_temp_value" BYClass="Id" Index = "1" >  </Object>
+	<Object Name="tabs_new_mode_heating" Value="com.secure.beanbag:id/tabs_heating" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="mode_colors" Value="com.secure.beanbag:id/mode_colors" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_create_mode_done" Value="android.support.v7.widget.LinearLayoutCompat" BYClass="CLASSNAME" Index = "0" >  </Object>
+	<Object Name="btn_delete_mode" Value="com.secure.beanbag:id/tv_delete_mode" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_add_event" Value="com.secure.beanbag:id/fab" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="option_swap" Value="com.secure.beanbag:id/action_swap" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="txt_holiday_msg" Value="com.secure.beanbag:id/holiday_modes_msg" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_cancel_holiday" Value="com.secure.beanbag:id/btn_cancel_holiday_mode" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_feeds" Value="com.secure.beanbag:id/action_feeds" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="txt_feed_title" Value="com.secure.beanbag:id/txtTitle" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="txt_feed_description" Value="com.secure.beanbag:id/txtDescription" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="switch_hot_water_value" Value="com.secure.beanbag:id/tv_hot_water_status" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="tabs_heat_hot_water" Value="com.secure.beanbag:id/tabs_devices_dashboard" BYClass="Id" Index = "0" > </Object>
+	<Object Name="all_heating" Value="com.secure.beanbag:id/ll_main_all_heating" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="co_detect" Value="com.secure.beanbag:id/co_alert_msg" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="co_dismiss" Value="com.secure.beanbag:id/co_cancel_alert" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="co_value" Value="com.secure.beanbag:id/tv_value" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="co_state" Value="com.secure.beanbag:id/tv_state" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="co_dropDown" Value="com.secure.beanbag:id/tv_heading_humidity_sensor" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="smoke_detect" Value="com.secure.beanbag:id/smoke_alert_msg" BYClass="Id" Index = "1" >  </Object>
+	<Object Name="smoke_dismiss" Value="com.secure.beanbag:id/smoke_cancel_alert" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="switch_appliance" Value="com.secure.beanbag:id/switch_appliance" BYClass="Id" Index = "1" >  </Object>
+	<Object Name="appliance_tab" Value="com.secure.beanbag:id/ll_device_name" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="appliance_active_power" Value="com.secure.beanbag:id/tv_active_power_value" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="appliance_active_energy" Value="com.secure.beanbag:id/tv_active_energy_value" BYClass="Id" Index = "0" >  </Object>
+</SelenuumObject>
+
+<SelenuumObject ParentName="ParallelModes" Value="" Type="Page">
+	<Object Name="current_mode_name" Value="com.secure.beanbag:id/tvName" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="current_mode_time_left" Value="com.secure.beanbag:id/tvTimeLeft" BYClass="Id" Index = "0" >  </Object>
+</SelenuumObject>
+
+<SelenuumObject ParentName="CreateEvent" Value="" Type="Page">
+	<Object Name="txt_mode" Value="com.secure.beanbag:id/tv_mode_value" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="mode_list_view" Value="com.secure.beanbag:id/rl_mode" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="txt_settings" Value="com.secure.beanbag:id/tv_settings_value" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="toggle_all_day" Value="com.secure.beanbag:id/switch_day_event" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="txt_economy" Value="com.secure.beanbag:id/tv_economy" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="radio_comfort" Value="com.secure.beanbag:id/rb_comfort_mode" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="txt_start_time" Value="com.secure.beanbag:id/tv_start_time_value" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="txt_end_time" Value="com.secure.beanbag:id/tv_end_time_value" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="picker" Value="android:id/timePickerLayout" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="btn_ok" Value="android:id/button1" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="txt_repeat" Value="com.secure.beanbag:id/tv_repeat_value" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="option_weekday" Value="com.secure.beanbag:id/ll_weekday" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="option_never" Value="com.secure.beanbag:id/ll_never" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="on_the_days" Value="com.secure.beanbag:id/tv_days" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="day_switch" Value="android.widget.Switch" BYClass="CLASSNAME" Index = "0" >  </Object>
+	<Object Name="btn_event_save" Value="com.secure.beanbag:id/action_save" BYClass="Id" Index = "0" >  </Object>
+	<Object Name="widget_button" Value="android.widget.Button" BYClass="CLASSNAME" Index = "0" >  </Object>
+	<Object Name="number_picker" Value="android.widget.NumberPicker" BYClass="CLASSNAME" Index = "0" >  </Object>
+	<Object Name="date_picker" Value="android:id/animator" BYClass="Id" Index = "0" >  </Object>
+</SelenuumObject>
+
+</SeleniumObjectsRO>

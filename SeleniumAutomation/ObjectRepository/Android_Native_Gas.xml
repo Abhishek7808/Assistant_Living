@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<SeleniumObjectsRO>
+ <SelenuumObject ParentName="BBcoolLogin" Value="" Type="Page">
+   <Object Name="Email" Value="lusername" BYClass="ID" Index = "0" >  </Object>
+   <Object Name="Password" Value="lpassword" BYClass="ID" Index = "0" >  </Object>
+   <Object Name="btnLogin" Value="//button[contains(text(),'Sign in')]" BYClass="Xpath" Index = "0" >  </Object>
+   <Object Name="welcomelogintxt" Value="//span[@class='ng-scope ng-binding']" BYClass="Xpath" Index = "0" >  </Object>
+ </SelenuumObject>
+ <SelenuumObject ParentName="BBcoolLoginMob" Value="" Type="Page">
+   <Object Name="Email" Value="com.secure.beanbag.cool.dev:id/email" BYClass="ID" Index = "0" >  </Object>
+   <Object Name="Password" Value="com.secure.beanbag.cool.dev:id/password" BYClass="ID" Index = "0" >  </Object>
+   <Object Name="btnLogin" Value="com.secure.beanbag.cool.dev:id/btnSignIn" BYClass="ID" Index = "0" >  </Object>
+   <Object Name="welcomelogintxt" Value="//span[@class='ng-scope ng-binding']" BYClass="Xpath" Index = "0" >  </Object>
+ </SelenuumObject>
+ <SelenuumObject ParentName="Appium_Page" Value="" Type="Page">
+   <Object Name="Btn_SignIn" Value="secure.com.app.aasaan:id/btnSignIn" BYClass="ID" Index = "99" >  </Object>
+   <Object Name="Btn_ShowPassword" Value="secure.com.app.aasaan:id/tvShowPassword" BYClass="ID" Index = "0" >  </Object>
+   <Object Name="edtbox_Username" Value="secure.com.app.aasaan:id/userName" BYClass="ID" Index = "0"> </Object>
+   <Object Name="edtbox_Password" Value="secure.com.app.aasaan:id/password" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Text_Version" Value="secure.com.app.aasaan:id/version" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Text_Username" Value="secure.com.app.aasaan:id/tv_userName" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_Password" Value="secure.com.app.aasaan:id/password" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_cumulativeKwh" Value="secure.com.app.aasaan:id/cumulativeKwh" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_cumulativeKvah" Value="secure.com.app.aasaan:id/cumulativeKvah" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_cumulativeKva" Value="secure.com.app.aasaan:id/cumulativeKva" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_Camara" Value="secure.com.app.aasaan:id/et_meter_picture" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="Btn_Logout" Value="secure.com.app.aasaan:id/title" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Btn_FTP status" Value="secure.com.app.aasaan:id/title" BYClass="ID" Index = "2"> </Object> 
+   <Object Name="Wait_Hour" Value="secure.com.app.aasaan:id/pb" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="Btn_Moreoption" Value="//android.support.v7.widget.ActionMenuPresenter[@content-desc='More options']" BYClass="Xpath" Index = "0"> </Object> 
+   <Object Name="btn_ConsumerDetails" Value="secure.com.app.aasaan:id/btnConsumerDetails" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="layout_consumer_details" Value="secure.com.app.aasaan:id/layout_consumer_details" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="btn_MeteringDetails" Value="secure.com.app.aasaan:id/btnMeteringDetails" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="Layout_SystemMeter" Value="secure.com.app.aasaan:id/expandableLayoutSystemMeter" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="button_capture" Value="com.asus.camera:id/button_capture" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="Btn_used_Right" Value="com.asus.camera:id/button_used" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="Btn_Save" Value="secure.com.app.aasaan:id/save" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="TV_TaskList" Value="secure.com.app.aasaan:id/lv_task_list" BYClass="ID" Index = "0"> </Object>
+   <Object Name="TV_Steppage" Value="secure.com.app.aasaan:id/viewPager" BYClass="ID" Index = "0"> </Object>
+   <Object Name="ListMenuItems" Value="secure.com.app.aasaan:id/item_name" BYClass="ID" Index = "0"> </Object>
+   <Object Name="ListView" Value="android.widget.ListView" BYClass="ClassName" Index = "0"> </Object>
+   <Object Name="Btn_LocationButtonYes" Value="android:id/button1" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="checkbox_history" Value="secure.com.app.aasaan:id/checkbox_history" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="Btn_LocationButtonNo" Value="android:id/button2" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="TV_TaskDetails" Value="secure.com.app.aasaan:id/lv_task_details" BYClass="ID" Index = "0"> </Object>
+   <Object Name="TV_MeterDetails" Value="secure.com.app.aasaan:id/meter_details" BYClass="ID" Index = "0"> </Object>
+   <Object Name="TV_TaskId" Value="secure.com.app.aasaan:id/task_desc" BYClass="ID" Index = "0"> </Object>    
+   <Object Name="Btn_Ok" Value="android:id/button1" BYClass="ID" Index = "0"> </Object>
+   <Object Name="bottom_navigation" Value="secure.com.app.aasaan:id/bottom_navigation" BYClass="ID" Index = "0"> </Object>  
+   <Object Name="Btn_tabs" Value="secure.com.app.aasaan:id/tabs" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Text_message" Value="android:id/message" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Tab_consumer_details" Value="secure.com.app.aasaan:id/action_consumer_details" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Tab_inventory" Value="secure.com.app.aasaan:id/action_inventory" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Tab_job_details" Value="secure.com.app.aasaan:id/action_job_details" BYClass="ID" Index = "0"> </Object>
+   <Object Name="View_job_details" Value="secure.com.app.aasaan:id/id_job_details" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Btn_ReadingType" Value="secure.com.app.aasaan:id/spinner_reading_type" BYClass="ID" Index = "0"> </Object>
+   <Object Name="textreviousKwh" Value="secure.com.app.aasaan:id/previousKwh" BYClass="ID" Index = "0"> </Object>
+   <Object Name="Btn_nextButton" Value="secure.com.app.aasaan:id/nextButton" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Btn_Startreading" Value="com.dlmssecure.newline:id/Startreading" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="Btn_Closereading" Value="com.dlmssecure.newline:id/Cancel" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Btn_Successreading" Value="com.dlmssecure.newline:id/Readingsuccess" BYClass="ID" Index = "0"> </Object>   
+   <Object Name="Btn_Open" Value="//android.widget.TextView[@text='Open']" BYClass="xpath" Index = "0"> </Object> 
+   <Object Name="Btn_Hold" Value="//android.widget.TextView[@text='Hold']" BYClass="xpath" Index = "0"> </Object>  
+   <Object Name="Btn_Close" Value="//android.widget.TextView[@text='Close']" BYClass="xpath" Index = "0"> </Object> 
+   <Object Name="Btn_Panding" Value="//android.widget.TextView[@text='Pending']" BYClass="xpath" Index = "0"> </Object>
+   <Object Name="Btn_Unaccepted" Value="//android.widget.TextView[@text='Unaccepted']" BYClass="xpath" Index = "0"> </Object>
+   <Object Name="Btn_Accept" Value="secure.com.app.aasaan:id/btnAccept" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="Btn_Reject" Value="secure.com.app.aasaan:id/btnReject" BYClass="ID" Index = "0"> </Object> 
+   <Object Name="Btn_Start" Value="//android.widget.TextView[@text='Start task']" BYClass="xpath" Index = "0"> </Object> 
+ </SelenuumObject> 
+ <SelenuumObject ParentName="TF_GAS_NewConnection" Value="" Type="Page">
+   <Object Name="Lst_Feasiblity_action" Value="secure.com.app.aasaan:id/spinner_feasiblity_action" BYClass="Id" Index = "0"> </Object>
+   <Object Name="LST_Connection" Value="secure.com.app.aasaan:id/cv_connection_type" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_ConnectionWithCode" Value="secure.com.app.aasaan:id/tv_sr_number" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Chk_RemainingCapicity" Value="secure.com.app.aasaan:id/cb_simpleCheckBox" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_ConsumerCU" Value="secure.com.app.aasaan:id/consumer_cu" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_RiserGI" Value="secure.com.app.aasaan:id/riser_gi" BYClass="Id" Index = "0"> </Object>	   
+   <Object Name="edtbox_ConsumerGI" Value="secure.com.app.aasaan:id/consumer_gi" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_Geyser_GI" Value="secure.com.app.aasaan:id/geyser_gi" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_Geyser_CU" Value="secure.com.app.aasaan:id/geyser_cu" BYClass="Id" Index = "0"> </Object>
+   <Object Name="BTN_TFforms" Value="secure.com.app.aasaan:id/tv_tf_form" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_Desc" Value="secure.com.app.aasaan:id/actv_desc" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_Representative_name" Value="secure.com.app.aasaan:id/actv_representative_name" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_TaskStatus" Value="secure.com.app.aasaan:id/spinner_taskStatus" BYClass="Id" Index = "0"> </Object> 
+ </SelenuumObject>
+ <SelenuumObject ParentName="Complain_Common" Value="" Type="Page">
+   <Object Name="edtbox_ComplaintNo" Value="secure.com.app.aasaan:id/tv_applicationOrComplaintNoValue" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_Remarks" Value="secure.com.app.aasaan:id/tv_remarks" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_representative_sign_Save" Value="secure.com.app.aasaan:id/card_view_continue" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_representative_sign_Clear" Value="secure.com.app.aasaan:id/card_view_cancel" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_representative_sign_Pad" Value="secure.com.app.aasaan:id/signature_pad" BYClass="Id" Index = "0"> </Object>	
+   <Object Name="edtbox_complaintTypeValue" Value="secure.com.app.aasaan:id/tv_complaintTypeValue" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_TaskStatus" Value="secure.com.app.aasaan:id/spinner_task_status" BYClass="Id" Index = "0"> </Object> 
+   <Object Name="Lst_complete_reason" Value="secure.com.app.aasaan:id/spinner_complete_reason" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_representative_sign" Value="secure.com.app.aasaan:id/tv_representative_sign" BYClass="Id" Index = "0"> </Object>
+ </SelenuumObject> 
+ <SelenuumObject ParentName="NPC" Value="" Type="Page">  
+   <Object Name="edtbox_meter_terminal_seal" Value="secure.com.app.aasaan:id/atc_new_meter_terminal_seal" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_meter_box_seal" Value="secure.com.app.aasaan:id/atc_new_meter_box_sealValue" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_representative_name" Value="secure.com.app.aasaan:id/atc_representative_name" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Lst_IsSealUsed" Value="secure.com.app.aasaan:id/spinner_sealused" BYClass="Id" Index = "0"> </Object>
+ </SelenuumObject>
+ <SelenuumObject ParentName="OTC_Safty" Value="" Type="Page">  
+   <Object Name="edtbox_representative_name" Value="secure.com.app.aasaan:id/actv_representative_name" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_Save" Value="secure.com.app.aasaan:id/tv_save" BYClass="Id" Index = "0"> </Object>
+ </SelenuumObject>
+ <SelenuumObject ParentName="OTC_Supply" Value="" Type="Page">  
+   <Object Name="edtbox_representative_name" Value="secure.com.app.aasaan:id/actv_representative_name" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_Save" Value="secure.com.app.aasaan:id/tv_save" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_Remarks" Value="secure.com.app.aasaan:id/actv_remarks" BYClass="Id" Index = "0"> </Object>
+ </SelenuumObject>
+ <SelenuumObject ParentName="OTC_Meter" Value="" Type="Page">  
+   <Object Name="edtbox_Remarks" Value=" secure.com.app.aasaan:id/actv_remarks" BYClass="Id" Index = "0"> </Object>
+   <Object Name="edtbox_representative_name" Value="secure.com.app.aasaan:id/til_representative_name" BYClass="Id" Index = "0"> </Object>
+   <Object Name="Btn_save" Value="secure.com.app.aasaan:id/tv_save" BYClass="Id" Index = "0"> </Object>
+ </SelenuumObject>
+</SeleniumObjectsRO>

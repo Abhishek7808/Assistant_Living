@@ -1,0 +1,33 @@
+adb uninstall io.appium.uiautomator2.server
+adb uninstall io.appium.uiautomator2.server.test
+adb uninstall io.appium.unlock
+adb uninstall io.appium.settings
+
+
+task details
+secure.com.app.aasaan:id/lv_task_details
+consumer details
+secure.com.app.aasaan:id/btnConsumerDetails
+secure.com.app.aasaan:id/layout_consumer_details
+secure.com.app.aasaan:id/btnMeteringDetails
+secure.com.app.aasaan:id/expandableLayoutSystemMeter
+
+
+secure.com.app.aasaan:id/consumer_name  -name
+secure.com.app.aasaan:id/consumer_parameters - parameters
+secure.com.app.aasaan:id/meter_details - meter deatils
+
+secure.com.app.aasaan:id/action_consumer_details
+secure.com.app.aasaan:id/action_inventory
+secure.com.app.aasaan:id/action_job_details
+	
+com.android.camera2:id/photo_video_button
+//android.widget.ImageView[@content-desc="Capture photo"]
+com.android.camera2:id/done_button
+//android.widget.ImageButton[@content-desc="Done"]
+
+select API_JOBMASTER('MBC','ED00000001278', '1' ::bigint,'NCN' ,'NMI','10003' ::bigint, 
+					 '2020-03-06 12:51:37.326162' , '2020-03-12 12:51:37.326162','[{"nTaskid" : 10003,
+					 "Consumernumber" : "-1", "jPreviousValue" :{"cApplicationnumber" : "110210000005", "cConsumername" : "sanjay", "cFathername" : "kumar", "cMobile" : "1212121231",
+"cAddress" : "45, vc, fg, sd, Bhilwara, 141416", "cFuelType" : "Gas", "cLandmark" : "sd", "cCategory" : "Residential", "nSRnumber" : 1, "nDSRnumber" : null, "nReservecapacity" :
+ 40, "nAdditionalkitchen" : null, "nAdditionalgeyser" : null, "cChargedArea" : "CA-2", "nGAAdetailid" : 5}}]' ::json );
